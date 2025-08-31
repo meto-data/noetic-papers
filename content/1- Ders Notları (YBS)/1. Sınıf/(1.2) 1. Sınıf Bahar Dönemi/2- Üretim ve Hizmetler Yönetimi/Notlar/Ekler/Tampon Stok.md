@@ -1,0 +1,2 @@
+- **Tanım:** Talep tarafındaki ani veya beklenmedik artışlara/dalgalanmalara karşı korunmak amacıyla tutulan stoktur.
+- **Açıklama:** Talep tarafındaki beklenmedik dalgalanmalara veya ani artışlara karşı tutulan stoktur. Emniyet stoğu <u>arza</u> odaklanırken *tampon stok*  <u style="color:darkblue; font-weight:bolder">talebe</u> odaklanır. Müşteriye "yok satmamayı", ani talebi karşılamayı ve müşteri memnuniyetini korumayı amaçlar.

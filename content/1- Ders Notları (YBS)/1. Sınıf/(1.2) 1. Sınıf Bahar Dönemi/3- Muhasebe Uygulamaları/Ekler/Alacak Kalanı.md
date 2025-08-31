@@ -1,0 +1,1 @@
+Kasada alacak kalanı vardır.

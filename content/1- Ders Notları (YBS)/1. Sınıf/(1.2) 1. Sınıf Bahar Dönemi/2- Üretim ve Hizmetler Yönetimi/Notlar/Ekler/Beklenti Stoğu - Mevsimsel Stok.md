@@ -1,0 +1,2 @@
+- **Tanım:** Gelecekte olması beklenen/tahmin edilen [[Talep]] artışlarını (mevsimsel, kampanya, tatil vb. nedenli) veya olayları karşılamak amacıyla önceden hazırlanan ve tutulan stoktur.
+- **Açıklama:** Gelecekte beklenen [[Talep]] artışlarına veya olaylara hazırlık için bilinçli olarak biriktirilen stoktur. Talebin üretim kapasitesini aşacağı dönemlere hazırlık sağlar.

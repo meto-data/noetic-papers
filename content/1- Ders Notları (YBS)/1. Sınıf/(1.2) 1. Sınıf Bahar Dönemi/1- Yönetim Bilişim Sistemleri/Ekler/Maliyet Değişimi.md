@@ -1,0 +1,1 @@
+BT, **sermaye ve bilgi maliyetlerini** değiştirerek organizasyonun ekonomik yapısını etkiler.

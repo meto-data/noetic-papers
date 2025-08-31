@@ -1,0 +1,1 @@
+Öz kaynaklar, bir işletmenin sahiplerinin veya hissedarlarının işletmeye yatırdığı toplam sermayedir.

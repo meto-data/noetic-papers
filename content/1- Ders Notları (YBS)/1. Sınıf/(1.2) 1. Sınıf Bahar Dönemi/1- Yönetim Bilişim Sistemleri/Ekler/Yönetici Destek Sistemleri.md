@@ -1,0 +1,1 @@
+- Üst yönetimin stratejik kararlar almasını sağlayan özet ve analiz bilgileri sunar.

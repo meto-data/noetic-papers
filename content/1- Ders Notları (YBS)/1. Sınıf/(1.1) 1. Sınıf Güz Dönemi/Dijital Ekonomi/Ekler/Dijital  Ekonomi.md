@@ -1,0 +1,9 @@
+- E-Ticaret Platformları
+- Sosyal Medya Platformları
+- Tele-tıp
+- Dijital Eğlence
+- Dijital Ödeme
+- Yapay Zekâ
+- Uzaktan Çalışma
+- Çoklu Satış Kanalları (Omnichannel)
+	- Söz gelimi, bir müşteri ürünü online satın alıp mağazadan teslim alabilir ya da mağazadan denediği bir ürünü daha sonra online olarak sipariş verebilir.

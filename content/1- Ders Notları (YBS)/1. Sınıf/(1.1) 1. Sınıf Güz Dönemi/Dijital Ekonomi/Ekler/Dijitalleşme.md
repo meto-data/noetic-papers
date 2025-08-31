@@ -1,0 +1,1 @@
+Bireylerin ve firmaların (ekonomik aktörlerin) faaliyetlerinin ve süreçlerinin dijital ortamda dijital araçlarla yapılmasıdır.

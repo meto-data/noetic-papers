@@ -1,0 +1,1 @@
+- İkamelere erişme.

@@ -1,0 +1,1 @@
+Dijital ürünlerin [[marjinal maliyet]]i ***sıfırdır.***

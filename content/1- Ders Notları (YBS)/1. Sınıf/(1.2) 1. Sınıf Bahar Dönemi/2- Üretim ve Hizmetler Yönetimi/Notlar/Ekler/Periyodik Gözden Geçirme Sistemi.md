@@ -1,0 +1,3 @@
+- **İzleme:** Stok seviyeleri belirli, sabit zaman aralıklarında (örn: her hafta Cuma günü, her ayın 1'i gibi) kontrol edilir veya sayılır.
+- **Sipariş Ne Zaman Verilir?** Siparişler her zaman bu belirli gözden geçirme anlarında verilir. Stok seviyesinin belirli bir noktanın altına düşüp düşmediğine bakılır.
+- **Ne Kadar Sipariş Verilir?** Sipariş miktarı değişkendir. Amaç, mevcut stok seviyesini, önceden belirlenmiş bir Hedef Stok Seviyesi (Order-Up-To Level)'ne tamamlayacak kadar sipariş vermektir. Bu nedenle "Sabit Periyot Sistemi" (P-Sistemi) olarak da bilinir.

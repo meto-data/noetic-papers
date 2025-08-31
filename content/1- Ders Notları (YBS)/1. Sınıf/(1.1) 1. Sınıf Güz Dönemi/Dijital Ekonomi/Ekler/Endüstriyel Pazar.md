@@ -1,0 +1,3 @@
+- **Endüstriyel pazar**,  işletmelerin birbirine ürün veya hizmet sattığı bir pazar türüdür.
+- Genellikle sermaye ürünleri, ham maddeler ve üretimde kullanılan mallar satılır. 
+	- **Örneğin:** CNC Tezgâh, lazer kesim makineleri ve kalıp makineleri.

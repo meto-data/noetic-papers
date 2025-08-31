@@ -1,0 +1,2 @@
+- **Tanım:** Ham maddenin ilk işlem gördüğü andan, bitmiş ürün olarak son halini alana kadarki tüm <span style="color:green; font-weight:bolder">ara aşamalardaki</span> fiziksel varlıkları kapsar. Ürün hangi aşamada olursa olsun, eğer henüz tamamlanmamışsa ve üretim hattındaysa, o bir Süreç İçi Stoktur.
+- **Açıklama:** Üretim aşamaları arasında bulunan, henüz tamamlanmamış ürün veya parçalardır. Seviyesi, üretim sürecinin akıcılığını ve verimliliğini gösterir. Yüksek WIP, genellikle darboğazlara ve gecikmelere işaret eder. Azaltılması üretim hızını ve esnekliğini artırır.

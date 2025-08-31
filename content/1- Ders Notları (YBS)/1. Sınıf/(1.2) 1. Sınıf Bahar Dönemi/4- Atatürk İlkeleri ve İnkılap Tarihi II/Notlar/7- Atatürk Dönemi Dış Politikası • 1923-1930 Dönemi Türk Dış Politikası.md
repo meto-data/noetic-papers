@@ -1,0 +1,67 @@
+- **ATATÜRK DÖNEMİ DIŞ POLİTİKASI: 1923-1930 DÖNEMİ TÜRK DIŞ POLİTİKASI**
+    - **Atatürk Dönemi Dış Politikasının Esasları**
+        - **Misâk-ı Milli’yi gerçekleştirmek, Milli Dış Siyaset, Gerçekçilik, Bağımsızlık, Barışçılık, Akılcılık**
+    - Lozan Antlaşması’nı imzalayan Türkiye Cumhuriyeti, bağımsız bir devlet olarak uluslararası arenada yer aldı.
+    - Yeni kurulan devlet, milli çıkarlarını ve varlığını korumaya yönelik dış siyaset izledi.
+    - Tam bağımsızlık ilkesine bağlı kalınmaya çalışıldı; iç ve dış barışçı politika benimsendi.
+    - Mustafa Kemal’in fikirleri ışığında, politikanın temel dayanağı “milli bağımsızlık, milli misak, milletler arası hukuka saygı” olarak belirlendi.
+    - “Yurtta sulh, cihanda sulh” sözü, bu barışçıl yaklaşımın somut yansımasıdır.
+    - Yapılan inkılâpların uygulanması ve ülkenin yeniden yapılandırılması için barış ortamı gerekli görülmüştür.
+    - 1923–1930 dönemi dış politikasında, Lozan Antlaşması ile çözülemeyen meseleler ortaya çıkmış; bu meseleler, dış politika esasları gözetilerek çözülmeye çalışılmıştır.
+- **TÜRK-İNGİLİZ İLİŞKİLERİ VE MUSUL MESELESİ**
+    - Musul, 15 Kasım 1918’de İngilizler tarafından işgal edildi; 30 Ekim 1918’de Mondros Mütarekesi imzalandığında hâlâ Osmanlı toprağıydı.
+    - Petrolleri nedeniyle I. Dünya Savaşı’nın hemen başından itibaren İngiltere ile Osmanlı arasında sorun teşkil etti.
+    - TBMM, Misak-ı Milli çerçevesinde “Musul’un iadesi ya da geri verilmesi” üzerine bir politika geliştirdi.
+    - Lozan Konferansı’nda Musul meselesi çözüme kavuşturulamadı; antlaşmanın ilgili maddesinde Lozan sonrası görüşüleceği kararlaştırıldı.
+    - 19 Mayıs 1924’te Haliç/İstanbul Konferansı’nda görüşüldü; sonuç alınamayınca mesele Milletler Cemiyeti’ne taşındı.
+    - Milletler Cemiyeti, 16 Aralık 1925’te Musul bölgesinin Irak’a bırakılmasına karar verdi.
+    - Türkiye, 5 Haziran 1926’ta yapılan antlaşma ile Musul’dan vazgeçti; karşılığında bölgenin petrol gelirlerinin %10’u 25 yıl boyunca Türkiye’ye verildi, fakat bu hak 500 bin İngiliz sterlini ödenerek feragat edildi.
+- **TÜRK-YUNAN İLİŞKİLERİ VE “ETABLİ” ANLAŞMAZLIĞI**
+    - Lozan Görüşmeleri sırasında, 30 Ocak 1923’te azınlıklar konusunda imzalanan sözleşme çerçevesinde, Türk ve Yunan temsilciler arasında mübadele görüşüldü.
+    - “Établi (yerleşmiş)” kavramı üzerinde Türk ve Yunan temsilcileri arasında anlaşmazlık çıktı:
+        - Türkiye, Türk kanunlarına göre yerleşmişlik ilkesinin esas alınmasını savundu.
+        - Yunanistan, 30 Ekim 1918 öncesi İstanbul’da bulunan her Rum’u yerleşmiş kabul etmek istedi.
+    - Konu Milletler Cemiyeti’ne havale edildiyse de tam çözüme kavuşturulamadı; iki toplum arasında gerginlik arttı.
+    - Yunanistan, Batı Trakya Türklerinin mallarına el koyarak, Türkiye’den gelen Rumları yerleştirdi; buna karşılık Türkiye de İstanbul Rumlarının mallarına el koydu.
+    - Yunan Başkanı Venizelos, olası siyasi ve ekonomik zararları göz önünde bulundurarak ilişkileri yumuşatmak için adımlar attı; 10 Haziran 1930’da yeni bir anlaşma imzalandı.
+    - Bu anlaşma ile “établi” kavramı ve azınlık düzenlemeleri kapsam altına alındı; böylece iki ülke arasındaki potansiyel savaş sebepleri ortadan kaldırıldı.
+- **TÜRK-SOVYET İLİŞKİLERİ**
+    
+    - Milli Mücadele döneminde, Batılı devletlere karşı ortak hareket ve emperyalizme karşı yaklaşım çerçevesinde Türkiye ile Sovyetler arasında ilişkiler gelişti.
+    - 1921’de imzalanan Moskova Antlaşması, iki ülke arasındaki ittifakın temelini oluşturdu.
+    - Sovyetler, Türkiye’yi Batı’ya karşı bir kalkan ve ideolojisini yayabileceği uydu devlet olarak gördü.
+    - Lozan sonrası, Batılı devletlerin Türkiye’ye yönelik tutumları çerçevesinde ilişkiler şekillendi.
+    - Musul meselesinde Milletler Cemiyeti’nin İngiliz yanlısı tutumu, Türkiye ile Sovyetler’in birbirine yaklaşmasına yol açtı.
+    - 1 Mart 1927’de Ankara’da Ticaret ve Seyr-ü Sefâin antlaşması imzalanarak ekonomik ilişkiler güçlendirildi.
+    - Türkiye’nin Batılı devletlere yakınlaşması, Sovyetlerin Türkiye üzerindeki nüfuzunu artırma çabalarını tetikledi.
+    - 1930’a doğru, Lozan’dan arta kalan meseleler çözülürken Türkiye’nin Batı ile ilişkileri normale döndü; Sovyetlerin uluslararası alandaki etkinliği azaldı.
+- **TÜRK-İTALYAN İLİŞKİLERİ**
+    - 1922’den itibaren Mussolini yönetimi ile birlikte İtalya’nın yayılmacı politikaları belirginleşti.
+    - İtalya’nın, özellikle Musul meselesi ve Anadolu’daki askeri hamlelerle Türkiye üzerindeki emelleri gündeme geldi.
+    - Musul meselesi çözüldükten sonra, Türkiye’nin Batılı devletlerle ilişkilerini geliştirmesi, Türk-İtalyan ilişkilerinin yumuşamasına neden oldu.
+    - İtalya’nın Doğu Akdeniz’de güçlü bir ittifak kurma çabası da ilişkilerde etkili oldu.
+    - 1936’dan itibaren Türkiye’nin İngiltere ile yakınlaşması, Türk-İtalyan ilişkilerinin zayıflamasına yol açtı.
+- **TÜRK-FRANSIZ İLİŞKİLERİ**
+    - Lozan’dan arta kalan konular, iki ülke ilişkilerinde belirleyici oldu:
+        - Türkiye-Suriye sınırı meselesi
+        - Osmanlı borçları
+        - Yabancı okulların statüsü
+        - Adana-Mersin demiryolu
+        - Bozkurt-Lotus davası
+    - Ankara Antlaşması çerçevesinde, 30 Mayıs 1926’da Türkiye-Suriye sınırı belirlendi.
+    - Osmanlı’nın Fransa’ya olan borçları, 13 Haziran 1928’de Paris antlaşması ile çözüldü.
+    - 1929’daki ekonomik bunalımın ardından, Fransa ile yeniden görüşmeler yapılarak daha iyi şartlarda ödeme planı oluşturuldu; 22 Haziran 1933’te yeni antlaşma imzalandı.
+    - Yabancı okullar konusu, Türkiye’nin misyoner okulları kontrol altına alma isteğiyle gündeme gelmiş, başlangıçta Fransa karşı çıkmış ancak sonradan Türkiye lehine sonuçlanmıştır.
+    - Adana-Mersin demiryolu, 10 Ocak 1929’da çıkarılan kanunla Fransız şirketlerinden satın alındı; Haziran 1929 antlaşması ile satış tamamlandı.
+    - Bozkurt (Türk bayrağı taşıyan) gemisi ile Lotus (Fransız bayrağı taşıyan) gemisinin çarpışması sonucu hukuki sorun, 1927’de Milletler Cemiyeti’nin kararıyla Türkiye lehine sonuçlandı.
+    - 1936–1939 döneminde Hatay sorunu nedeniyle iki ülke arasında yeniden gerginlik yaşandı.
+- **TÜRKİYE’NİN İSLAM ÜLKELERİ İLE İLİŞKİSİ**
+    - Türkiye, ilk yakın ilişkisini kurduğu Müslüman devlet olarak Afganistan ile 1921’de Türk-Afgan Dostluk antlaşmasını imzalamıştır.
+    - Yusuf Kemal Bey başkanlığındaki heyet, 1 Mart 1921’de Moskova’da Afgan büyükelçisi ile görüşerek antlaşmayı gerçekleştirdi.
+    - 25 Mayıs 1928’de, 1921 antlaşmasını teyit eden ebedi dostluk kurucu antlaşma Ankara’da imzalandı.
+    - Türk-İran ilişkilerinde sınır meseleleri ön plana çıktı:
+        - 22 Nisan 1926’da Tahran’da bir Güvenlik ve Dostluk antlaşması imzalandı.
+        - 15 Haziran 1928 antlaşması ile mevcut mesele güçlendirilmeye çalışıldı.
+        - Nihai çözüm, 23 Ocak 1932’de Tahran antlaşması ile sağlandı.
+    - Arap ülkeleriyle ilişkiler, dini meseleler ve Türkiye’nin batılılaşma hareketi nedeniyle uzun süre gelişmedi; ancak Arap ülkeleri, Türkiye’yi emperyalizme karşı savaşan bir ülke olarak görüp dostluk kurmayı tercih etti.
+    - Türkiye, batılı devletlerle olduğu kadar İslam ülkeleriyle de dostluk ilişkilerini dış politikasında benimsemiştir.

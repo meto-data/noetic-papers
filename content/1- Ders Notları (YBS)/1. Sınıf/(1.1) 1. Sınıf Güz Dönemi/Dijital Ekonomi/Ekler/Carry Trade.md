@@ -1,0 +1,1 @@
+Yüksek faiz getirisi olan ülkelere yapılan kısa vadeli yatırımlardır.

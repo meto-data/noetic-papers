@@ -1,0 +1,8 @@
+- 1 veya 0 (Binary) = Bit
+- Byte = 8 bit
+- Kilobyte = 1024 byte
+- Megabyte = 1024 kilobyte
+- Gigabyte = 1024 megabyte
+- Terabyte = 1024 gigabyte
+- Petabyte = 1024 terabyte
+- Exabyte = 1024 petabyte

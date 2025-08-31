@@ -1,0 +1,1 @@
+Çoklu iş birimleri (bölümler) tek merkezden yönetilir, her bölüm kendi içinde bürokratik olabilir (Örn: Büyük holdingler, General Motors, Fortune 500 şirketleri gibi). 

@@ -1,0 +1,1 @@
+- Donanım ve altyapı gibi yatırımları azaltır.

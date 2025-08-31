@@ -1,0 +1,1 @@
+Bir ülkede fabrika kurmak, şirket satın almak gibi doğrudan yatırımlar.

@@ -1,0 +1,1 @@
+Hızlıdır (gecikmesiz) ve  yaygındır (mobildir).

@@ -1,0 +1,1 @@
+Hakikî mânâda gerçekleşen enflasyon işte. 

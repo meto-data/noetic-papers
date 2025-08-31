@@ -1,0 +1,1 @@
+- Pandemi, dijital ekonomiye geçişi hızlandırmıştır.

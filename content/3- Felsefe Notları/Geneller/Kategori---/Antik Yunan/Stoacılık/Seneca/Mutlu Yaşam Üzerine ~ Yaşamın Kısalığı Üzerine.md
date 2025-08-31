@@ -103,8 +103,8 @@
 	- "Zihinlerinin gevşekliğinden ötürü hazlara öyle düşkün oluyorlar ki, acıkıp acıkmadıklarını bile bilemiyorlar!" (62)
 	- "Bugün Romalılar arasıdna büyük bir kitlenin yaptığı gibi, zamanını faydasız edebiyat çalışmalarıyla geçiren insanların bir işle meşgul olmadığından kimsenin şüphesi olmayacak." BASED. (63)
 	- "Herkesin içinde sadece kendisini bilgeliğe adayanlar inziva uğraşıyla meşguldür, sadece onlar inzivayı yaşar, zira sadece onlar kendi yaşamlarını iyi gözetmiş olurlar." (65)
-	- ## []İslam'la Benzerlik
-		- "Sen ne kadar çok insana dağıtırsan, bu malvarlığı o kadar artacak. Bu malvarlığı sana ebediyetin yolunu açacak ve seni kimsenin indiremeyeceği bir konuma yükseltecek. Ölümlülüğün sınırlarını genişletmenin, başka deyişle onu ölümsüzlüğe çevirmenin tek yolu budur." (67-68)[]
+	- ## ()=
+		- "Sen ne kadar çok insana dağıtırsan, bu malvarlığı o kadar artacak. Bu malvarlığı sana ebediyetin yolunu açacak ve seni kimsenin indiremeyeceği bir konuma yükseltecek. Ölümlülüğün sınırlarını genişletmenin, başka deyişle onu ölümsüzlüğe çevirmenin tek yolu budur." (67-68)
 	- "Dolayısıyla bilgenin yaşamı geniş bir alana yayılır; onun sınırı, başkalarını daraltan sınırla aynı değildir. Sadece bilge insan soyunun yasalarından muaftır, her çağ ona tanrıymış gibi hizmet eder." (68)
 		- Seneca bilgeliği tanrısallıkla özdeş görür.
 - "Geceyi bekleyerek gündüzü, ışıktan korkarak da geceyi yitiriyorlar!" (69)

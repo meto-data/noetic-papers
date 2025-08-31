@@ -1,0 +1,3 @@
+- **[[Nesnelerin İnterneti (IoT)]]** sebebiyle işsizlik artıyor. Bkz. Amazon deposu.
+	- Bu teknolojileri kullanmayı bilen kişilerin yetiştirilmesi gerekir. Bkz. **[[Yeniden becerilendirme]]**.
+	- Veya bu tür teknolojilerin olmadığı iş alanlarına yönelmek gerekir.

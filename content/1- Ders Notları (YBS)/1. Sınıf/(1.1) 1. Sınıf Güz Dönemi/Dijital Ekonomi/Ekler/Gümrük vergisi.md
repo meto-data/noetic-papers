@@ -1,0 +1,1 @@
+Dış ticaret yapan iki veya daha fazla ülke arasında ve hizmetlerin ülkeye girişlerinde o ülke ekonomisinin aldığı vergidir.

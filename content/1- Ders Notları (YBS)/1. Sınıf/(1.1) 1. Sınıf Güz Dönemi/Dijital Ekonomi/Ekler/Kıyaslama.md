@@ -1,0 +1,1 @@
+Diğer malların fiyatı ile kıyaslamaktır.

@@ -1,0 +1,2 @@
+- **Tanım:** Ürünlerin veya parçaların tam ihtiyaç duyulduğu anda ve yalnızca ihtiyaç duyulan miktarda üretildiği/tedarik edildiği; temel amacı stokları ve israfı (maliyetleri) ortadan kaldırarak üretim verimliliğini ve kârı artırmak olan bir üretim ve stok yönetim felsefesi/sistemidir.
+- **Açıklama:** Geleneksel "itme" sisteminin aksine "Çekme" esasına dayanır. Müşteri talebi üretimi tetikler. Başarısı, güvenilir tedarikçilere sorunsuz iç üretim akışına büyük ölçüde bağlıdır. Minimum (ideali sıfır) stok hedeflenir.

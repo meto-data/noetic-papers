@@ -1,0 +1,1 @@
+Somut bir biçimde olayın gerçekleştiğini ortaya koymak. Bir belge söz konusu olmalı.

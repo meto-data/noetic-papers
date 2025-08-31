@@ -1,0 +1,1 @@
+- Ekonomide aktörler; firmalar, birey ve devlettir.

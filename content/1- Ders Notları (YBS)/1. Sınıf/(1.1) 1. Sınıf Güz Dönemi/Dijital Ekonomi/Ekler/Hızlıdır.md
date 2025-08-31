@@ -1,0 +1,1 @@
+ Verilerin elde edilme ve işlenme hızı.

@@ -1,0 +1,1 @@
+**Örneğin:** Linux, Windows, Macintosh

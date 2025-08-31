@@ -1,0 +1,1 @@
+Hangi verinin kime ait olduğunun belli olmaması.

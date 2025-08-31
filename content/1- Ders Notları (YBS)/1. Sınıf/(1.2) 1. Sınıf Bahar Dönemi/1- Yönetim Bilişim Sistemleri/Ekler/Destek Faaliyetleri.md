@@ -1,0 +1,1 @@
+Ana faaliyetlerin sorunsuz ve verimli bir şekilde yürütülebilmesi için gerekli olan, **arka planda çalışan** altyapısal faaliyetlerdir. Doğrudan ürünün içinde yer almazlar ama olmadan ana faaliyetler yapılamaz.

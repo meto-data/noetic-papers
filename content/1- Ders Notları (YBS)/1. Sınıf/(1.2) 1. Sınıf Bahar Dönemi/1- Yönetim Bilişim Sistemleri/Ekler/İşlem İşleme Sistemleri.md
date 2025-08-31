@@ -1,0 +1,1 @@
+- Sipariş işleme, bordro gibi işlemler  (günlük operasyonel işler için).

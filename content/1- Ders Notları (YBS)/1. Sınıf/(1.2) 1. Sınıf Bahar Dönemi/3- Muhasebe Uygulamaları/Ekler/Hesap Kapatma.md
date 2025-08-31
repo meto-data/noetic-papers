@@ -1,0 +1,1 @@
+Borç toplamıyla alacak toplamının eşit olması durumudur.

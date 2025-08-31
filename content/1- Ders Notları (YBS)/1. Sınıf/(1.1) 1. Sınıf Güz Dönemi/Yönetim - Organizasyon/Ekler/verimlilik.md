@@ -1,0 +1,1 @@
+Minimum girdiyle maksimum çıktıya ulaşmak.

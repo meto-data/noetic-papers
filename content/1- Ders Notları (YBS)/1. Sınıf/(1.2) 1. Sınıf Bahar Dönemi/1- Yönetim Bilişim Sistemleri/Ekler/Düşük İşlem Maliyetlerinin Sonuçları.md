@@ -1,0 +1,1 @@
+- **Dış kaynak kullanımı (outsourcing)** yaygınlaşır. (Bkz. [[Dış Kaynak Kullanımı]])

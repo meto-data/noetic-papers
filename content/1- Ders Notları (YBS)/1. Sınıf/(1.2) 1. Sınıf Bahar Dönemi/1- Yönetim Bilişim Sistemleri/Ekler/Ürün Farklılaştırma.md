@@ -1,0 +1,3 @@
+- Rakiplerin sunmadığı, benzersiz, üstün veya müşteri için özel algılanan ürün veya hizmetler sunmak. Müşterinin "Bu farklı, bunun için daha fazla ödemeye değer" demesini sağlamak. Bkz. [[Fonksiyonel Kalite]]
+- **IS Nasıl Yardımcı Olur?** Müşteriye özel ürünler yaratmayı sağlar (web'den konfigürasyon), müşteri verisini analiz edip yeni/farklı fikirler bulur, bazen ürünün kendisi IS tabanlıdır.
+- <span style="color:darkblue; font-weight:bolder">Örnek:</span> Dell'in müşteriye özel PC toplama sistemi, Google'ın (algoritması sayesinde) sunduğu arama kalitesi.

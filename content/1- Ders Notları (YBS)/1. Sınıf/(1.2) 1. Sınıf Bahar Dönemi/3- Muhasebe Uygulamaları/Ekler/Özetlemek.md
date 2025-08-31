@@ -1,0 +1,1 @@
+Finansal tablolar aracılığıyla özetlemek (Bilanço, gelir tablosu).

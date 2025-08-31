@@ -1,0 +1,1 @@
+Binalar, arsalar ve diğer gayrimenkuller üzerinden alınan vergi.

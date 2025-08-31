@@ -1,0 +1,1 @@
+Gerçekler hakkında birbirinden kopuk küçük parçalar.

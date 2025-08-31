@@ -1,0 +1,2 @@
+- ISO, dünya çapında ürün, hizmet ve sistemler için standartlar geliştirerek küresel ticaretin kolaylaşmasına ve 
+- TSE, ISO standartlarını temel alarak ulusal standartlar oluşturur ve bu standartların uygulanmasını denetler, böylece hem yerel hem de uluslararası düzeyde kalite güvencesi sağlar.

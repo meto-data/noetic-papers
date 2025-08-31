@@ -1,0 +1,1 @@
+Ürün başına düşen sabit maliyet. #kısaltma

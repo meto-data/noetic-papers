@@ -1,0 +1,1 @@
+Alım gücü ile desteklenebilen isteklerdir.

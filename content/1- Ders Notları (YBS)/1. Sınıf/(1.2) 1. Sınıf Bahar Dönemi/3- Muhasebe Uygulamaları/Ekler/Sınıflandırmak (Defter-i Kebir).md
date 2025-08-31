@@ -1,0 +1,1 @@
+Büyük defter (Defter-i Kebir), **firmaya ait tüm muhasebe kayıtlarının, detaylı olarak kayıt edildiği ticari defterdir**.

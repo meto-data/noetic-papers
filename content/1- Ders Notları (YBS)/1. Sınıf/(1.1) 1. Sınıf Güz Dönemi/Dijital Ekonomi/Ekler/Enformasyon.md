@@ -1,0 +1,1 @@
+Verinin işlenmesi, organize edilmesi ve yapılandırılmasıyla elde edilen anlamlı bir çıktıdır.

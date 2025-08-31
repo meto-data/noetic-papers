@@ -1,0 +1,2 @@
+- Organizasyon içinde farklı (otorite, amaç, kişilik vb. açılardan) ancak başarı için birbirine bağımlı kişi veya grupların bir süreçtir.
+- Bu süreçte, kişi veya gruplar karar alma mekanizmasında etkili olmak amacıyla sahip oldukları gücü kullanır ve birbirlerini etkilerler.

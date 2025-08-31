@@ -1,0 +1,1 @@
+Ücret, maaş, kira, faiz gibi gelirler üzerinden alınan vergi.

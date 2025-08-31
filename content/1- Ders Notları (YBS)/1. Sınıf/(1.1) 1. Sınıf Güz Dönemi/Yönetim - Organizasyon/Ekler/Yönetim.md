@@ -1,0 +1,1 @@
+ Üretim faktörlerini **[[etkin]]** ve **[[verimli]]** bir şekilde bir araya getirerek amaçlara ulaşma süreci.

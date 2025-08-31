@@ -1,0 +1,2 @@
+- **Tanım:** Doğrudan bitmiş ürünün bir parçası olmayan ancak üretim ekipmanlarının veya genel işletme faaliyetlerinin devamlılığı için gerekli olan malzemelerdir.
+- **Açıklama:** Nihai ürünün parçası olmayan ama üretiminin/işletmenin devamlılığı için gerekli malzemelerdir (yedek parça, temizlik, ofis malzemesi). Ekipmanların çalışır kalmasını, operasyonların sürmesini sağlar. Eksikliği, üretimde beklenmedik duruşlara sebebiyet verebilir.

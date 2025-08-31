@@ -1,0 +1,1 @@
+- Bulut Bilişim Teknolojileri, marjinal maliyet sıfır vb.

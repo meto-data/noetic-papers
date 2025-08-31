@@ -1,0 +1,1 @@
+Reel millî geliri hesaplarken fiyatlardaki değişimlerin etkisini ortadan kaldırmak amaçtır. Bunu yapmak için geçmişte kalan belirli bir yıl referans alınır ve bu yıla "baz yıl" adı verilir.

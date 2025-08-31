@@ -1,0 +1,1 @@
+- İnsanın akıl yürütme ve problem çözme becerilerini taklit eden algoritma.

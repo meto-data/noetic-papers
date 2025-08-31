@@ -1,0 +1,2 @@
+- Görsel üreticiler (DALL-E, Midjourney vb.)
+	- Bilgisayar tarafından üretilmiş görsel/video falan işte.

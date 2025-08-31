@@ -1,0 +1,2 @@
+- E-ticaret sitelerinde altyapı sorunları, sistem hataları veya teknik kesintiler, müşteri deneyimini olumsuz etkileyebilir.
+	- Web sitenin bağlı olduğu ödeme altyapısının çöktüğünü hayal edersek web site ödeme yapılamayacağı için kullanılamaz hâle gelir mesela.

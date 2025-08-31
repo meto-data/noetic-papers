@@ -1,0 +1,1 @@
+- Uygun ödeme altyapısı olmadan dijital ekonomik faaliyetler yürütülemeyeceği için elektronik ödeme yapılmasına imkân verilmezse e-ticaret gerçekleşemez.

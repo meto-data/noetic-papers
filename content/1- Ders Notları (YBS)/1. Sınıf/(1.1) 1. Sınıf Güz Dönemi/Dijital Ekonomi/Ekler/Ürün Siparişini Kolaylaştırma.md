@@ -1,0 +1,1 @@
+- E-ticaret platformları, müşterilerin istedikleri ürünü hızlı ve kolay bir şekilde sipariş etmelerini sağlar. Kullanıcı dostu arayüzler, filtreleme seçenekleri ve çevrim içi ödeme sistemleri bu süreci daha verimli hâle getirir.

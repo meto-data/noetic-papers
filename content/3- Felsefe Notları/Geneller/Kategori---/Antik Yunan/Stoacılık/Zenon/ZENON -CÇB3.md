@@ -3,7 +3,7 @@
 - Eğitim kurumları/merkezlerine yer yoktur. Ancak buna çözüm olarak ne sunduğu Zenon'un metinleri elimize ulaşmadığı için bilemiyoruz.
 	- Ancak bildiğimiz şey, yöntemden ziyade ilkelerin ön planda olduğu.
 - Herhangi bir sınıf/ırk/cinsiyet ayrımı yok; herkes eşit.
-	- Herkes bilge olma zorunluluğu ieçrisinde, bilge olma zorunluluğu yaşam tarzlarına da sirayet etmiştir. <> Hepsi birbiriyle tümüyle uyumlu.  
+	- Herkes bilge olma zorunluluğu içerisinde, bilge olma zorunluluğu yaşam tarzlarına da sirayet etmiştir. <> Hepsi birbiriyle tümüyle uyumlu.  
 		- Erkek ve kadınların giysisinin aynı olmasına kadar bir zorunluluk: Kapalı, makine gibi işleyen bir toplum.
 	- Merkezde sevgi var (Hristiyanlığa tesiri olabilir bir bakımdan) .
 		- Devletin anlayışı tamamıyla sevgi tabanında ilerliyor.
@@ -12,7 +12,6 @@
 ### Bilgi Teorisi
 - Duyular, zihne bir resim sunar (fantasia)
 	- Epiktetos'un görünüşleri de kuvvetle muhtemel bundan yola çıkıyor #ekleme 
-	- 
 - O resim, kendisinde bir yargı taşır 
 	- Yargı disiplini ile ilintili olması da kuvvetle muhtemel #bilgi 
 		- **Yargı**
@@ -25,7 +24,7 @@
 > "(...) öncelikle, görünüş nedeniyle telaşa kapılarak aceleci davranmayın ve şunu söyleyin: "Durun ey görünüşler! Kim olduğunuzu ve ne anlattığınızı bileyim, durun da sizi sınayayım."
 
 
-- Stoa, biat felsefesi değildir. Kinizm -daha doğrusu Diogenes- kadar marjinal olmasa dahî, biat unsurunu içermez, tiranlara boyun eğmez.
+- Stoa, biat felsefesi değildir. Kinizm -daha doğrusu Diogenes- kadar marjinal olmasa dahî biat unsurunu içermez, tiranlara boyun eğmez.
 - Ruh = Soluk 
   Ruh = Beden
 - Soluk-nefes, bedene hizmet eder?

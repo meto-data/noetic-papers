@@ -1,0 +1,3 @@
+**Gig (Freelance)**, en sade hâliyle; serbest çalışanlar ile bu kişilerden belirli bir süre için belirli bir iş talep eden müşterileri dijital platformlardan üzerinden buluşturan bir ekonomi modeli olarak tanımlanır.
+- Bu alanda en ünlü örnek olan **Uber**'i ele alırsak; Uber uygulamasından çağırdığımızda kendi arabasıyla bizi almaya gelen kişi **serbest çalışan**, belirli bir süre için taşımacılık hizmeti talep eden biz **müşteri**, buluşmamızı ve işin gerçekleşmesini sağlayan **Uber** ise iki tarafa aracılık eden ve bu işten komisyonunu alan **dijital platformdur.**
+	**Örneğin:** Upwork, Fiverr, Armut

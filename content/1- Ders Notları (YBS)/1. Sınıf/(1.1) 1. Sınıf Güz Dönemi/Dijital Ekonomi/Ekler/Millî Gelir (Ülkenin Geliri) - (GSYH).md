@@ -1,0 +1,1 @@
+ Bir ülke sınırlarında belirli bir dönem içerisinde (3 ay, 1 yıl vb.) üretilen bütün [[nihai]] mal ve hizmetlerin toplam piyasa değeri.

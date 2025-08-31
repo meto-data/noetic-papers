@@ -1,0 +1,2 @@
+- Bütün organizasyonların üretim ve hizmet süreçlerini **özgün** olarak geliştirilmiş standart faaliyetlerle yürütmek ister.
+- Rutinler, bilinen durumlarla başa çıkabilmek için geliştirilen kesin kural, yöntem ve uygulamalardır.

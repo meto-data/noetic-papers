@@ -1,0 +1,1 @@
+- Tanımlayıcıdır. Geçmiş verilerden yola çıkarak "ne oldu?" sorusuna yanıt verir.

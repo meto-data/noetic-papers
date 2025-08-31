@@ -1,0 +1,1 @@
+Mal ve hizmetlerin satış bedeli üzerinden alınan vergi.

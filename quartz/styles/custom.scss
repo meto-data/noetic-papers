@@ -1,3 +1,47 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* Metin Hizalama */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-justify {
+  text-align: justify;
+}
+
+/* Renkler */
+.text-darkblue {
+  color: darkblue;
+}
+.text-deepblue {
+  color: #2a475e;
+}
+.text-reddish {
+  color: #bf3f36;
+}
+.text-darkred {
+  color: darkred;
+}
+
+/* Sütun Yapısı (Flexbox ile Modern Çözüm) */
+.column-container {
+  display: flex;
+  flex-wrap: wrap; // Küçük ekranlarda alt alta geçsin
+  gap: 2rem;       // Sütunlar arası boşluk
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.column {
+  flex-basis: 0; // Başlangıç boyutu sıfır olsun
+  flex-grow: 1;  // Eşit şekilde büyüsünler
+  min-width: 250px; // Sütunlar çok daralmasın
+}
+
+// Özel büyüme oranları için
+.flex-grow-2 {
+  flex-grow: 2;
+}

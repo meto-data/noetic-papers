@@ -1,0 +1,1 @@
+Toplanan verinin büyüklüğü.

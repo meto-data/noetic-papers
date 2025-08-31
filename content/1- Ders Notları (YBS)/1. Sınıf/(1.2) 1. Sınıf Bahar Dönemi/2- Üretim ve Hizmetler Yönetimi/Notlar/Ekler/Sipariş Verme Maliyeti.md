@@ -1,0 +1,3 @@
+- **Tanım:** Her yeni sipariş verildiğinde veya üretim için her yeni parti hazırlandığında katlanılan <span style="color:#008B8B; font-weight:bolder">sabit işlem masrafıdır.</span>
+- **Açıklama:** Bu maliyet, kaç tane ürün sipariş ettiğimizden/ürettiğimizden **bağımsızdır**. Sadece "sipariş verme" ya da "üretime hazırlık yapma" eyleminin **kendisi için ödenilen paradır**. Söz gelişi, çevrim içi alışverişlerdeki kargo ücreti gibi.
+- **Analoji** Herakleitos der ki "Panta rhei" (her şey akar), ve yine der ki "Aynı derede iki kere yıkanılmaz." Her yeni sipariş, bir önceki siparişten farklı yeni bir "akışa giriş" eylemidir ve bu eylemin kendisine has bir maliyeti vardır. O "giriş kapısı" her açıldığında bir bedel ödenir.

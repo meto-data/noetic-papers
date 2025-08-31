@@ -1,0 +1,2 @@
+- Organizasyonların standart işleyiş prosedürleri genellikle durağan bir yapıya sahiptir.
+- Çalışanların mevcut düzene karşı gösterdiği direnç, organizasyonun gerekli değişiklikleri yapmasını engeller.

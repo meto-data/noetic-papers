@@ -1,0 +1,1 @@
+**Örneğin:** Netlix, Amazon Prime, BluTV.

@@ -1,0 +1,2 @@
+- Fiziksel bir dükkana gitmek yerine, evden, işten, hatta arabadan alışveriş yapabilme imkânı. Pazar yeri her an her yerdedir.
+	- E-Ticaret, doğası gereği internet bağlantısının olduğu her noktada "potansiyel olarak" vardır. Bir nevi  "pazarın ruhunun bedenden (fiziksel dükkandan) ayrılıp her yerde tezahür edebilmesi" gibi.

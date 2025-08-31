@@ -1,0 +1,4 @@
+- Donanım
+- Yazılım
+- Beşeri Sermaye
+	- Donanım ve Yazılım kullanmasını bilenler.

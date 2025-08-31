@@ -1,0 +1,2 @@
+- Her yere götürülebilir, ekonomi yanımızda taşınır.
+- Ekonomik faaliyetler her yerden yapılabilir.

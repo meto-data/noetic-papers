@@ -1,0 +1,1 @@
+Ürün başına düşen değişen maliyet. #kısaltma

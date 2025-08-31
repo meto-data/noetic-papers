@@ -1,0 +1,2 @@
+##### Merkeziyetsiz Finans (Decentralized Finance -DeFi-)
+- **DeFi** (Merkeziyetsiz Finans), blokzincir teknolojisini kullanarak finansal hizmetlerin merkeziyetsiz bir şekilde sunulmasını sağlar. Bu hizmetler, bankalar ve finansal kuruluşlar yerine, akıllı sözleşmeler ve merkeziyetsiz uygulamalar (dApp) tarafından yönetilir.

@@ -1,0 +1,15 @@
+- Mevduat toplama
+	- Vadesiz mevduat
+		- Likit olduğu için getirisi az olmasına rağmen tercih edilir.
+	- Vadeli mevduat
+	- Döviz mevduatı
+		- Vadesiz Döviz Mevduatı
+		- Vadeli Döviz Mevduatı
+- Kredi Verme
+	- Tüketici Kredisi
+	- Konut Kredisi
+	- Taşıt Kredisi
+- Yatırımlara aracılık etme
+	- Portföy yatırımı
+		- Hisse senedi, tahvil gibi menkul kıymetlere yapılan yatırımlardır.
+	- Ödemelere aracılık etme (Fon transferi)

@@ -1,0 +1,2 @@
+- Organizasyonların başarısız olmasının temel nedeni, hızla değişen çevreye uyum sağlayamamalarıdır.
+- Birçok işletme büyük çaplı çevresel değişimlerle başa çıkmada zorlanır.

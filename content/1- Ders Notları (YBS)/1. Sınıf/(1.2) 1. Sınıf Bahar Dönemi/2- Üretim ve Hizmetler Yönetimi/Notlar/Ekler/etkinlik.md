@@ -1,0 +1,1 @@
+Hedefe ulaşabilme yüzdesi.

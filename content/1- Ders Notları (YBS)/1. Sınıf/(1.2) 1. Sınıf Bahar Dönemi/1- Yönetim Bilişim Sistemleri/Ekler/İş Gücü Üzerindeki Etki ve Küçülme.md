@@ -1,0 +1,1 @@
+Düşen BT maliyetleri, özellikle rutin işleri yapan orta kademe yöneticiler ve ofis çalışanlarının (sekreter vb.) iş gücü yerine BT ile ikame edilmesine yol açar. Bu durum, organizasyonların daha "yatay" hâle gelmesine ve küçülmesine neden olur. (Bu sonuçları mutlaka bilmelisiniz!)

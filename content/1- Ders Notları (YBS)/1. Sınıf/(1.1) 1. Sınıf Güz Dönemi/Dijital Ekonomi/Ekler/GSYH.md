@@ -1,0 +1,1 @@
+Gayrisafi Yurtiçi Hasıla #kısaltma 

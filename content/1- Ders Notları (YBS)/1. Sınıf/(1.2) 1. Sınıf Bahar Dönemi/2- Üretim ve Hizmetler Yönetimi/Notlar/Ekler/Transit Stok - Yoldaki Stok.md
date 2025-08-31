@@ -1,0 +1,2 @@
+- **Tanım:** Tedarik zinciri içinde bir noktadan diğerine (örn: tedarikçiden fabrikaya, fabrikadan depoya/müşteriye) fiziksel olarak taşınmakta olan, henüz hedefe <u>varmamış</u> stoklardır.
+- **Açıklama:** Tedarik zincirinde farklı noktalar arasında (örn: tedarikçiden fabrikaya) fiziksel olarak taşınmakta olan, henüz hedefe ulaşmamış stoklardır. Nakliye süresince oluşur. Toplam stok miktarını ve lojistik süreçlerini etkiler; takibi önemlidir.

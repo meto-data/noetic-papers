@@ -1,0 +1,1 @@
+**Örneğin:** Google News.

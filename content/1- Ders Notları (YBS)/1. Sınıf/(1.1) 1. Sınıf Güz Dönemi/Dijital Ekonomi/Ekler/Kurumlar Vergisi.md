@@ -1,0 +1,1 @@
+Şirketlerin kartları üzerinden alınan vergi.

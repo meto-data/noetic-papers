@@ -1,0 +1,1 @@
+- Belirli bir dönemde bir işletmenin gelirlerini, giderlerini ve sonuç olarak kâr veya zararını gösteren ayrıntılı bir **finansal tablo**dur.

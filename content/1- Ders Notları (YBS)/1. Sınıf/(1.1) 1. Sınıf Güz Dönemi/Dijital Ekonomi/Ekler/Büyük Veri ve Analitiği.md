@@ -1,0 +1,1 @@
+Üretim süreçlerinden toplanan verilerin analiz edilerek verimlilik artışı ve optimizasyon sağlanması.

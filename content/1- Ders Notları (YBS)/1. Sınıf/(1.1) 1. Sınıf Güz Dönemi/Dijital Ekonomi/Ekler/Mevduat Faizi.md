@@ -1,0 +1,2 @@
+- Bankaya yatırılan para karşılığında bankanın bize ödediği yıllık faiz oranıdır.
+    - Bu oran da enflasyon etkisini hesaba katmaz.

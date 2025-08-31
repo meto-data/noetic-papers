@@ -1,0 +1,3 @@
+ - Verimlilik
+ - Lokasyon Bağımsızlığı
+ - Veri Analizi

@@ -1,0 +1,1 @@
+Gümrük vergisi artırılırsa ithalat (dıştan alım) azalır.

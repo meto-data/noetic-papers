@@ -1,0 +1,3 @@
+1. **[[Gelecek Üretim Stratejilerini Belirlemek]]:** Stok seviyelerini bilmek, ne kadar daha üretilmesi gerektiğini planlamak için temel veriyi sağlar.
+2. **[[Aşırı Stoklamayı Önlemek]]:** Ne kadar ürün olduğunu bilerek gereğinden fazla üretim yapıp gereksiz maliyetlere (depolama, sermaye bağlama vb.) katlanmaktan kaçınılır.
+3. **[[Eksik Stoklamayı Önlemek]]:** Yeterli ürün olup olmadığını takip ederek talebi karşılayamama, satış kaybetme ve işletmeye zarar verme riski azaltılır.

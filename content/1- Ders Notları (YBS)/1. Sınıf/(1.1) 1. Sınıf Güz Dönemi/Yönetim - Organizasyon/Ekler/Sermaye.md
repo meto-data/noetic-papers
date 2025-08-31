@@ -1,0 +1,1 @@
+Üretim sürecinde kullanılan **mal ve hizmetlerle** **finansal kaynaklar.**

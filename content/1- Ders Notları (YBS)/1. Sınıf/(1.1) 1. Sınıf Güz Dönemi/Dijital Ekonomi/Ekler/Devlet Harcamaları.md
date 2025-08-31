@@ -1,0 +1,2 @@
+- Altyapı yatırımları
+- Cari transferler

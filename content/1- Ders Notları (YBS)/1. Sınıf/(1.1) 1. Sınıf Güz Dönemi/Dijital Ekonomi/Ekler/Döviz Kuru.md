@@ -1,0 +1,3 @@
+- Döviz kuru, bir paranın başka bir para karşısındaki değeridir. Veya kıssaca “dövizin fiyatı” da denilebilir buna.
+- Kendi para birimimiz dışındaki para birimlerinin tamamı olarak da tanımlanır döviz kuru.
+---

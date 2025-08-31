@@ -1,0 +1,1 @@
+- Müşterileri ürün/hizmetten haberdar etme, satın almaya ikna etme, sipariş alma, fiyatlandırma ve reklam/promosyon faaliyetleri. (Değer: Müşteriyi bulmak ve ürünü satmak).

@@ -1,0 +1,3 @@
+- Rekabet avantajı sadece tek bir şirketin değer zincirine değil, aynı zamanda o şirketin **iş ortaklarının (tedarikçiler, distribütörler, lojistik firmaları vb.) değer zincirleriyle ne kadar uyumlu çalıştığına** bağlı olduğunu söyler.
+- Değer Ağı, bu farklı şirketlerin değer zincirlerinin **bir ağ gibi** birbirine bağlandığı, bilgi paylaşımının yoğun olduğu, esnek ve hızlı tepki verebilen bir **iş birliği ekosistemidir**.
+- <SPAN style="font-weight:bolder; color:darkblue">Amaç:</span> Tüm ağın toplam verimliliğini ve pazara cevap verme hızını artırmaktır. IS (özellikle internet tabanlı sistemler) bu ağların kurulmasını ve yönetilmesini sağlar.

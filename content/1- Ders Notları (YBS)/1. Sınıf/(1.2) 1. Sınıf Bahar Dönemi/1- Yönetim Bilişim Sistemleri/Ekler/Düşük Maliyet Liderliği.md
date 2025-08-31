@@ -1,0 +1,3 @@
+- Sektördeki en düşük operasyonel maliyetlere sahip olmak ve bu sayede rakiplerden daha düşük fiyatlar sunabilmek ya da aynı fiyata satıp daha yüksek kâr marjı elde etmek. Yani işleri en ucuza, en verimli şekilde yapmak.
+- **IS (Information Systems -Bilgi Sistemleri) Nasıl Yardımcı Olur?** İşleri otomatikleştirir (daha az hata, daha az eleman), stokları ve tedarik zincirini optimize eder (gereksiz masrafı keser). 
+- <span style="color:darkblue; font-weight:bolder">Örnek:</span> Wall-Mart'ın anlık stok takip sistemi (kasadan tedarikçiye bilgi) sayesinde devasa depo masrafından kurtulması.

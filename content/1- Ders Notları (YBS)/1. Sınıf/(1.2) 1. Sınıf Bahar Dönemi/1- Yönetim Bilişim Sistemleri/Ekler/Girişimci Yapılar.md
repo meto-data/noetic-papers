@@ -1,0 +1,1 @@
+Küçük, genç, esnek, hızlı adapte olur (Örn: Yeni kurulan şirketler). 

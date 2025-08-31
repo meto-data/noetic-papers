@@ -1,0 +1,2 @@
+- İşletmenin dünya standartlarında lider olduğu faaliyet olup kolayca taklit edilemeyen, teknik ve pratik olarak başkalarıyla paylaşılmayan ve işletmeyi dünyada lider konumda tutan faaliyetlerdir.
+	- Genelde uzun yıllar alan bir bilgi birikimi, uzmanlık ve AR-GE çalışmasına dayanır. **Örn:** Dünyanın en hızlı işlemci üreticisi, en iyi kargo firması.

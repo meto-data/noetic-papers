@@ -1,0 +1,2 @@
+- Para, değiş-tokuşta kullanılan bir nesnedir.
+- Parayı para yapan, ekonomik faaliyetlerde kullanılması, alınıp-verilmesidir.

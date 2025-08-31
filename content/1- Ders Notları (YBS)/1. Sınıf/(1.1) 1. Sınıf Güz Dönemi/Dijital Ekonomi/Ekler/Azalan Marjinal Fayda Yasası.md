@@ -1,0 +1,1 @@
+Bir üründen daha fazla tükettikçe elde edilen ek fayda (marjinal fayda) giderek azalır. Yani aynı üründen bir birim daha aldığında o birimin sağladığı tatmin, önceki birimlerden elde edilen tatminden daha düşük olur.

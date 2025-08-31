@@ -1,0 +1,1 @@
+Merkeziyetçi, yavaş adapte olur, standart işler (Örn: Orta ölçekli üretim firmaları).

@@ -1,0 +1,5 @@
+- **Değer nasıl oluşturuluyor?** Düşük maliyet mi, yüksek kalite mi?
+- Değer zincirinde işletme veya müşteriler için **ekstra değer yaratılabilir mi**?
+- İşletme, sektördeki **en iyi uygulamaları** kullanıyor ve iş süreçlerini **verimli yönetebiliyor mu**?
+- **Temel yetenekler** neler? Stratejik ortaklıklar ve **değer ağı** kullanılarak nasıl fayda sağlanabilir?
+- Bilgi sistemi, değer zincirinde **en yüksek faydayı nerede sağlar**?

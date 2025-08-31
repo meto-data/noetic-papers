@@ -1,0 +1,1 @@
+- Ekonomide bireyler için fayda, bir mal veya hizmet tüketimi sonucunda elde edilen memnuniyet ve tatmin duygusudur.

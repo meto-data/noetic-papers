@@ -1,0 +1,2 @@
+- Farklı senaryoların analizini yapar. 
+- Eldeki verilerden yola çıkarak "ne yapılmalı?" sorusuna yanıt vererek karar süreçlerine rehberlik eder. Öngörü gibi yani.

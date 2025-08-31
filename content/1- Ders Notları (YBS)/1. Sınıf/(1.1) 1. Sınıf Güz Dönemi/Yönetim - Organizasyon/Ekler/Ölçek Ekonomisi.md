@@ -1,0 +1,4 @@
+- Bir üretim sürecinde daha büyük üretim hacimlerine ulaştıkça birim başına maliyetin düşmesi durumudur.
+	- Yani, birim zamanda üretim miktarı arttıkça, sabit maliyetler daha fazla ürüne yayıldığı için üretim daha verimli hâle gelir ve maliyetler azalır.
+	- Söz gelimi, fırıncılar sabit maliyetleri (örneğin kira.) daha fazla ekmeğe yayarlar. Bu sayede üretim maliyetleri düşer ve ekmeğin birim fiyatı daha uygun hâle gelir.
+- Evde ekmek yapmak **küçük ölçekli** bir üretim olduğu için kullanılan enerji, malzeme ve iş gücü gibi kaynaklar her bir ekmek için daha fazla maliyet getirir: Çünkü **büyük ölçekli** bir üretim değildir. Oysa fırıncılar **büyük ölçekli** üretim yaptıkları için bu kaynakları daha verimli kullanırlar ve maliyetleri düşürürler. Bu nedenle fırından alınan ekmek daha ucuz olur.

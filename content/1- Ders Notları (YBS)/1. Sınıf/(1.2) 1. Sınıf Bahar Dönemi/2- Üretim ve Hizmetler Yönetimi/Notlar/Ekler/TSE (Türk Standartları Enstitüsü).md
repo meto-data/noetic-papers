@@ -1,0 +1,2 @@
+- TSE, Türkiye'de standartların belirlenmesi, kalite kontrolü ve belgelendirme faaliyetlerini yürüten, Sanayi ve Teknoloji Bakanlığı'na bağlı bir kurumdur.
+- **İsviçre, uluslararası standartlar arasında önemli bir merkez olan ISO** (International Organization for Standardization) **uluslararası standardizasyon örgütünün genel merkezine ev sahipliği yapan ülkedir.**

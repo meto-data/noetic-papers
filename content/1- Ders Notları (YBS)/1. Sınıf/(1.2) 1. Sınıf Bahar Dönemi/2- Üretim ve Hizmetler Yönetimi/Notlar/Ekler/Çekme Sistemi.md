@@ -1,0 +1,2 @@
+- **Tanım:** Üretimin veya malzeme hareketinin, <strong style="color:#000">gerçekleşen anlık talebe</strong> (müşteri siparişi veya bir sonraki üretim istasyonunun ihtiyacı) göre tetiklendiği bir üretim/malzeme akış yaklaşımıdr.
+- **Açıklama:** "Önce talep gelsin/ihtiyaç olsun, sonra üret/getir" yaklaşımı vardır. Bir sonraki aşama (müşteri veya istasyon), bir önceki aşamadan yalnızca ihtiyaç duyduğu kadar malzemeyi/parçayı "çeker". **JIT sisteminin çalışma prensibidir ve stokları en aza indirmeyi amaçlar.**

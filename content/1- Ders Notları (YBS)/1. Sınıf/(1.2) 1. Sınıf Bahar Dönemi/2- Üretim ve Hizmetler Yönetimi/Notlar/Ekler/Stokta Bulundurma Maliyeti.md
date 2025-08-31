@@ -1,0 +1,1 @@
+- **Tanım:** Bir birim ürünü, bir **yıl** boyunca depoda tutmanın veya taşımanın getirdiği toplam masraftır. Bu masraf; stoğa bağlanan paranın maliyeti (fırsat/faiz), depo giderleri (kira, sigorta, vergi), malzeme aktarma/sayım masrafları ve stokların eskimesi, bozulması, çalınması veya hasar görmesi gibi kayıpları içerir.

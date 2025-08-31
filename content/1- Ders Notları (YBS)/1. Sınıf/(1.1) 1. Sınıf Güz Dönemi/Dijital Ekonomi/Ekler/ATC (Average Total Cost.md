@@ -1,0 +1,1 @@
+Ürün başına maliyet. #kısaltma

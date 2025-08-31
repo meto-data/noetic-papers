@@ -1,0 +1,1 @@
+- Orta kademede yöneticiler için düzenli raporlar ve özet bilgiler sağlar.

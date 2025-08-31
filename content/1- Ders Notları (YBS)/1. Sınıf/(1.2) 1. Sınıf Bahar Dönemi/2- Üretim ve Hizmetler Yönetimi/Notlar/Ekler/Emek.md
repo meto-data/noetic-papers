@@ -1,0 +1,1 @@
+İnsanların üretim sürecinde harcadığı **fiziksel ve zihinsel** çaba.

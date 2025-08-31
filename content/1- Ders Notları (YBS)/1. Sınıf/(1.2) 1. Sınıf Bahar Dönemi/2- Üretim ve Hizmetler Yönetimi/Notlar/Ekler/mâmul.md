@@ -1,0 +1,1 @@
+Yapılmış, işlenmiş, îmal edilmiş

@@ -1,0 +1,1 @@
+Bilgi ve uzmanlık temelli, uzmanların gücü yüksek, merkezi otorite zayıf (Örn: Okullar, hastaneler, hukuk firmaları). 

@@ -1,0 +1,1 @@
+Devletin iç ve dış borçlarını kapsar.

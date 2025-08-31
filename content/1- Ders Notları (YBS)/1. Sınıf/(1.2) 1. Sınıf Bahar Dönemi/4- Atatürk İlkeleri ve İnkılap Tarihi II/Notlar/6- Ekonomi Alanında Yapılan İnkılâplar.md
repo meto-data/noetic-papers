@@ -1,0 +1,39 @@
+- **Osmanlı İmparatorluğu'nun Son Dönemi**
+    - İktisadi yapı savaşlar ve Batı’nın üstünlüğü nedeniyle yıprandı.
+    - Sanayi Devrimi, Osmanlı ekonomisini rekabette geri bıraktı.
+    - Kapitülasyonlar yabancıların elini güçlendirirken, yerli teşebbüsler zayıf kaldı.
+    - İlk dış borçlanmalar yapıldı, iktisadi bağımsızlık zedelendi.
+    - Düyun-u Umumiye İdaresi kurularak borç yönetimi yabancıların kontrolüne geçti.
+- **Cumhuriyetin Kuruluşu ve İzmir İktisat Kongresi (1923)**
+    - Atatürk ve yol arkadaşları, iktisadi bağımsızlığın önemini vurguladı.
+    - 17 Şubat-4 Mart 1923'te İzmir İktisat Kongresi toplandı.
+    - Tarımın modernleşmesi, sanayinin geliştirilmesi ve ulaşım sisteminin iyileştirilmesi kararlaştırıldı.
+    - Devletin özel sektörün yetersiz kaldığı alanlarda öncülük etmesi benimsendi.
+    - Özel sektöre kredi sağlayacak bankaların kurulması ve işçi haklarının korunması öngörüldü.
+    - Kararlar, "Misak-ı İktisadi" olarak tarihe geçti.
+- **1923-1930 Dönemi: Özel Sektör Odaklı Kalkınma**
+    - İzmir İktisat Kongresi kararları doğrultusunda ilk adımlar atıldı.
+    - Yabancı şirketlere ait bazı işletmeler millileştirildi.
+    - Demiryolları devletleştirildi.
+    - 1925’te Aşar Vergisi kaldırıldı.
+    - Tarım Kredi Kooperatifleri ve Yüksek Ziraat Enstitüsü kuruldu.
+    - Atatürk Orman Çiftliği, modern tarımın örnek modeli oldu.
+    - 1924’te İş Bankası kuruldu, ardından Sümerbank, Merkez Bankası ve Etibank geldi.
+    - 1927’de Teşvik-i Sanayi Kanunu çıkarıldı, özel sektör teşvik edildi.
+- **1930 Sonrası: Devletçilik İlkesi ve Karma Ekonomi**
+    - 1929 ekonomik buhranı, özel sektörün gelişimini sekteye uğrattı.
+    - Atatürk’ün "toplumun genel çıkarlarını ilgilendiren kuruluşların devletleştirilmesi" görüşü uygulamaya kondu.
+    - Karma ekonomi modeli benimsenerek devlet teşebbüsleri desteklendi.
+    - Planlı ekonomiye geçildi, Birinci Beş Yıllık Sanayi Planı (1934) yürürlüğe girdi.
+    - Yerli ham madde kullanımı ve bölgesel sanayileşme hedeflendi.
+    - Sümerbank devletçiliğin temel taşı olarak sanayileşmeye öncülük etti.
+    - Demir-çelik, kimya, tekstil ve tüketim malları endüstrisi geliştirildi.
+    - II. Dünya Savaşı nedeniyle İkinci Beş Yıllık Plan tam uygulanamadı.
+- **Hukuki Düzenlemelerin Ekonomiye Etkisi**
+    - 1926’da Medeni Kanun kabul edildi, kadınlara miras hakkı tanındı.
+    - Ticaret Kanunu, ticari faaliyetleri çağdaş esaslara göre düzenledi.
+- **Sonuç**
+    - Cumhuriyet’in iktisadi devrimleri, Osmanlı’dan devralınan zayıf yapıyı güçlendirmeyi amaçladı.
+    - İlk yıllarda özel sektör teşvik edilirken, dünya ekonomik koşulları devletçiliğe yöneltti.
+    - Planlı ekonomi ile hızlı bir sanayileşme süreci yaşandı.
+    - Türkiye, iktisadi bağımsızlığını kazanarak çağdaş bir ekonomik sisteme geçti.

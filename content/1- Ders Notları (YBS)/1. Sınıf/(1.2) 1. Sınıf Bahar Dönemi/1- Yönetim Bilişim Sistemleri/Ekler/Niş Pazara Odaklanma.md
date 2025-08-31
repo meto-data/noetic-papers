@@ -1,0 +1,3 @@
+- Tüm pazara oynamak yerine, pazarın küçük, belirli bir segmentine (niş pazar) odaklanmak ve o segmentin ihtiyaçlarını rakiplerden çok daha iyi karşılamak. Bu odaklanma ya maliyet odaklı (o niş için en ucuz olmak) ya da farklılaşma odaklı (o niş için en özel/iyi olmak) olabilir.
+- **IS Nasıl Yardımcı Olur?** Veri analiziyle o niş pazarı bulur, CRM ile o müşterilerin özel isteklerini kaydeder ve onlara göre hizmet sunar, vb.
+- <span style="color:darkblue; font-weight:bolder">Örnek:</span> Hilton'un müşteri veri tabanı sayesinde misafirin önceki tercihlerini bilip ona göre hizmet vermesi (kişiselleştirme).

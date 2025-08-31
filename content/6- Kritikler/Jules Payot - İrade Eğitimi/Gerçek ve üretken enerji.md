@@ -1,0 +1,1 @@
+Gerçekten ve üretken enerji ölçülü ama sürekli çabada yatar. Bu tarzdan ayrılan her çalışma *tembel çalışması*dır. Çalışma sürekliliği ise doğrultu sürekliliğini gerektirir, zira irade enerjisi çok sayıda ve çeşitli çabalarda değil, zihnin tüm gücüyle aynı hedefe yönelmesinde ifadesini bulur.

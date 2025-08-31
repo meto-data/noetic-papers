@@ -1,0 +1,1 @@
+İrade sağlamlığı veya dayanıklılığını ortaya çıkarma ve bunu edinme maksad

@@ -1,0 +1,1 @@
+Felaket durumunda devreye girecek olan sistemler.

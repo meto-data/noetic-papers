@@ -1,5 +1,5 @@
 ---
-title: Alan Turing - Makineler Düşünebilir Mi?
+title: Alan Turing - Makineler Düşünebilir Mi
 slug:
 ---
 

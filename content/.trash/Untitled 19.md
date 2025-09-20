@@ -1,0 +1,5 @@
+Son günler mental olarak epey zorlayıcı geçiyor. Sahura kalkmak istediğim için uykusuz ve aşırı uyanık bir şekilde dolaşıyorum etrafta. En iyi ihtimalle 5-6 saat uyuyabilmekteyim. Erken uyumaya çalışsam uyuyamıyorum, bir o yana bir bu yana dönüyorum sürekli. Uyuduğumda da sahura 2-3 saat civarı kalıyor. Sahurumu yapıyorum ve ardından vaktim varsa tekrar uyuyorum, vaktim yoksa ona göre sahur saatimi değiştirip uyumuyorum ve ders çalışmaya başlıyorum sahurdan sonra.
+
+Uykusuzluk sorun değil, ders çalışmakta zorlanıyorum, evet, onun biraz sorun olduğu söylenilebilir. Ancak asıl sorun hükmüm hâricinde olanları reddetme esnasındaki zorlukta yatıyor. Uykusuzluk, görünüşleri değerlendirmeme ve erdeme uygun olmayanları reddetmemde beni ziyadesiyle hantallaştırıyor. 
+
+İyi olan yalnızca hükmümüz dâhilinde olana

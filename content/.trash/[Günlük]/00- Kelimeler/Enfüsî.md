@@ -1,0 +1,1 @@
+*benlik, özne.*  **nefsin iç dünyası**, yani **kişinin iç âlemi, kalbi, ruhu, benliği**

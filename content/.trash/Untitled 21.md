@@ -1,0 +1,3 @@
+Başkalarına ait olan şeylerin kaygısını duyuyor ve bunları elde etmek istiyor; elde ettiğindeyse elinde kalıp kalmayacağından endişe duyup geleceğe her dâim şüpheyle yaklaşıyordu. Neyin kendisine neyin başkasına ait olduğunu bilmiyor; sadece algıladığı biçimiyle, sevdiği şeylerin ona ait olmasını istiyordu. 
+
+Bu bakımdan başkalarından farklı olduğunu düşünüyordu: Ona göre başkaları, bir şeyi elde ettiğinde, onun için kaygı duymaz, tam tersine ondan zamanla soğumaya başlardı; gösteri içerisinde önem arz eden herhangi bir görünüş ona geldiğinde, zamanla o görünüşü istememeye ve daha iyisini -daha uygun tabiriyle 'yenisini' istemeye başlardı.

@@ -1,0 +1,4 @@
+---
+color: ""
+sticker: emoji//1f92a
+---

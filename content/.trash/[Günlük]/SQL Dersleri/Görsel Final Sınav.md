@@ -1,0 +1,4 @@
+- Klasik
+- Tüm konular dâhil (özellikle Sınıf-Nesne kavramı ve Veri Tabanı İşlemleri -Ekle,sil,güncelle,listele vb.))
+- Süre: 50 dakika
+- 

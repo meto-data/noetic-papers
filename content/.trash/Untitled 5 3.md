@@ -1,0 +1,13 @@
+@blksn4r Okulun o kadar önemli olduğunu zannetmiyorum eğer ilk 10'da falan değilse. Misal bizim okulumuz sıralamada düşük bir okuldur nispeten, ancak derslerini hakkıyla veren öğrencilerin hiçbirinin işsiz kalmadığını, kolayca iş bulabildiğini ve hatt
+
+YBS mezunu olduğunda senin GANO'nunda, üniversitenin de pek bir önemi olmuyor. Üniversitenin önemi daha çok bağlantı kurma esnasında ortaya çıkıyor. Yaptığı kaliteli projeler olan kişiyi hiç proje yapmamış olan kişiye tercih eder işletmeler genellikle.  
+
+Bir kere YBS'nin limitlerini de bilmek gerekiyor. Yazılım ve İşletme-Yönetim hibrit geliyor, evet, ancak YBS'nin esas amacı İş Zekâsı Uzmanı, İK Analisti, Proje Yöneticisi, ERP Uzmanı, CRM gibi alanlarda kişiler yetiştirmek. İnternet üzerinden bu alanların maaşları ortalamaya göre nispeten daha yüksek diyebiliriz. 
+
+Şunu da söyleyim, derslerin iyi olması yalnızca çalışkan bir öğrenci olduğunun delili olur işletmeler için. Mezunların anlattığına göre ortalamaya göre alma gibi bir durum söz konusu değil, ancak staj yapma mevzusunda belirleyici olabiliyor tabii ortalama. 
+
+İngilizce'nin iyi derecede olması şart, zira teknik terimlerin neredeyse hepsi İngilizce ve Fransızca'dan geliyor. Onların kökenine indiğinde zaten ya Yunanca olacaklar ya da Latince. Türkiye'ye bağımlı olmak istemiyorsan İngilizce bilmen şart, ancak bütün bunlar senin iyi bir maaşlı işe girebileceğine yine garanti değil.
+
+Ancak dersleri iyi olan birisinin zaten işsiz kalma ihtimali pek yok, nihayetinde bu dersler seni YBS'nin amaçladığı sektöre hazırlamak üzerine oluşturulan dersler. Sen "Ben YBS mezunu olup siber güvenlikten ya da yazılımdan ilerleyeceğim." dersen YBS'ye uygun değil mesela bu. Ancak yapabilir misin? Evet, bunu da yapabilirsin eğer dersler dışında kendini bu alanlarda geliştirirsen. Misal bizim bölümde kriptografi alanına yönelen var YBS mezunu olanlardan, maaşının da epey iyi olduğunu söylüyor. Aynı şekilde yazılımdan ilerleyen de var.
+
+Yani bütün bunlar esasında senin gelecekte hedeflediğin meslekte kendini ne kadar geliştirdiğin ile ilgili. Okulun o kadar da önemli olduğunu düşünmüyorum, nihayetinde okul sadece "Şurasının mezunu" gibi bir imaj veriyor. Bu imaj toplumda nispeten önemli bir imaj, ancak belirleyici olan bu değil. İngilizcen iyi dereceyse ve derslerini de hakkıyla veriyorsan, bütün bunlar gelecekte kariyer yapmak istediğin alanla uygunsa işsiz kalma ihtimalin pek yok. 

@@ -14,6 +14,8 @@
 - **Diyagram:** İstemcinin isteği gönderdiği, sunucunun bu isteği bir süre beklettiği (`request suspend`) ve yeni bir olay(`some data event`) olduğunda yanıt verdiği diyagram işte.
 - **Dezavantajları:** Short Polling'e göre daha iyi olsa da hâlâ mükemmel değildir. Sunucuda bekleyen istekler kaynak tüketir ve karmaşık bir yapıya sahiptir.
 
+
+> Bu kısımdan sonrasına daha başlanılmadı. YZ notları bunlar:
 ### **2. Çözüm: WebSocket! (Asıl Mesele)**
 
 İşte bu verimsizliği çözmek için WebSocket devreye giriyor. Olay şöyle işliyormuş:
@@ -60,5 +62,3 @@ Bu demo, konuyu tam olarak anlamamı sağladı:
     
 5. Aynı şey yeşil çizim yaptığında mor için de geçerli oldu. İşte bu kadar!
     
-
-**Sonuç:** Kısacası, WebSocket karmaşık bir canavar değilmiş. Sadece doğru iş için, yani gerçek zamanlı iletişim için tasarlanmış çok daha verimli bir protokolmüş. Artık "ne ulan bu" demiyorum

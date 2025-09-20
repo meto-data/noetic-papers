@@ -1,7 +1,4 @@
----
-aliases:
-  - 1- İrade Nedir?
----
+
 ### Fikir, Fiil ve İradenin Doğası
 
 ##### **Temel Süreç:**

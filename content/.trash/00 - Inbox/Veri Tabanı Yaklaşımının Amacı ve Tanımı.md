@@ -1,0 +1,3 @@
+~={cyan}**Amaç**=~: Geleneksel dosya ortamının yol açtığı problemleri çözmek.
+~={cyan}**Tanım**=~: Veri tabanı, **gereksiz verileri kontrol ederek** ve veriyi merkezileştirerek birçok uygulamaya **etkili bir şekilde hizmet etmek için organize edilmiş bir veri topluluğudur**.
+~={cyan}**Temel Fikir**=~: Her uygulama için ayrı dosyalar oluşturmak yerine, veri **tek bir merkezî yerde (veri tabanında)** saklanır ve farklı uygulamalar bu merkezî veri kaynağından yararlanır.

@@ -1,7 +1,4 @@
----
-aliases:
-  - 3- İradenin Güçlendirilmesi ve Nefsin Terbiyesi Mümkün Mü?
----
+
 
 ### Ahlâkın Değişken Doğası ve İrade Terbiyesi
 

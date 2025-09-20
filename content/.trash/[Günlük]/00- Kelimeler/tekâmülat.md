@@ -1,0 +1,1 @@
+(Tekili: Tekâmül) Olgunlaşmalar, tekâmüller.

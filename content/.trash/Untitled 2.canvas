@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"ef0cd8b76d12ae51","x":-140,"y":-200,"width":250,"height":60,"type":"text","text":"Nöronlar"},
+		{"id":"34bf1f9301e41d6b","x":-140,"y":-80,"width":250,"height":60,"type":"text","text":"Beyin"},
+		{"id":"b7ae3234f7849c6d","x":-140,"y":40,"width":250,"height":60,"type":"text","text":"Merkezî sinir sistemi"},
+		{"id":"8c4663f0f3b72efb","x":-140,"y":140,"width":250,"height":60,"type":"text","text":"-Motor nöronlar vasıtasıyla- kaslara veya iç organlara"},
+		{"id":"14689e885aec7d35","x":-140,"y":-320,"width":250,"height":60,"type":"text","text":"İç veya dış uyaranlar"}
+	],
+	"edges":[
+		{"id":"0d9aafce926aef55","fromNode":"14689e885aec7d35","fromSide":"bottom","toNode":"ef0cd8b76d12ae51","toSide":"top"},
+		{"id":"40e77961b2537a3c","fromNode":"ef0cd8b76d12ae51","fromSide":"bottom","toNode":"34bf1f9301e41d6b","toSide":"top"},
+		{"id":"a99537b91e149b89","fromNode":"34bf1f9301e41d6b","fromSide":"bottom","toNode":"b7ae3234f7849c6d","toSide":"top"},
+		{"id":"8a01a9dc2e0799f4","fromNode":"b7ae3234f7849c6d","fromSide":"bottom","toNode":"8c4663f0f3b72efb","toSide":"top"}
+	]
+}

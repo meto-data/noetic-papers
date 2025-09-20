@@ -1,0 +1,1 @@
+Tekâmül etmiş olanlar. Kâmil ve olgun kimseler. Allah'ın emrine uygun şekilde hareketi alışkanlık hâline getirmiş olanlar.

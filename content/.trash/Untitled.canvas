@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"7d8791f747dd3b08","x":-892,"y":-208,"width":250,"height":60,"type":"text","text":""},
+		{"id":"056d62560c59073d","x":-600,"y":-700,"width":250,"height":98,"type":"text","text":"Doğal tekâmül kanunu"}
+	],
+	"edges":[
+		{"id":"fed045497ffd2d83","fromNode":"056d62560c59073d","fromSide":"bottom","toNode":"7d8791f747dd3b08","toSide":"top"}
+	]
+}

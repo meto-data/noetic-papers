@@ -1,0 +1,1 @@
+Hükümdarın şöhreti ve görkemiyle beraber sahip olduğu erdemler yalnızca görüngüde var olsa dahî hükümdarın zâtına olumsuz bir tesirde bulunamaz. Neticesinde görkeminin ve şöhretinin etkisiyle onu karalamaya çalışan kişilerin sesleri son derece sönük kalacak, sesleri yükselmeye başlayan kişiler de iktidarın korunması gibi ‘yüce’ bir amaç uğruna elimine edilecektir.

@@ -1,12 +1,6 @@
 ---
-title: "Ekler"
-slug: "/8-makale-inceleme-ve-ozet/alan-turing-makineler-dusunebilir-mi-/ekler/"
+title: Ekler
 ---
-
-# Ekler
-
-Bu klasörün ana sayfası. Eğer istersen buraya kısa bir açıklama koy.
-
 
 
 ## İçerik

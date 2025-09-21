@@ -1,5 +1,5 @@
 ---
 title: Makale İnceleme ve Özet
-slug:
+draft: true
 ---
 Spesifik olarak makalelere ayrılmıştır. 

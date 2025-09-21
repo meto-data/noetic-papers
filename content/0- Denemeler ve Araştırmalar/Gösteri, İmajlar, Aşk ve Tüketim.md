@@ -1,0 +1,94 @@
+Aşkı, istisnaları saymazsak, yoğun ve derin bir idealize etme süreci olarak tanımlıyorum.
+
+Karşımızdaki kişiyi kafamızda ideal bir düzleme oturtmak için çaba gösteririz. Görünüşünden, sesinden ve hatta yazı yazma üslubundan/biçiminden; süslenmesinden, giyim/kuşamından, **tüketim alışkanlıklarından** yola çıkarız ve onu zihnimizde **mükemmelmişçesine** idealize ederiz.
+
+Erkeklerde idealize etme süreci, istisnaları saymazsak -ki istisna yok denecek kadar azdır- pek çok kez görünüş temelinde gerçekleşir.
+
+_Görünüş_, artık pek çok zaman _görünüş_e değil, **imaj(lar)a** tekâbül etmektedir. Sanal dopamin platformları; insanların zevklerini ve alışkanlıklarını, tüketimlerini, yaptığı şeyleri ve nasıl yapılması gerektiğini; nasıl göründüklerini ve nasıl görünmesi gerektiklerini insanların önüne sunmaktadır. Alternatif bir yol izleyenler, çoğunluğun yaptığının aksini yapanlar ve çoğunluğun zevklerine karşı çıkanlar gösteri toplumundan dışlanırlar.
+
+**Gösteri**, insanları öyle ya da böyle ele geçirmek ister. _Reddedilme, sahip olma isteğini alevlendirir_. **Gösteri toplumu**ndan reddedilen fertler, **yalnızlık** ve **gösteri** arasında seçim yapmak durumunda kalır. Yalnızlık, tinsel olgunluktan yoksun olan pek çokları için külfet ve işkenceden ibarettir.
+
+Yalnızlık, bireyin kendini kandıramadığı **gerçeklik**tir. Yalnızlık, gösteriyi ve gösteri toplumunu idrak etmektir. Yalnızlık, gösterinin yalnızlıktan kaçış olduğunun farkına varmaktır.
+
+Yalnızlık, asketik bir tekâmülden geçmektir. Yalnızlık hem geçiş evresidir hem de sonuçtur. Apollon’un mitostan logosa geçiş evresi olması ve logosu mitostan ayırması -tamamen ayıramasa bile- gibi, yalnızlık da gösteriyi terk edip gerçekliğe geçiş ve gerçekliği gösteriden ayırma evresidir. Bu geçiş/evre, asketik tekâmüle tekâbül etmektedir. Çileli ve münzevice (asketik) bir olgunlaşmanın/evrimin (tekâmül) sonucunda, birbiri içine giren gösteri ve gerçeklik birbirlerinden ayrılır ve gösteriden sıyrılıp gerçekliğe geçilir.
+
+**Gösteri**, insanların _yalnızlık_ tanımına kadar işlemiştir. Gösteri, yalnızlığın kötü olduğunu, yalnız olunduğunda gerçek maskesine bürünen imaj(lar)dan, yani **gerçeklik**ten, **düzgün** bir hayattan feragat edinileceği yanılsamasıyla kuklalarını kandırır.
+
+Gösteri, kendi **”gerçeğinin”** mutluluk olduğunu, onun kapsam alanından çıkan her şeyin acınası, kötü ve ıstırap dolu olduğunu söyler. **İmaj(lar)**dan yararlanan **gösteri**, toplumun ortaklaşa kararıyla vücut bulur ve bu ortaklaşa kararla toplumu ele geçirir.
+
+**Gösteri**, “_bu adam aynı ben”_ sendromunu oluşturandır. **Gösteri**, envaiçeşit medya içeriğini, endüstriyel ürünleri, çeşitli karakteristik davranışları ve görünüşleri bir set hâlinde insanlara “_havalı_”, “_etkileyici_” ve “_çekici_” gibi imajlarla sunar. **Gösteri**, bu davranışlara uymanın o imajları **_elde etmenin_** yolu olduğunu söyleyen bir **kurgusal dünya** sunar.
+
+_“Bu adam aynı ben”_ sendromu bağlamında hareket eden insanlar, öz kişiliklerinden/benliklerinden taviz verirler ve gösterinin birer kölesi ve kuklası olurlar. Gösteriyi var eden insan, gösterinin kuklası olmuş vaziyete gelmiştir. Bu sendrom bağlamında hareket eden kuklalar, çeşitli figürleri ve davranış setlerini uygulamaya çalışır; olmadıkları kişi(ler) gibi davranır. Çünkü **bu figürler ve davranış setleri, çoğunluğun zâtında amaçsız ancak estetik bir imajla, meta-kurgusal bir anlam bulur.** Meta-kurgusal anlama ulaşmak ve çoğunluğun zâtında imaj sahibi olmak isteyen fertler, “bu adam aynı ben” sendromuyla hareket ederek bu imajlara sahip olmaya çalışır.
+
+Gösteri, kendini en etkin ve efektif şekilde medyada gösterir. Medya, imajların ve personaların dünyasıdır. Medyada insanlar kendileri değil, **olmak istedikleri kişiler** gibi davranırlar. Kendilerinden bahsederken **kendilerinden** değil, **_olmak istedikleri kişi_**den bahsederler. **Gösteri**, insanın öz kişiliğinden/benliğinden utanç duymasına sebebiyet verir. **Gösteri**, insanı **hiç olmadığı ve olamayacağı** birisi gibi davranmaya çalışmasına sebebiyet verir. Gösterinin kuklaları istedikleri kişi olamazlar; **çünkü o kişi yalnızca kurgusal dünyada bir imaj olarak vardır.**
+
+Gösterinin kuklası, doğayı temaşa etmez; yalnızca medyayı ve dolayısıyla gösterinin zâtını temaşa eder. Gösterinin bir amacı yoktur. Gösteriyi temaşa eden kukla, dünyaya başkalarının gözünden bakmaya başlar ve kendisinden uzaklaşır: Arzularının ve varoluşunun anlamının ne olduğunu düşünmez ve ona sunulan imajları arzuları olarak kabul etmeye başlar. Ona sunulan imajlarda hakikî bir anlam yoktur; yalnızca gösteriye adapte olmak ve bunun bir parçası olarak var olduğunu cümle âleme göstermek ister.
+
+Var olabilmek, manevî bir çabayı ifade eder. Her ferdin yegâne uğraşı, isteği ve arzusu/tutkusudur manevî bir biçimde var olabilmek ve **varlığını tasdik edebilmek**. İnsan, politik/sosyal bir hayvandır. Var olabilmek için diğer insanları ister yanında. Gösteri, diğer insanları ele geçirir ve kendisi gibi olmayanları gösteriden dışlar. Gösteriyi istememek dışlanmak demektir. Gösteriyi aşağılamak/eleştirmek dışlanmak demektir.
+
+Sürüden/gösteri toplumundan ayrılan kişi, yalnız kalmadığı müddet her daim başka bir sürüye/gösteri toplumuna gider. Sürünün büyüklüğü önemli değildir, önemli olan yalnızca bir sürü olmasıdır. **Gösteri toplumu, gösteriyi kabul edenleri kapsadığı gibi reddedenlerin yüksek çoğunluğunu da kapsar.** Gösteriyi reddedenler, kurgusal gerçekliği reddeden imajları kendilerine rol model olarak belirlerler ve gösteri karşıtı imajların kuklası olurlar. **Gösteri, bu sefer gösteri karşıtlığının yerini alır.** Tıpkı kendisini bir gerçeklik olarak gösterdiği gibi, bu sefer gösteri karşıtlığını da gösteri hâline getirir.
+
+**Gösteri karşıtlığı, zamanla bir gösteri hâline gelir.** Gösteri toplumunun farkında olan bir başka kesim entelektüel mastürbasyon yapmakla meşgul olur ve kendisini kuklalardan üstün görür. Kendilerini kuklalardan üstün gören bu kişiler gösterinin bir başka kuklalarıdır. Döngünün ilerlemesi için **uyuyanlar**, **uyanık olduğunu sananlar** ve **uyanık olanlar**ın olması gerekir. Gösteri, **uyuyanlar**ın ve **uyanık olduğunu sananlar**ın dışavurumudur.
+
+Gösterinin varmak istediği bir amaç yoktur. Gösteri, yalnızca **yenilik** ve **gelişme** ister.  
+**Gösteri, sonu gelmeyen bir tüketimle var olur.** Tüketim için insan gereklidir ve gösteri, insanların imajları tüketmesini ister. İmajlar tüketildiğinde, gösterinin kuklaları veya gösterinin kuklalarını yönetenler yeni imajlar ortaya çıkaracaklardır. Birkaç kuklanın veya kuklaları yönetenlerin çıkardığı imaj yine çoğunluğa ulaşacak ve yine tüketilip aynı sonuç elde edilecektir. İmaj tüketimi, imaj üretimine yol açacak; imaj üretimi de imaj tüketimine. **Gösteri, kendi kendine varan bir totolojiden ibarettir.**
+
+Gösterinin kuklaları, Yunan mitolojisindeki Danaidlerden farksızdırlar. Kazana ellerinden geldiğince su doldururlar ancak hiçbir zaman kazan dolmaz: Çünkü kazan deliklidir. Gösteri, delikli kazana su dolduran kuklaların toplumudur. Su hiçbir zaman dolmaz; çünkü **insan hiçbir zaman tatmin olmaz**. **Hep daha fazlasını isteyecektir ancak bunun anlamsız olduğunu hiç düşünmeyecektir: Çünkü gösteriye ve imajlara kendini o kadar kaptırmıştır ki, kendi varoluşu ve anlamı bile gösteri ve imajlardan, totolojiden ibaret hâle gelmiştir.**
+
+Yalnızlık, her zaman asketik tekâmüle tekâbül etmez. Yalnızlık da artık bir imaja dönüşmüştür. “Yalnız” olarak nitelendirilen meta figürleri “havalı” bir **imaj** hâline getiren gösteri, insanların hakikî yalnızlık ile imajsal yalnızlığı karıştırmasına ve imajsal yalnızlığı hakikî yalnızlık sanmasına neden olur.
+
+İmajsal yalnızlık yaşayan kişi, her ne kadar kendisini insanlardan izole etse bile -kaldı ki kendini birkaç hafta bile izole edemez- endüstriyel ürünler aracılığıyla sosyalleşmeye, boy göstermeye devam eder. Onun için sanal âlemde boy göstermek “yalnızlık” iken gerçek âlemde boy göstermek “yalnızlık” değildir. **Modern insanın yanılgısı, yalnızlığın yalnızca insanlarla sanal âlem olmaksızın etkileşimde bulun(a)mamak olmasını sanmasıdır.**
+
+**Sanal âlemde, yani sosyal medya platformlarında boy göstermeye/var olmaya çalışmak, yalnızlıktan kurtulmanın kurgusal dünyadaki bir tezahürüdür.** Tek kapsamı bu değil; boy göstermeye çalışmak, aynı zamanda ilgi fahişeliğinin de bir tezahürüdür.
+
+Dolayısıyla, imajsal yalnızlıktaki bu kişinin kendini kandırdığı apaçıktır. Hakikî dünyada yalnız kalmaya dayanamayan fert; yalnızlıktan kurtulmak için, “Bakın, ben de yalnızlıkla var oluyorum!” diyebilmek için, yalnız olduğunu cümle âleme duyurabilmek için kurgusal bir âlemde boy göstermeye çalışır. Kendisini kandırır ve bunun farkına varamaz; çünkü gerçek mânâsıyla yalnız değildir, yalnız olsa bile bunu kabullenemez ve gösteriye geri döner; _çünkü reddedilme, sahip olma isteğini alevlendirir_.
+
+**Sanal platformlarda var olmaya çalışmak**, gerçekliğin dışındaki başka bir varoluştur. Çoğu durumda bu, **kişinin asıl varoluşunu tasdik etmesine yarar**. Var olduğunu hakikî gerçeklikte tasdik edemeyen birey, sanal platformlarda bu tasdik eksikliğini giderecektir.
+
+“Kimine göre yalnızlık hastalıktır, kimine göreyse yalnızlık hastalardan kaçıştır.” der Nietzsche, yaklaşık olarak. **Sanal âlemde varlıklarını tasdik etmeye çalışan kişiler, imajların egemenliğindeki şiddetli rüzgârlarla bir o yana bir bu yana sallanırlar**; çünkü **varlığını tasdik etmeye çalışmak**, **toplumun kabullerine göre yaşamaya çalışmaktır ve gösteri,** _var olmanın_ **koşulunu kendisine uymak olarak belirler.** Gösteri hastalığına tutulmuş kişiler, hakikî varlıklarının farkında olsalar bile, varoluşlarını anlamlandıramadan imajların diğer insanlardaki tesirleri üzerinden yola çıkarak, kendisinin de o tesirleri vermesini ister ve **imaj hastalığı**na yakalanır. Bu hasta, kendi gibi olmayanlara hasta demekten kaçınmaz; oysa **gösteri**yi reddeden fertler, bu gibi hastalardan uzakta olmaya çalışmaktadır.
+
+**Gösterinin reddi, pek çok zaman gösteriye dönüşür. Gösterinin esiri olarak gösteriyi reddedenler der ki:** _“Canavarlarla savaşan kişi, canavara dönüşmelidir.”_ Oysa olması gerekeni Nietzsche şöyle söyler: **“Canavarlarla savaşan kişi, dikkat etmelidir ki, kendisi de bir canavara dönüşmesin.”**
+
+Tutarlı olmak, **gösterinin egemenliğinde** tamamıyla _imkânsızdır_. Gerçek ile meta-gerçek/kurgusal gerçek, birbiri içine girmiş vaziyettedir. Gösteri, meta-gerçeklik olan kendi sahte gerçeğini hakikî gerçeklişmişçesine sunar. **Artık insanlar avdır, imajları yönetenler ise avlanan**.
+
+Toplumu dejenere edip manevî değerleri yozlaştırmanın yolu, gösterinin sunduğu meta-ironi ve meta-mizah ile gerçekleşir. Meta-ironi ve meta-mizah ile zehirlenen fertler, bu metaları kendilerine ve topluma **gerçeklik** olarak lanse ederler. Gösterinin **“gerçekliğine”** uymayanlar ise, daha önce de değinildiği gibi, **gösteri** tarafından dışlanırlar. _Reddedilme_ ise, daha önce de değinildiği gibi, _sahip olma isteğini alevlendirir_.
+
+Toplum tarafından kabul görme istemi hafife alınmamalıdır. Bu istem, öyle bir istemdir ki, kişinin kendi karakterinden vazgeçip çeşitli imajları benimsemesine sebebiyet vermektedir. Bu imajlar, **toplumun tamamı** tarafından kabul görmeyi **sağlamasa** bile, kişinin **reddedildiği** grup tarafından, **_dâhil olmak istediği_** grup tarafından kabul görmesini sağlayacaktır.
+
+İlk başta kendine özgü düşüncesini belirten fert, gösteriden reddedildiğinde bu düşüncesini ya **gösteriye** uyarlayacaktır, ya tamamıyla **reddedecektir** ya da kendine özgü düşüncesi uğruna **yalnız** kalmaktan çekinmeyerek cüretkâr bir tavır takınacaktır. Zaman içerisinde aşamalarda atlamak, öbüründen öbürüne geçmek önemli değildir; önünde sonunda birinden birini seçmesi gerekecektir.
+
+Nihayetinde, tıpkı demokraside olduğu gibi, sanal âlemde de çoğunluğun dediği geçerli olur. **Sanal âlemdeki diktatör çoğunluktur.** Anarşist kesimler, bu diktatörlerin dediklerini kâle almazlar ve kendi grupları içerisinde bir otorite kurarlar. Gösterideki anarşistler, gösteri toplumunda yaşamalarına rağmen bu toplumun karşısında yer alırlar.
+
+Anarşistler der ki: _“Kahrolsun gösteri!”_, ancak bu çelişkilidir. Zira kendileri gösteriyi kahrederken bile bunu **gösteri**nin esiri olarak yaparlar. Henüz kartal değiller, ancak uçurumların üzerinde uçmaya çalışıyorlar. Kanatlarını çırpamadıkları için gözlerinin içine bakıyor uçurum ve içine içine çekiyor onları. _“Uzun süre uçuruma bakarsan, uçurum da sana bakar,”_ der Nietzsche. Ve aynı şekilde, _“Kuş olmayan, uçurumların üzerine yerleşmemeli,”_ der Nietzsche. **Henüz kuş olamayanın uçurumlarda uçmak ne haddine -peki ya öyle mi?**
+
+Kafa tutacak cesaretleri var gösteriye: Ancak bu bile yandaşlarından aldığı destekle ortaya çıkan bir cesarettir. **Yandaşları ve kendisinin grubu, gösteriye hizmet eden gösteri karşıtı bir gruptur. Gösteri, kendisine karşıt olan grupları da kontrol eder.**
+
+İdrak eden kişi de dolaşmaktadır elbet **gösteri toplumu**nun içerisinde. Ne kadar dile getirse de gösteriyi gösteri toplumuna, anlamaz onlar; idrakleri yoksun olduğundan değil, **r e d d e d i l m e m e** isteklerinin idrak etme isteklerinden fazla olmasından dolayı.
+
+Peki ya sahiden hayvanların arasındaymış gibi mi dolaşmaktadır **idrak eden kişi** gösteri toplumunun arasında? Nedir ki insanı hayvandan ayıran? Hayvan, görünüşleri kullanır; oysa **insan, görünüşleri kullanabilme yetisini anlamlandırabilmeye/anlamaya sahiptir.** İmajları kullanan ve onların asılları hakkında tefekkür etmeyen gösteri toplumunun bazı fertleri, **_bu bakımdan_** hayvandan farksız olabilir mi? Bir domuzu insan bedenine koyduğunuzda o da gündelik hazlarını tatmin etmeye dayalı bir hayat yaşıyorsa, **_bu bakımdan,_** aynı hayatı yaşayan gösteri toplumunun bazı fertleri, hayvandan farksız olabilir mi?
+
+— — — — —
+
+Gösteri, kendini medyada en bariz biçimde **aşkta** ve **aşk sanılan**da göstermektedir. Medyadaki **aşk** güzellemeleri, fizikî olarak tek tipliliğe hitap etmekten öteye geçemez. Kişinin kaşına/gözüne, beline, giyimine/kuşamına, saç rengine, yüz hatlarına, burun şekline ve **_aşk sanılan_ çekiciliğe, imajına** vb. dayanarak **_olması gereken_** ilişkinin ne olduğunu söylemektedir **gösteri**.
+
+**Gösteri**, _”Bu şöyle güzel, buna aşık olmalısın,”_ der. Bu, kuru bir deyiş olduğundan, kendi başına bir harekette bulunduramaz insanı. **Gösteri**, burada da **imajlar**dan yararlanır. Güzel olanı öylesine betimler ve insanların öylesine birbirinin tıpkısı görünüşlere karşı yoğun duygular hissetmelerini sağlar ki, kişi, gerçekten kendi isteğiyle mi o görünüşten hoşlandığını yoksa **gösteri** **yüzünden** mi ondan hoşlandığını anlamaz — _anlamayı bırak, bunu düşünmez bile_.
+
+**Gösteri**nin sunduğu ilişkiler, **tüketim** ilişkisinden öteye geçmez. Zira karşı tarafta dikkat edilen unsurlar yalnızca **_tüketilecek_** unsurlardır. Dizi/film zevki, dış görünüşü, kurgusal gerçeklikte varlığını tasdik ediş biçimi: Bunların hepsi **tüketim** unsurlarıdır. **Tüketim ilişkileri, birbirlerini tüketene kadar devam eder; tüketildiğinde ise, _ayrılık evresi başlar_**.
+
+Erkek gözünden baktığımızda, kadında dış görünüşün önemli olduğu inkar edilemez. Ancak **_yalnızca_** dış görünüşünün, **_tüketim alışkanlıkları_**nın ve **_imajların egemenliğindeki_ görünüşlerin önemli olduğu** pekâlâ inkar edilebilir. Tüketim ilişkileri, kısa vadeli ilişkilerdir; nihayetinde, bu ilişkilerin kısa vadeli olacağı marjinal faydanın zamanla azalacağından apaçıktır.
+
+İdealize etme süreci, tüketim alışkanlıklarından yola çıkarak gerçekleşir. Tüketim alışkanlıkları, **gösteri**de birtakım **imajlar**a tekâbül etmektedir. Bu **imajlar**ın kişide hissettirdikleri, o tüketim alışkanlıklarını gerçekleştiren ve **o imaja benzeyen** başka bir ferdi gördüğünde de çoğu zaman hissedilecektir. O imajdaki kişiye **sahip** **olmayı**, onunla _birlikte olmayı_ romantize edecek ve işte bu da bizi idealize etme sürecine götürecektir.
+
+Böylelikle _”modern_” çağın **aşk** olarak nitelediği yeni bir kavram ortaya çıkmış oldu: İmaja sahip olma isteği. Ve öncelerde değinildiği gibi, _reddedilme, sahip olma isteğini alevlendirir._
+
+Yine öncelerde değinildiği gibi, **gösteri**deki kişiler sahtedir; olmak istedikleri imajlar gerçeği yansıtmamaktadır. Bu nedenledir ki, romantik ilişkiye başladıktan sonra zamanla şu fark edilecektir: Aslında bu kişi **tasavvur edilen imaja** tekâbül etmiyor! Tüketim alışkanlıklarından ve görünüşünden yola çıkarak onu belirli bir imajla özdeşleştirmeye, kafasında idealize etmeye çalışmış ve hatta bunu gerçekleştirmişti. Ancak sonuç ne oldu? İdealize ettiği şey **gösterinin, kurgusal gerçekliğin** dışındaki hiçbir şeye tekâbül etmiyor. **Gösteri**deki _imajların_ **_gerçek dünyada_** bir karşılığı yok.
+
+Bu durumda tek taraflı bir ayrılık gerçekleşmekte ve karşıyı tüketebileceği kadar tüketen kişi başka tüketim unsurları aramaya koyulmaktadır. Tüketmeye devam eden ise, karşı tarafı henüz yeteri kadar tüketemediğinden, hâlen o imaja sahip olmak isteyecektir. “_Reddedilme, sahip olma isteğini alevlendirir.”_ Hâlen tüketmek isteyen kişinin gösterdiği semptomlar uyuşturucu bağımlısının gösterdiği semptomlarla aynıdır. Uyuşturucu bağımlısı, belirli bir doza ulaştıktan sonra onu daha da artırır ve uyuşturucusu elinden alındığında oyuncağı elinden alınan bir bebek gibi tepkiler vermeye başlar; aynı şekilde, birbirlerini tüketen kişiler de yeteri kadar tükettiklerinde ya başka şeyleri tüketmeye başlarlar ya da _marjinal faydası daha fazla olan_ **imajlar**ı tüketmeye başlarlar. Zaten bu yüzden ayrılık gerçekleşir: **_Başka_** **imajlar**ı **_tüketmek için_**. Tüketimleri ellerinden alındıklarında ise bebek gibi sızlanmaya, ağlamaya ve yeri geldiğinde öfkelenmeye başlarlar.
+
+**İnsanlar, denenmemiş olanlardan ziyade denenmiş olanlardan ilerlemeye meyillidirler**. Aynı şekilde, t**üketim alışkanlıklarını değiştirmek yerine tükenmişlik hissedene değin onları tüketmek isterler.** Bu bakımdan hâlen tüketmek isteyen kişinin neden başkasını tüketmek yerine kendisini bırakanı tüketmek istediği açıklanabilir.
+
+---
+
+Şu ana kadar yapılan **gösteri** ve **tüketim _yorumu_** bir nevi **durum tespitinden** öteye geç(e)medi. Öyle de olmalı; çünkü bunun pek bir çözümü yok. Zamanın akışı içerisinde **gösteriye** _bağımlılık_ süregelmeye devam edecek. Yapabileceğimiz/yapabileceğiniz pek bir şey mevcut değil. Yalnızca **gösteri** ve unsurlarını anlamaya; anlamaktan da öte, idrak etmeye çalışabiliriz. Kendi varoluşumuzu **kurgusal gerçeklik**te tasdik etmeye gerek duymamayı öğrenebiliriz. Gösterinin sunduğu imajları reddetmeye ve kendi karakterimizi oluşturmaya çalışabiliriz. İmajların bize sunduğu tüketim ilişkilerinden kaçınmayı öğrenebiliriz Bu, gerçekten de, modern dünyada verilmesi gerekli en mukaddes savaştır kanımca.
+
+Çözüm önerisine gelirsek, bu metin yalnızca kendimce yaptığım bir durum tespitinden öte bir şey değil. O yüzden çözüm önerisi bu metnin bir meselesi değil. 

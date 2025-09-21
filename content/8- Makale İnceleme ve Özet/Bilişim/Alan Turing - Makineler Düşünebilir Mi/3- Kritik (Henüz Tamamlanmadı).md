@@ -1,3 +1,8 @@
+---
+draft: true
+---
+
+
 Ayriyeten o dönemde Batı literatüründe sıkça iddia edilen bir yanlışı -ki kendisi yanlış olduğunu bilmiyor- da gündeme getirmektedir, güya Müslümanlar kadının ruhu olmadığını söylüyormuş. Burada da hata yapıyor. 
 >	
 

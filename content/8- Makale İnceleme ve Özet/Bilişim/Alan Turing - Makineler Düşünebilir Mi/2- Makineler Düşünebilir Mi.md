@@ -131,6 +131,8 @@ Bu örneklerle mahiyet ile görüngü arasındaki farkın ne kadar uç noktada o
 #### **6. Lady Lovelace'in İtirazı (Lady Lovelace's Objection)**
 - **Öz**: (Ada Lovelace'in, Charles Babbage'ın Analitik Motoru hakkında yazdığı nota dayanarak) "Analitik Motor'un herhangi bir şeyi **orijinal olarak yaratma** iddiası yoktur. Sadece ona nasıl yapmasını emrettiğimiz şeyleri yapabilir." Yani makineler yaratıcı olamazlar, yalnızca programlandıkları şeyleri yaparlar o kadar. Bu itirazın bir çeşitlemesi olarak da bizi asla şaşırtamazlar denilir.
 
+-> Burası yarım kaldı.
+
 #### **7. Sinir Sisteminin Sürekliliğinden Doğan Argüman (Argument from Continuity in the Nervous System)**
 - **Öz**: "İnsan beyni ve sinir sistemi ayrık (discrete) çalışan bir makine değildir; bilakis sürekli (continuous) çalışan analog bir sistemdir. Bir nörona gelen sinyalin voltajındaki ufacık bir değişiklik çıkan sinyalde devasa bir fark yaratabilir. Dijital bilgisayarlar ise 0'lar ve 1'ler gibi kesin adımlarla çalışır. Bu yüzden doğası gereği sürekli olan bir sistemi, doğası gereği ayrık olan bir sistemle asla tam olarak taklit edemezsiniz."
 - **Turing'in Cevabı:** Turing bu temel farkı kabul eder, ancak Taklit Oyunu bağlamında bunun **pratikte bir önemi olmadığını** savunur.
@@ -158,3 +160,6 @@ Bu itiraz aslında testin geçerliliğini de bir bakımdan sorgulamaktadır. Eğ
 - Diğer itirazların aksine Turing bu argümanı felsefî olarak çürütmeye çalışmaz, hatta o dönemdeki istatistiksel kanıtları ciddiye alarak bu argümanı oldukça güçlü olarak nitelendirir. Turing'in esas amacı deneyin geçerliliği korumak olduğundan testin ölçmek istediği zekâ değişkenine indirgeyecektir durumu.
 - **Turing'in Yanıtı**:
 	- Eğer testin adil koşullarını bozan hârici ve kontrolsüz bir fenomen varsa yapılacak şey o fenomeni deneysel olarak izole etmektir. "Eğer sorgulayıcı kendi kendine konuşuyor ve yarışmacılardan biri duvardan onu dinliyorsa, bu bir zekâ testi olmaz." Yarışmacıları **'telepati geçirmek bir oda**'ya koymak tüm gereklilikleri karşılayacaktır.
+
+
+	Burada kaldık, argümanlar bu kadar. Diğer sayfalara geçmeden önce kritiği taslaktan çıkar. Sonrasında devam et.

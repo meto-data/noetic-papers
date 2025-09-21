@@ -1,6 +1,3 @@
----
-draft: true
----
 
 
 Sosyal medyada malumunuz bilgiler epey dezenformasyona uğramakta. Maslow'un motivasyon teorisi de bundan yıllardır epey nasibini almış konumda desek yeridir. Maslow'un "A Theory of Human Motivation" adlı makalesine dayanarak pek çoklarının "Maslow'un Piramidi/İhtiyaçlar Hiyerarşisi" adıyla da andığı motivasyon teorisine değineceğiz.

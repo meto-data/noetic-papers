@@ -1,5 +1,3 @@
-
-
 Sosyal medyada malumunuz bilgiler epey dezenformasyona uğramakta. Maslow'un motivasyon teorisi de bundan yıllardır epey nasibini almış konumda desek yeridir. Maslow'un "A Theory of Human Motivation" adlı makalesine dayanarak pek çoklarının "Maslow'un Piramidi/İhtiyaçlar Hiyerarşisi" adıyla da andığı motivasyon teorisine değineceğiz.
 
 İlkin kategorizasyona değinelim. Bilhassa biz yönetim biliminde motivasyon teorilerini içerik (content) teorileri ve kapsam (process) teorileri olmak üzere ikiye ayırıyoruz. İçerik teorileri insanların _ne_ tarafından motive olduğuna odaklanırken kapsam teorileri insanların _nasıl_ motive olduğuna odaklanır. Maslow'un motivasyon teorisini içerik teorileri bağlamında değerlendiriyoruz, zira o da nasıl motive olduğuna değil, ne tarafından motive olduğuna odaklanmaktadır.
@@ -8,13 +6,13 @@ Bilindiği üzere fizyolojik ihtiyaçlar, güvenlik ihtiyaçları, sevgi ihtiya�
 
   
 
-## Temel İhtiyaçların Karşılanması İçin Ön Koşullar
+### Temel İhtiyaçların Karşılanması İçin Ön Koşullar
 
 Konuşma özgürlüğü, başkalarına zarar verilmediği sürece istediğini yapabilme özgürlüğü, kendini ifade etme özgürlüğü, araştırma ve bilgi edinme özgürlüğü, kendini savunma özgürlüğü, adalet, hakkaniyet, dürüstlük, grup içinde düzen gibi birçok koşulu Maslow'un temel ihtiyaçların için ön şart koştuğu koşullardır (Maslow, 1943: 11).
 
 Bu koşulların kendi başına bir amaç olmadığını da söylemek gerekiyor. Maslow'un bu koşulları öne sürmesinin sebebi bunlar olmadan temel tatminlerin ciddi tehlike altında olmasıdır. Konu ile ilgili bazı istisnalara değinirken ön koşullara tekrar değineceğiz.
 
-# Fizyolojik İhtiyaçlar
+## Fizyolojik İhtiyaçlar
 
 Nefes almak, su, gıda, homeostaz, uyku gibi ihtiyaçlardır. Maslow bu ihtiyaçların bir listesini yapmanın pek mümkün olmadığını dile getirmekte. Eğer bu ihtiyaçlar hiç tatmin edilmezse ortalama bir insan için özgürlük, sevgi, toplumsal saygı gibi kavramların pek bir değeri olmayacağını da söylemek gerekir. Ancak bu her insan için böyle değildir, ve tamamen tatmin edilmesine de gerek yoktur. Her ihtiyaç için bu durum geçerlidir, istisnalarına ve hiyerarşinin katı olup olmadığına ileride bakacağız (Maslow, 1943: 4).
 
@@ -22,7 +20,7 @@ Ancak buraya bir parantez açmak gerekiyor ki o da cinsellik. Cinsellik özü it
 
   
 
-# Güvenlik İhtiyaçları
+## Güvenlik İhtiyaçları
 
 Fizyolojik ihtiyaçlar yeterince karşılandığında bu sefer güvenlik ihtiyaçları istenmeye başlar. Güvenlik ihtiyaçları sadece fiziksel tehlikelerden korunmayı değil aynı zamanda düzen, istikrar, öngörülebilirlik gibi faktörleri de içerisine alır. Bu ihtiyaç en çok çocuklarda gözlemlenmektedir (Maslow, 1943: 6-7). Bu ihtiyaçların çocuk yaşta olumsuz yönde etkilenmesi geleceği de etkileyecektir. Söz gelişi, ebeveynleri sürekli kavga eden bir çocuk ev ortamında kendini güvende hissetmez. Bu durum onun için dünyanın tehlikeli ve istikrarsız bir yer olduğu algısını pekiştirebilir. Fark edildiği üzere yetişkinlerden bir örnek vermedik, zira yetişkinlerde ekseriyetle bu ihtiyaç tatmin olmuş vaziyettedir. Temel tehditlerden (cinayet, zorbalık, vahşi hayvanlar, saldırı, suçlular) uzak olma, huzurlu ve sorunsuz işleyen bir toplum bu ihtiyacı büyük ölçüde karşılar. Bundan dolayı çoğu sağlıklı, normal ve şanslı yetişkinde güvenlik ihtiyacı görünmez desek yeridir. Nevrotik veya nevrotiğe yakın bireylerde, ekonomik ve sosyal olarak ezilenlerde daha ziyade bu ihtiyacın eksikliği görülmektedir (Maslow, 1943: 8-9).
 
@@ -34,19 +32,19 @@ Sevgi ihtiyaçları hem sevgi vermeyi hem de sevgi almayı kapsar. Arkadaşlar, 
 
   
 
-# Saygı İhtiyaçları
+## Saygı İhtiyaçları
 
 Birey sadece grubun bir üyesi olmakla yetinmez; aynı zamanda o grup içinde değerli ve yetkin bir birey olarak da tanınmak ister. Maslow'un bu ihtiyacı  kendine saygı  ve  başkalarından saygı  olmak üzere ikiye ayırmaktadır. İlkine gücü, başarıyı, yeterliliği, özgüveni vb. faktörleri ekleyebiliriz. İkincisine ise itibar, prestij, statü, tanınma, takdir ve önem arzusu gibi faktörleri ekleyebiliriz. Bu ihtiyaçların temelinde gerçek kapasiteye, başarıya ve başkalarının hak edilmiş saygısına dayanan sağlam bir öz değer duygusu yatar diyebiliriz (Maslow, 1943: 10).
 
   
 
-# Kendini Gerçekleştirme İhtiyacı
+## Kendini Gerçekleştirme İhtiyacı
 
 Diğer tüm ihtiyaçlar büyük ölçüde karşılansa dâhi insan eğer potansiyeline uygun olanı yapmıyorsa yeni bir huzursuzluk ve tatminsizlik ortaya çıkacaktır. Maslow bunu kısaca "Bir insan ne olabilirse o olmalıdır." demektedir. Kişinin potansiyelindeki kendini gerçekleştirme eğilimidir bu. "Kişinin giderek daha fazla olduğu kişi olma, olabileceği her şey olma arzusu" olarak da ifade edilebilir (Maslow, 1943: 10).
 
   
 
-# Bilme ve Anlama Arzusu
+## Bilme ve Anlama Arzusu
 
 Bu arzuları tam olarak kavrayabilmek için başta değindiğimiz ön koşulları üstünkörü tekrar hatırlamakta fayda var. Konuşma özgürlüğü, araştırma özgürlüğü ve adalet gibi koşullar temel ihtiyaçların karşılanması için bir zemin oluşturuyordu. Bu zemin aynı zamanda insanın bilişsel merakının da filizlendiği yerdir. İfade özgürlüğünün olmadığı bir toplumda bir bireyin sadece güvenlik ihtiyacı değil, aynı zamanda gerçeği arama ve anlama arzusu da körelir (Maslow, 1943: 11). Bu bağlamda bilişsel ihtiyaçlar hem diğer ihtiyaçların bir sonucu hem de onların sağlıklı bir şekilde karşılanmasının bir devamı niteliğindedir.
 
@@ -62,7 +60,7 @@ Maslow'un motivasyon teorisi hakkında bilhassa en büyük yanılgılar hiyerar�
 
   
 
-# İstisnalar
+## İstisnalar
 
 1. __Saygının Sevgiden Önce Gelmesi__: Bazı kimseler için sevgi ihtiyacından öne saygı gelebilir. Bu kişilerin bu durumu sevilecek bir insan olmanın yolunun güçlü, özgüvenli ve saygı uyandıran biri olmaktan geçtiği inancına dayanması muhtemeldir Maslow'a göre. Bu durumda sergiledikleri özgüvenli ve iddialı davranışlar esasında sevgi arayışına hizmet eden birer araçtır denilebilir (Maslow, 1943: 13).
 
@@ -74,7 +72,7 @@ Maslow'un motivasyon teorisi hakkında bilhassa en büyük yanılgılar hiyerar�
 
 5. __İdealist Kişiler__: Hiyerarşideki en büyük istisna idealist, yüksek sosyal standartları olan kişilerdir. Bu kişilerin durumunu ihtiyaçlarının uzun süre tatmin edilmiş olmasıyla anlaşılabilir olduğunu söylüyor genel olarak Maslow. Söz gelişi, hiç kronik açlık yaşamamış insanlar yemeği önemsiz bir şey olarak görüp kendilerini onur, özgürlük gibi daha yüce bir ideal uğruna açlığa mahkûm edebilirler. Maslow'un deyimiyle bu kişiler idealleri uğruna karşı çıkılmayı atlatabilen, kamuoyuna karşı çıkabilen, büyük bedeller ödeyecek olmalarına rağmen (birçok temel ihtiyacın tatmin edilememesi gibi) gerçeği savunabilen; nefrete, reddedilmeye ve zulme karşı koyabilen, hatta şehit dâhi olabilen kişilerdir (Maslow, 1943: 14).
 
-# Göreceli Doyum: "Ya Hep Ya Hiç" Putu
+## Göreceli Doyum: "Ya Hep Ya Hiç" Putu
 
 İhtiyaçların karşılanması bir "açma-kapama" düğmesi gibi çalışmaz. Yani bir ihtiyaç %100 tatmin edilip sonra bir sonrakine geçilmez. Gerçek hayatta normal birey tüm temel ihtiyaçlarında aynı anda kısmen doymuş ve kısmen doymamış durumdadır.
 
@@ -84,7 +82,7 @@ Bu oranlar tabii ki söz gelişidir, o noktanın altını çizelim. Bu örnek bi
 
   
 
-# Diğer Hususlar (Çoklu Motivasyon, Doyurulmuş İhtiyaçlar vb.)
+## Diğer Hususlar (Çoklu Motivasyon, Doyurulmuş İhtiyaçlar vb.)
 
 Cinsellik hususunda biraz değindiğimiz gibi, çoğu davranış esasında çoklu motivasyonludur, yalnızca tek bir ihtiyaç tarafından motive edilmezler. Söz gelişi, yemek yeme eylemi sadece açlığı gidermek (fizyolojik) için değil, aynı zamanda kendini rahatlatmak (güvenlik) yahut sosyalleşmek (sevgi) için de yapılabilir. Yine cinselliğe tekrar değinirsek o da yalnızca saf cinsel boşalma (fizyolojik) için değil, güç hissetme (saygı) ve yakınlık kurma (sevgi) gibi birçok farklı ihtiyacın dışavurumu olabilir (Maslow, 1943: 15).
 

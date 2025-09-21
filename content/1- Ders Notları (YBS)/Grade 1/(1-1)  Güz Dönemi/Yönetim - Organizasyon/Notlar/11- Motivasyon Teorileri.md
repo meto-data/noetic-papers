@@ -4,6 +4,13 @@
 # İçerik/Kapsam Teorileri
 
 ### a) [[Maslow'un İhtiyaçlar Hiyerarşisi]]
+
+---
+
+**Ayrıntılı bilgi için detaylıca inceleme yaptığım denememi okumanız tavsiye edilir: [[Maslow'un Motivasyon Teorisi -ya da İhtiyaçlar Hiyerarşisi-]]**
+
+---
+
 - Maslow, insan ihtiyaçlarını 5 seviyede sıralar. İş yerinde motivasyon bu ihtiyaçların karşılanma düzeyine bağlıdır. Ancak vurgulanması gereken nokta şudur ki, bu ihtiyaçların gerçekleşmesi için bazı ön koşullar vardır.
 - Bu ön koşullar **ifade özgürlüğü**, **başkalarına zarar vermemek koşuluyla istediğini yapabilme özgürlüğü**, **araştırma** ve **bilgi edinme özgürlüğü**, **kendini savunma, adalet, hakkaniyet, dürüstlük** ve **düzen**dir. 
 	- Maslow, bu ön koşullar gerçekleşmeden hiyerarşinin düzgünce işlemeyeceğini dile getirir.

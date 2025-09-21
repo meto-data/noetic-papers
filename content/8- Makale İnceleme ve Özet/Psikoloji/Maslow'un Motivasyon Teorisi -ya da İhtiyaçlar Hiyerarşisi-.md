@@ -1,3 +1,8 @@
+---
+draft:true
+---
+
+
 Sosyal medyada malumunuz bilgiler epey dezenformasyona uğramakta. Maslow'un motivasyon teorisi de bundan yıllardır epey nasibini almış konumda desek yeridir. Maslow'un "A Theory of Human Motivation" adlı makalesine dayanarak pek çoklarının "Maslow'un Piramidi/İhtiyaçlar Hiyerarşisi" adıyla da andığı motivasyon teorisine değineceğiz.
 
 İlkin kategorizasyona değinelim. Bilhassa biz yönetim biliminde motivasyon teorilerini içerik (content) teorileri ve kapsam (process) teorileri olmak üzere ikiye ayırıyoruz. İçerik teorileri insanların _ne_ tarafından motive olduğuna odaklanırken kapsam teorileri insanların _nasıl_ motive olduğuna odaklanır. Maslow'un motivasyon teorisini içerik teorileri bağlamında değerlendiriyoruz, zira o da nasıl motive olduğuna değil, ne tarafından motive olduğuna odaklanmaktadır.

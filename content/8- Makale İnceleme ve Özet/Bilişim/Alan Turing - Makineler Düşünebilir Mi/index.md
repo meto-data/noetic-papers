@@ -1,6 +1,7 @@
 ---
 title: Alan Turing - Makineler Düşünebilir Mi
 slug:
+draft: true
 ---
 
 # Alan Turing Makineler Düşünebilir Mi

@@ -24,7 +24,7 @@
 > "(...) öncelikle, görünüş nedeniyle telaşa kapılarak aceleci davranmayın ve şunu söyleyin: "Durun ey görünüşler! Kim olduğunuzu ve ne anlattığınızı bileyim, durun da sizi sınayayım."
 
 
-- Stoa, biat felsefesi değildir. Kinizm -daha doğrusu Diogenes- kadar marjinal olmasa dahî biat unsurunu içermez, tiranlara boyun eğmez.
+- Stoa, biat felsefesi değildir. Kinizm -daha doğrusu Diogenes- kadar marjinal olmasa dâhi biat unsurunu içermez, tiranlara boyun eğmez.
 - Ruh = Soluk 
   Ruh = Beden
 - Soluk-nefes, bedene hizmet eder?

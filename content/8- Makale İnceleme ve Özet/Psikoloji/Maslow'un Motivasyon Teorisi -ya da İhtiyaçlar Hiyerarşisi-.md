@@ -42,7 +42,7 @@ Birey sadece grubun bir üyesi olmakla yetinmez; aynı zamanda o grup içinde de
 
 # Kendini Gerçekleştirme İhtiyacı
 
-Diğer tüm ihtiyaçlar büyük ölçüde karşılansa dahî insan eğer potansiyeline uygun olanı yapmıyorsa yeni bir huzursuzluk ve tatminsizlik ortaya çıkacaktır. Maslow bunu kısaca "Bir insan ne olabilirse o olmalıdır." demektedir. Kişinin potansiyelindeki kendini gerçekleştirme eğilimidir bu. "Kişinin giderek daha fazla olduğu kişi olma, olabileceği her şey olma arzusu" olarak da ifade edilebilir (Maslow, 1943: 10).
+Diğer tüm ihtiyaçlar büyük ölçüde karşılansa dâhi insan eğer potansiyeline uygun olanı yapmıyorsa yeni bir huzursuzluk ve tatminsizlik ortaya çıkacaktır. Maslow bunu kısaca "Bir insan ne olabilirse o olmalıdır." demektedir. Kişinin potansiyelindeki kendini gerçekleştirme eğilimidir bu. "Kişinin giderek daha fazla olduğu kişi olma, olabileceği her şey olma arzusu" olarak da ifade edilebilir (Maslow, 1943: 10).
 
   
 
@@ -66,13 +66,13 @@ Maslow'un motivasyon teorisi hakkında bilhassa en büyük yanılgılar hiyerar�
 
 1. __Saygının Sevgiden Önce Gelmesi__: Bazı kimseler için sevgi ihtiyacından öne saygı gelebilir. Bu kişilerin bu durumu sevilecek bir insan olmanın yolunun güçlü, özgüvenli ve saygı uyandıran biri olmaktan geçtiği inancına dayanması muhtemeldir Maslow'a göre. Bu durumda sergiledikleri özgüvenli ve iddialı davranışlar esasında sevgi arayışına hizmet eden birer araçtır denilebilir (Maslow, 1943: 13).
 
-2. __Doğuştan Yaratıcılık__: Yine bazı kimselere için diğer temel ihtiyaçlar karşılanmamış olsa dahî yaratıcılık dürtüsünü her şeyin üstünde tutabilirler pekâlâ. Bu kişiler için yaratıcılık temel ihtiyaların doyurulmasıyla ortaya çıkan bir lüksten ziyade her koşulda var olan ve nispeten bastırılamaz bir itkidir (Maslow, 1943: 13).
+2. __Doğuştan Yaratıcılık__: Yine bazı kimselere için diğer temel ihtiyaçlar karşılanmamış olsa dâhi yaratıcılık dürtüsünü her şeyin üstünde tutabilirler pekâlâ. Bu kişiler için yaratıcılık temel ihtiyaların doyurulmasıyla ortaya çıkan bir lüksten ziyade her koşulda var olan ve nispeten bastırılamaz bir itkidir (Maslow, 1943: 13).
 
 3. __Aspirasyon Seviyesinin Kalıcı Olarak Düşmesi__: Hayatı boyunca kronik işsizlik gibi zorluklar yaşamış birey daha üst düzeydeki hedeflerini tamamıyla kaybedebilir. Bu kişi için hayatının geri kalanında yalnızca yeterli besine sahip olmak kalıcı bir tatmin kaynağı olabilir ve daha fazlasını arzulamaz hâle gelebilir (Maslow, 1943: 13).
 
 4. __Sevgi İhtiyaçlarının Kalıcı Kaybı__: Maslow'un "psikopatik kişilik" olarak adlandırdığı durum da istisnaya bir örnek teşkil eder. Hayatlarının ilk aylarında sevgiden tamamen mahrum kalmış insanlar sevgi verme ve alma arzusunu ve yeteneğini kalıcı olarak yitirebilirler (Maslow, 1943: 13).
 
-5. __İdealist Kişiler__: Hiyerarşideki en büyük istisna idealist, yüksek sosyal standartları olan kişilerdir. Bu kişilerin durumunu ihtiyaçlarının uzun süre tatmin edilmiş olmasıyla anlaşılabilir olduğunu söylüyor genel olarak Maslow. Söz gelişi, hiç kronik açlık yaşamamış insanlar yemeği önemsiz bir şey olarak görüp kendilerini onur, özgürlük gibi daha yüce bir ideal uğruna açlığa mahkûm edebilirler. Maslow'un deyimiyle bu kişiler idealleri uğruna karşı çıkılmayı atlatabilen, kamuoyuna karşı çıkabilen, büyük bedeller ödeyecek olmalarına rağmen (birçok temel ihtiyacın tatmin edilememesi gibi) gerçeği savunabilen; nefrete, reddedilmeye ve zulme karşı koyabilen, hatta şehit dahî olabilen kişilerdir (Maslow, 1943: 14).
+5. __İdealist Kişiler__: Hiyerarşideki en büyük istisna idealist, yüksek sosyal standartları olan kişilerdir. Bu kişilerin durumunu ihtiyaçlarının uzun süre tatmin edilmiş olmasıyla anlaşılabilir olduğunu söylüyor genel olarak Maslow. Söz gelişi, hiç kronik açlık yaşamamış insanlar yemeği önemsiz bir şey olarak görüp kendilerini onur, özgürlük gibi daha yüce bir ideal uğruna açlığa mahkûm edebilirler. Maslow'un deyimiyle bu kişiler idealleri uğruna karşı çıkılmayı atlatabilen, kamuoyuna karşı çıkabilen, büyük bedeller ödeyecek olmalarına rağmen (birçok temel ihtiyacın tatmin edilememesi gibi) gerçeği savunabilen; nefrete, reddedilmeye ve zulme karşı koyabilen, hatta şehit dâhi olabilen kişilerdir (Maslow, 1943: 14).
 
 # Göreceli Doyum: "Ya Hep Ya Hiç" Putu
 

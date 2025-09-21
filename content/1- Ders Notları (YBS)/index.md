@@ -1,5 +1,4 @@
 ---
 title: 1- Ders Notları (YBS)
 ---
-
-YBS dersindeki ders notları falan filan.
+Yönetim Bilişim Sistemleri ders notları özelinde ilerliyor. Ara sıra ders notlarından saparak ilave eklemeler de yapıyorum, özgün tarafı bu denilebilir. 

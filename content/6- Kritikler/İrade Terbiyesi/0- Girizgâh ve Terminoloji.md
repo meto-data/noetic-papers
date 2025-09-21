@@ -15,7 +15,7 @@
 > [!quote] 
 >"Özellikle şunu da kabul etmeliyiz ki ahlâk güzelliğinde Batı’dan geri olduğumuzu iddia etmek, boş bir alçakgönüllülükten başka bir şey olmayıp düzeltmemiz ve sağlamlaştırmamız gereken noktalar ahlâkî eksikliklerden ziyade medenî uğraşlar sahasındadır." ([[Ethem Bakar - İrade Terbiyesi.pdf#page=21&selection=23,1,26,63|Bakar, 2023: 21]])
 
-- Yukarıdaki iddialara dayanarak en basit zihnin dahî ahlâkî güzelliği isteyeceğini ön kabul olarak ele alıyor. Bu bağlamda bu bakımdan Batı'dan geride değiliz, asıl geri olduğumuz nokta bunu fiile dökmektir. Bu fiile dökme edimi de medenî uğralar sahasında yapılabilir. 
+- Yukarıdaki iddialara dayanarak en basit zihnin dâhi ahlâkî güzelliği isteyeceğini ön kabul olarak ele alıyor. Bu bağlamda bu bakımdan Batı'dan geride değiliz, asıl geri olduğumuz nokta bunu fiile dökmektir. Bu fiile dökme edimi de medenî uğralar sahasında yapılabilir. 
 - Bu fiile dökme ediminin gerçekleşmemesi "irade zayıflığı"dır. Ahlâkımızın ıslah edilmesini onayladığımız hâlde, doğru olanın bu olduğunu bildiğimiz hâlde fiile dökemememizin sebebi budur. (p.22)
 - İrade [[psikoloji kanunları]]na tabî olduğu için zayıflığının ve dağınıklığının sebepleri izah edilebileceği gibi geliştirilmesinin ve kuvvetlendirilmesinin ne gibi vasıtalara bağlı olduğu da izah edilebilir, öğrenilebilir. 
 

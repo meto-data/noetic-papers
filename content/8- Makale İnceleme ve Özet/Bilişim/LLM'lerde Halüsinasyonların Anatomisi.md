@@ -6,7 +6,7 @@
 - Dil modelinin **kullanıcı istemiyle (prompt)** **çelişen** bilgiler üretmesidir. Kullanıcının doğrudan sorduğu veya talep ettiği şeyin aksine kendi içinde tutarsız ve hatalı bir çıktı verir.
 - Söz gelişi, "DEEPSEEK" kelimesinde kaç tane D harfi var sorusuna DeepSeek-V3 "2" veya "3" gibi yanlış yanıtlar vermiştir. 
 
-Temel sorun, modellerin belirsizlik durumunda "bilmiyorum" demek yerine istatistiksel olarak en olası görünen yanıtı tahmin etmeye programlanmış olmasıdır.
+Temel sorun modellerin belirsizlik durumunda "bilmiyorum" demek yerine istatistiksel olarak en olası görünen yanıtı tahmin etmeye programlanmış olmasıdır.
 
 ### **Bölüm 1:** Halüsinasyonların Kökeni – Ön Eğitim (Pre-training)
 
@@ -45,3 +45,9 @@ Temel sorun, modellerin belirsizlik durumunda "bilmiyorum" demek yerine istatist
 ### Çözüm?
 - Çözüm sosyo-teknik bir çözüm. Tüm yapay zekâ camiasının değerlendirme sistemini kökünden değiştirmesi gerekiyor. MMLU, GPQA gibi popüler benchmarkların kuralları değiştirilmeli. Yanlış cevaplara negatif puan verilmeli, istemler modele hangi güven seviyesinin üzerinde cevap vermesi gerektiğini açıkça belirteli (örn: yanlış cevap -3 puan olduğu için yalnızca %75'ten fazla eminsen cevap ver gibi).
 - Bu değişiklik modelleri basit doğruluk maksimizasyonundan risk-ayarlı bir karar verme sürecine yönlendirecektir. Bu da **davranışsal kalibrasyon (behavioral calibration)** olarak adlandırılır ve modelleri bilmediklerini dürüstçe kabul etmeye teşvik ederek daha güvenilir sistemlerin önünü açar.
+
+
+##### **Kaynakça**
+
+Kalai, A. T., Nachum, O., Vempala, S. S. ve Zhang, E. (2025). Why language models hallucinate. _arXiv preprint arXiv:2509.04664_.
+

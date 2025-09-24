@@ -24,8 +24,8 @@
 - **Firmanın Büyüklüğü**: Firmanın büyüklüğü toplam varlıklar, gelir, çalışan sayısı, piyasa değeri gibi göstergelerle ölçülür. Büyüklük firmanın pazar gücünü, rekabet avantajını ve finansal esnekliğini etkiler.
 - **Büyüme Hızı**: Yıllık gelir artışı veya piyasa payı artışı gibi metriklerle ölçülür. Yüksek büyüme hızı pazar taleplerine hızlı yanıt verebilme yeteneği gösterirken aşırı hızlı büyüme finansal riskleri artırabilir. 
 #### 2- Firmanın Kaynakları Çeşitli Varlıklar Arasında Nasıl Dağıtılmalıdır? (Aktif Yapı / Asset Structure)
-- **Aktif Yapı**: Firmanın sahip olduğu varlıkların (**[[Dönen Varlıklar]]** ve **[[Duran Varlıklar]]**) dağılımını ifade eder. Bu dağılım firmanın **[[likidite]]** durumu, yatırım stratejileri, ve finansal performansı üzerinde doğrudan etkiye sahiptir.
-- **Varlık Dağılımının Önemi**: Varlıkların etkin bir şekilde dağıtılması firmanın operasyonel verimliliğini artırır ve finansal riskleri azaltır. Söz gelişi, aşırı likit varlık bulundurmak **[[fırsat maliyeti|fırsat maliyetlerini]]** artırabilirken yetersiz **[[likidite]]** ödeme güçlüğüne yol açabilir. 
+- **Aktif Yapı**: Firmanın sahip olduğu varlıkların (**[[Dönen Varlıklar]]** ve **[[Duran Varlıklar]]**) dağılımını ifade eder. Bu dağılım firmanın **[[1- Ders Notları (YBS)/Grade 1/(1-1)  Güz Dönemi/Dijital Ekonomi/Ekler/Likidite]]** durumu, yatırım stratejileri, ve finansal performansı üzerinde doğrudan etkiye sahiptir.
+- **Varlık Dağılımının Önemi**: Varlıkların etkin bir şekilde dağıtılması firmanın operasyonel verimliliğini artırır ve finansal riskleri azaltır. Söz gelişi, aşırı likit varlık bulundurmak **[[fırsat maliyeti|fırsat maliyetlerini]]** artırabilirken yetersiz **[[1- Ders Notları (YBS)/Grade 1/(1-1)  Güz Dönemi/Dijital Ekonomi/Ekler/Likidite]]** ödeme güçlüğüne yol açabilir. 
 #### 3- Firmanın amacı açısından en iyi sonucu verecek kaynak bileşimi nasıl sağlanmalıdır (Pasif Yapı / Liability and Equity Structure)
 - **Pasif Yapı**: Firmanın finansal kaynaklarının (**[[Öz Kaynaklar (Equity)]]** ve **[[Yabancı Kaynaklar (Borçlar)]]**) bileşimini ifade eder. Bu yapı firmanın maliyet yapısını, risk profilini ve büyüme potansiyelini belirler.
 - **Optimal Sermaye Yapısı** (Optimal Capital Structure): Firmanın piyasa değerini maksimize eden ve sermaye maliyetini minimize eden bir bileşimdir. Firmanın finansal esnekliğini ve rekabet gücünü artırır.
@@ -38,7 +38,7 @@
 
 ### Finansal Yönetimin Fonksiyonları
 #### 1- [[Finansal Analiz]]
-- Firmalarda tutarlı kararların alınabilmesi açısından ilk basamağı oluşturur. Finansal analiz yaparak mevcut durumu saptarız ve geçmşşe yönelik durumu tespit edip değerlendirerek geleceğe ilişkin kararlar alırız.
+- Firmalarda tutarlı kararların alınabilmesi açısından ilk basamağı oluşturur. Finansal analiz yaparak mevcut durumu saptarız ve geçmişe yönelik durumu tespit edip değerlendirerek geleceğe ilişkin kararlar alırız.
 #### 2- [[Finansal Planlama ve Denetim]]
 - **Finansal Planlama**: Gelecekle ilgili risk ve belirsizlikleri içerir. Amacı gelecekte ihtiyaç duyulacak fonları belirlemek ve etkili bir şekilde kullanımını sağlamaktır. Finansal planın başarılı olabilmesi için firma amaçlarının belirlenmesi gerekir.
 - **Denetim**: Gelecekle ilgili beklentilerin değişmesi, planlara uymayan uygulamalar ya da planın sağlıklı bir şekilde işlemesi denetim fonksiyonu ile mümkündür. Bu fonksiyonla beraber planlardan sapmalar kolaylıkla izlenerek gerekli ve zamanında yapılan düzenlemeler planın sağlıklı bir şekilde işlemesini sağlayacaktır.

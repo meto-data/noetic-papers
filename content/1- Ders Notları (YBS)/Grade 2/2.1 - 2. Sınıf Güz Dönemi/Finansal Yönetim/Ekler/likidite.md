@@ -1,0 +1,1 @@
+- Likidite, bir varlığın ne kadar hızlı ve kolay bir şekilde nakde çevrilebileceğinin bir ölçüsüdür. Akışkanlık hızıdır da denilebilir.

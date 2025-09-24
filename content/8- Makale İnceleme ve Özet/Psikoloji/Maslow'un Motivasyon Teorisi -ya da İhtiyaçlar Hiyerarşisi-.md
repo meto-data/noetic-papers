@@ -26,7 +26,7 @@ Fizyolojik ihtiyaçlar yeterince karşılandığında bu sefer güvenlik ihtiya�
 
   
 
-# Sevgi İhtiyaçları (Sevgi, Şefkat ve Ait Olma)
+## Sevgi İhtiyaçları (Sevgi, Şefkat ve Ait Olma)
 
 Sevgi ihtiyaçları hem sevgi vermeyi hem de sevgi almayı kapsar. Arkadaşlar, sevgili, eş, çocuklar gibi şefkate dayalı ilişkiler kurma, bir grubun parçası olma arzusu da diyebiliriz buna. Aç bir insandan beklediğimiz genel olarak sevgiyi küçümsemedir, ancak karnı doyduğunda ve kendini güvende hissettiğinde bu ihtiyacın yokluğunu net bir şekilde hissedecektir (Maslow, 1943: 9, 10). Bunun istisnalarına da değineceğiz.
 

@@ -1,8 +1,6 @@
-Final boşluk doldurma ve test şeklinde olacak.
-
-V 20
-F 40
-PROJE 40
+Vize ve final boşluk doldurma-test.
+Proje tek kişilik. 
+Vize %20, final %40, proje %40
 
 ---
 

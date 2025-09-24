@@ -1,6 +1,6 @@
 
-> [!NOTE] #bilgi1
-> Firma, şirket ve işletme: Hepsi aynı anlama gelmektedir. Yalnızca sektöre göre kullanılan tanımlar farklılık gösterir o kadar. İktisatçılar (ekonomistler) firma; hukukçular şirket; işletmeler ise işletme der. 
+> [!NOTE] #[[firma-sirket-isletme|bilgi]]
+> Firma, şirket veya işletme: Hepsi aynı anlama gelmektedir. Yalnızca sektöre göre kullanılan tanımlar farklılık gösterir o kadar. İktisatçılar (ekonomistler) firma; hukukçular şirket; işletmeler ise işletme der. 
 
 > [!important] Kendini Gerçekleştiren Kehanet (Pygmalin Etkisi)
 > Bir malın fiyat beklentisi yükselecekse o mal alınır ve talep yüzünden fiyat yükselir. Aynı şekilde, bir malın fiyat beklentisi düşecekse, o mal alınmaz ve böylelikle fiyat düşer. #bilgi2

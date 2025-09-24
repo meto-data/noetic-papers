@@ -12,7 +12,7 @@
 		- Bir nesnenin değer biriktirme aracı olabilmesi için zaman içerisinde değerini koruması gerekir.
 ## [[Para Çeşitleri]]
 
-#### 1- [[Nakit]] (Kâğıt para, madeni para)
+#### 1- [[nakit]] (Kâğıt para, madeni para)
 #### 2- [[Vadesiz Mevduat]]
 - Likit olduğu için getirisi az olmasına rağmen tercih edilir.
 - Vadesiz mevzuatta faiz yoktur, ancak istenilen anda işlem yapılabildiği için, yani **likit** olduğu için tercih edilir.

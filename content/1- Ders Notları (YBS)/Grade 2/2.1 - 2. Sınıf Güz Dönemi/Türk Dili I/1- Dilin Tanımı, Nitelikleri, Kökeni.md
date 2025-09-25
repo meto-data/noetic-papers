@@ -3,7 +3,7 @@
 
 ### Dilin Temel Nitelikleri
 ##### 1- Anlaşma aracıdır:
-- Nesneleri, kavramları vs. adlandırma aracıdır. Duygularımızı ve düşüncelerimizi birbirimize nakletmek, meramlarımızı birbirimze anlatmak için dil denen araca başvururuz. Duygu ve düşüncelerimizi anlatmaya yarayan en önemli araç dildir.
+- Nesneleri, kavramları vs. adlandırma aracıdır. Duygularımızı ve düşüncelerimizi birbirimize nakletmek, meramlarımızı birbirimize anlatmak için dil denen araca başvururuz. Duygu ve düşüncelerimizi anlatmaya yarayan en önemli araç dildir.
 ##### 2- Tabii (doğal) bir araçtır:
 - Herhangi bir araç değil, kendine ait bir kimliğe sahip ve doğal bir araçtır. Her toplum dilini kendi dil mantığının, zevkinin, kendine mahsus dil düşüncesinin ve kültürünün yansıması sonucu ihtiyaçları doğrultusunda kendiliğinden ortaya koymuştur.
 - Dil âliminin yahut heyetinin ürünü, icadı değildir. 

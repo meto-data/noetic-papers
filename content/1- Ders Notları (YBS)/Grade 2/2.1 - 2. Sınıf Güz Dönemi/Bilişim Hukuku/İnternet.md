@@ -1,0 +1,2 @@
+- İnsanlar tarafından oluşturulmuş her türlü bilginin veri hâlinde paylaşıldığı ve iletildiği, bilişim sistemleri arasındaki ağ.
+	- İnternet üzerindeki veri iletişimi **[[backbone]]** (omurga) denilen ana iletişim hatları üzerinden sağlanır.

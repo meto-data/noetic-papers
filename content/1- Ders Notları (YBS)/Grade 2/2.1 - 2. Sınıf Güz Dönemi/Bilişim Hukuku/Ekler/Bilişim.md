@@ -1,0 +1,1 @@
+Bilginin toplanması, işlenmesi, saklanması, iletilmesi ve kullanılmasını sağlayan kuram, yöntem, sistem ve teknolojilerin bütünü. **(Daha ayrıntılı bilgi için bkz.** *[[bilişim, bilgi teknolojisi ve bilgi sistemleri|Bilişim, Bilgi Teknolojisi ve Bilgi Sistemleri]]***)**

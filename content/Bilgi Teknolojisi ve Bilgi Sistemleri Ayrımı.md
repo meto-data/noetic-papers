@@ -1,0 +1,1 @@
+Bilgi sistemleri, bilgiyi üretmek, depolamak, işlemek, dağıtmak ve yaymak için tasarlanmış sistemler, insanlar ve süreçler için kullanılan şemsiye bir terimdir

@@ -1,3 +1,7 @@
+---
+title: Bilişim Matematiği
+---
+
 Dersi Veren: **[Prof. Dr. Hakan Murat ARSLAN](https://akademik.duzce.edu.tr/muratarslan)**
 
 Sanırım ders işleyişini en sevdiğim hocadır, muhtemelen bölümdeki en **[[apollonik]]** hocadır aynı zamanda... Düzenden yanadır, dersi sistematik bir şekilde işler, kurallara sıkı sıkıya bağlıdır ve kuralların dışına çıkmaz. 

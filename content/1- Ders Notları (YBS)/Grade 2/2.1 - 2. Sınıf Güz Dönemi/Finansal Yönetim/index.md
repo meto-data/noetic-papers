@@ -1,3 +1,7 @@
+---
+title: Finansal Yönetim
+---
+
 Dersi veren: [Doç. Dr. Nevin Özer](https://akademik.duzce.edu.tr/nevinozer)
 
 İlkin dersin nispeten zor olacağını sanmıştım ancak öyle değil. Vize ve final test olacak, kâğıt üzerinde matematiksel işlemleri de görmek istiyor. Söylediğine göre cevap yanlış olsa dahî matematiksel işlemlerde doğru yoldaysa test olmasına rağmen ilave puan verecekmiş. Derste zorlanma gibi bir durumu söz konusu olacağını zannetmiyorum.

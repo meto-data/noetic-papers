@@ -4,7 +4,7 @@ title: Bilişim Hukuku
 
 **Dersi Veren**: [Şerife Büşra ÜMİT IŞIK](https://akademik.duzce.edu.tr/sbusraumitisik)
 
-Her derste o hafta işlenen konunun tamamını bütüncül olarak kapsayan bir soru soracak. Bu sorular aşağı yukarı 10 adet olacak, vize sınavında bu 10 sorundan 4'ünü soracak, hepsi 25 puan olmak üzere toplam 100 puan. 
+Her derste o hafta işlenen konunun tamamını bütüncül olarak kapsayan bir soru sorulacak. Bu sorular aşağı yukarı 10 adet olacak, vize sınavında bu 10 sorundan 4'ünü soracak, hepsi 25 puan olmak üzere toplam 100 puan. 
 
 İlaveten 10 puanlık bir soru da veriliyor (söz gelişi, "Mâlî Suçları Araştırma Kurulu'nun kısaltımı nedir?" gibisinden).
 

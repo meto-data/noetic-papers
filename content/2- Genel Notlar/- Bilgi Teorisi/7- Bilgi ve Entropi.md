@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 #### Makine 1: Dengeli
 - Adalet timsali makine... A, B, C, ve D harflerini basma olasılığı hepsinde eşit.
 ### $p(A) = p(B) = p(B) = p(D)$<br>

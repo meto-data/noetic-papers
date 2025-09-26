@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 ## BÖLÜM 1: Temel Problem ve Akıllıca Çözüm
 
 ### Kapasiteyi Artırma İhtiyacı

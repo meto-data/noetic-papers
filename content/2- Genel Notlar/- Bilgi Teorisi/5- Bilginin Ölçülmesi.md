@@ -1,3 +1,6 @@
+---
+draft: true
+---
 
 
 ### Bilgi Teorisine Giriş: Videodan Analitik Notlar

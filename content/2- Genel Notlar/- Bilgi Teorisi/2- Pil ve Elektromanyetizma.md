@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 # Sinyalin Anasını Belleyen Fizik: Telgraftan Önce Neler Oldu?
 
 Ulan sanıyor musun ki Morse bir sabah uyanıp "hadi telgraf yapayım" dedi? Hayır amına koyim. O telgrafın çalışabilmesi için birilerinin yıllarca laboratuvarda ter dökmesi, akıl almaz deneyler yapması gerekti. İşte bu notlar, o temel taşlarının hikayesi. Bilginin nasıl elektrikle dans etmeye başladığının destanı.

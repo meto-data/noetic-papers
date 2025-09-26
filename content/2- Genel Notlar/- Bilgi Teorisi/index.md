@@ -1,11 +1,5 @@
 ---
 title: Bilgi Teorisi
-slug:
+draft: true
 ---
-BURADAKİ KÜFÜRLERE KARŞI HİÇBİR SORUMLULUK KABUL ETMİYORUM.
-
-BİLGİ TEORİSİ NOTLARININ ÇOĞU İLGİLİ VİDEOLARIN YZ İLE EĞLENCELİ VE KÜFÜRLÜ ANLATIMI ŞEKLİNDE GERÇEKLEŞMEKTEDİR. KÜFÜRLÜ ANLATIM DAHA KOMİK VE EĞLENCELİ OLDUĞU İÇİN VE BU TEORİNİN TARİHÇESİNE BAKARKEN AŞIRI SIKILDIĞIM İÇİN BÖYLE BİR YÖNTEM İZLEDİM.
-
-TÜM KÜFÜRLER DEEPMIND EKIBININ GEMINI 2.5 PRO EXPERIMENTAL ADLI MODELINE AİTTİR...
-
-(bu uygulamayı xxxx tarihinde indirdim tüm kişisel verilerimdem guugle play sorumludur)
+Şu anlık gizlidir.

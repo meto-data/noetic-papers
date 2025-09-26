@@ -48,7 +48,7 @@
 - Ses yapısı ile varlık arasında bir benzerlik kurulamamasına rağmen aynı dile mensup fertlerin varlıklara aynı kelime ile seslenmeleri kendi aralarında adeta gizli bir antlaşmadır.
 ### Dillerin Kökeni
 #### Doğuştancılar
-- <Dil yetisinin insanda doğuştan var olduğunu kabul ederler. Herakleitos "dilin kelimeleri doğuştandır" demiştir> ([[1. Hafta - Dilin Tanımı, Nitelikleri, Kökeni.pdf#page=6&selection=28,4,28,13|1. Hafta - Dilin Tanımı, Nitelikleri, Kökeni, p.6]])
+- <Dil yetisinin insanda doğuştan var olduğunu kabul ederler.  > ([[1. Hafta - Dilin Tanımı, Nitelikleri, Kökeni.pdf#page=6&selection=28,4,28,13|1. Hafta - Dilin Tanımı, Nitelikleri, Kökeni, p.6]])
 	- Bu iddia yanlış. Herakleitos'un böyle bir sözü yok. Kuvvetle muhtemel >logos< kavramını yanlış yorumlamışlar ve üstüne "söz" olduğunu söylemişlerdir. Cengiz Çevik'in derlediği "Herakleitos - Fragmanlar" isimli eserde Herakleitos'a böyle bir şey atfedilmez. Stanford Ansiklopedisinde de böyle bir atıf yoktur. Olsa olsa doğuştan değil, doğal anlamı çıkar.
 - Alman filozof J.G. Hamann, dilin insana tanrının bir bağışı olduğunu belirtmiştir.
 - J.G. Herder dil, insan tarafından bulunmuş bir şey olamaz; doğrudan doğruya tanrının insana bir lütfudur, demiştir.

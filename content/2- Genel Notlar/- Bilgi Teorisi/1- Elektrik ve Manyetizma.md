@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 ### 1. Ørsted'in "Anasını Satayım" Keşfi (1819)
 
 - Danimarkalı bir profesör var, adı **Hans Christian Ørsted**. Bu herif masasında pil, tel ve pusulayla oynarken tarihin en büyük "HASSİKTİR" anlarından birini yaşıyor. [3:41]

@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 ### **Markov Zincirlerinin Doğuşu ve Felsefi Arka Planı**
 
 #### **1. Zemin: Olasılığın Temelleri ve Yarattığı Felsefi Gerilim**

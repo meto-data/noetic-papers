@@ -162,4 +162,5 @@ Bu itiraz aslında testin geçerliliğini de bir bakımdan sorgulamaktadır. Eğ
 	- Eğer testin adil koşullarını bozan hârici ve kontrolsüz bir fenomen varsa yapılacak şey o fenomeni deneysel olarak izole etmektir. "Eğer sorgulayıcı kendi kendine konuşuyor ve yarışmacılardan biri duvardan onu dinliyorsa, bu bir zekâ testi olmaz." Yarışmacıları **'telepati geçirmek bir oda**'ya koymak tüm gereklilikleri karşılayacaktır.
 
 
-	Burada kaldık, argümanlar bu kadar. Diğer sayfalara geçmeden önce kritiği taslaktan çıkar. Sonrasında devam et.
+
+----argümanlar buraya kadar

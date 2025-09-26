@@ -1,3 +1,7 @@
+---
+draft: true
+---
+
 **Sembol**: Gözlemlenebilir bir sinyalin basit bir süre boyunca değişmeyen durumu. İster ateş ister ses ister elektrik akımı: Sinyal hareketi bir durumdan başka bir duruma geçmekten ibarettir. Sembol oranıysa, 1 saniyeye sığabilen sinyal hareketi sayısıdır.
 
 

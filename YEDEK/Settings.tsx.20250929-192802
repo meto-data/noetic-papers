@@ -22,7 +22,7 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
           <div class="settings-body">
             <label>
               Aydınlık tema
-              <select class="palette-light-select large">
+              <select class="palette-light-select">
                 <option value="default">Default Light</option>
                 <option value="sereneSky">Serene Sky</option>
                 <option value="warmSand">Warm Sand</option>
@@ -32,15 +32,12 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
                 <option value="oliveSage">Olive Sage</option>
                 <option value="stone">Stone</option>
                 <option value="cleanGray">Clean Gray</option>
-                <option value="githubLight">GitHub Light</option>
-                <option value="nordLight">Nord Light</option>
-                <option value="solarizedLight">Solarized Light</option>
               </select>
             </label>
 
             <label>
               Karanlık tema
-              <select class="palette-dark-select large">
+              <select class="palette-dark-select">
                 <option value="default">Default Dark</option>
                 <option value="midnightBlue">Midnight Blue</option>
                 <option value="graphite">Graphite</option>
@@ -50,25 +47,8 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
                 <option value="cobaltDark">Cobalt Dark</option>
                 <option value="slateDark">Slate Dark</option>
                 <option value="ink">Ink</option>
-                <option value="githubDark">GitHub Dark</option>
-                <option value="nordDark">Nord Dark</option>
-                <option value="solarizedDark">Solarized Dark</option>
               </select>
             </label>
-            <div class="palette-previews">
-              <div class="preview light-preview">
-                <div class="swatch secondary"></div>
-                <div class="swatch tertiary"></div>
-                <div class="swatch highlight"></div>
-                <span>Aydınlık önizleme</span>
-              </div>
-              <div class="preview dark-preview">
-                <div class="swatch secondary"></div>
-                <div class="swatch tertiary"></div>
-                <div class="swatch highlight"></div>
-                <span>Karanlık önizleme</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>

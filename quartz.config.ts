@@ -129,8 +129,8 @@ const SELECT_LIGHT = {
   sereneSky: false,
   warmSand: false,
   warmTeal: false,
-  warmPlum: true,
-  warmSlate: false,
+  warmPlum: false,
+  warmSlate: true,
 } as const
 
 // Dark options: default | midnightBlue | graphite

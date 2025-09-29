@@ -1,0 +1,114 @@
+// Runtime palette overrides via data attributes
+// These selectors have higher specificity than :root and :root[saved-theme="dark"]
+
+// Light palettes
+:root[data-palette-light="default"] {
+  --light: #F9FAFB;
+  --lightgray: #E5E7EB;
+  --gray: #9CA3AF;
+  --darkgray: #374151;
+  --dark: #111827;
+  --secondary: #2563EB;
+  --tertiary: #7C3AED;
+  --highlight: rgba(37, 99, 235, 0.12);
+  --textHighlight: #fde68a80;
+}
+
+:root[data-palette-light="sereneSky"] {
+  --light: #FAFAFA;
+  --lightgray: #EAEAEA;
+  --gray: #9AA4B2;
+  --darkgray: #334155;
+  --dark: #111827;
+  --secondary: #0EA5E9;
+  --tertiary: #14B8A6;
+  --highlight: rgba(14, 165, 233, 0.12);
+  --textHighlight: #a7f3d080;
+}
+
+:root[data-palette-light="warmSand"] {
+  --light: #FFFBF5;
+  --lightgray: #E7E5E4;
+  --gray: #A8A29E;
+  --darkgray: #44403C;
+  --dark: #1C1917;
+  --secondary: #D97706;
+  --tertiary: #EA580C;
+  --highlight: rgba(234, 88, 12, 0.10);
+  --textHighlight: #fde68a80;
+}
+
+:root[data-palette-light="warmTeal"] {
+  --light: #FFFBF5;
+  --lightgray: #E7E5E4;
+  --gray: #A8A29E;
+  --darkgray: #44403C;
+  --dark: #1C1917;
+  --secondary: #0D9488;
+  --tertiary: #10B981;
+  --highlight: rgba(13, 148, 136, 0.12);
+  --textHighlight: #a7f3d080;
+}
+
+:root[data-palette-light="warmPlum"] {
+  --light: #FFFBF5;
+  --lightgray: #E7E5E4;
+  --gray: #A8A29E;
+  --darkgray: #44403C;
+  --dark: #1C1917;
+  --secondary: #7C3AED;
+  --tertiary: #8B5CF6;
+  --highlight: rgba(124, 58, 237, 0.12);
+  --textHighlight: #d8b4fe80;
+}
+
+:root[data-palette-light="warmSlate"] {
+  --light: #FFFBF5;
+  --lightgray: #E7E5E4;
+  --gray: #A8A29E;
+  --darkgray: #44403C;
+  --dark: #1C1917;
+  --secondary: #3B82F6;
+  --tertiary: #60A5FA;
+  --highlight: rgba(59, 130, 246, 0.12);
+  --textHighlight: #bfdbfe80;
+}
+
+// Dark palettes
+:root[saved-theme="dark"][data-palette-dark="default"] {
+  --light: #0f172a;
+  --lightgray: #334155;
+  --gray: #64748B;
+  --darkgray: #E5E7EB;
+  --dark: #F8FAFC;
+  --secondary: #3B82F6;
+  --tertiary: #A78BFA;
+  --highlight: rgba(59, 130, 246, 0.18);
+  --textHighlight: #f59e0b66;
+}
+
+:root[saved-theme="dark"][data-palette-dark="midnightBlue"] {
+  --light: #0B1220;
+  --lightgray: #1F2937;
+  --gray: #64748B;
+  --darkgray: #E5E7EB;
+  --dark: #F8FAFC;
+  --secondary: #38BDF8;
+  --tertiary: #22D3EE;
+  --highlight: rgba(56, 189, 248, 0.20);
+  --textHighlight: #06b6d466;
+}
+
+:root[saved-theme="dark"][data-palette-dark="graphite"] {
+  --light: #0F0F10;
+  --lightgray: #2A2A2E;
+  --gray: #70707A;
+  --darkgray: #E6E6E7;
+  --dark: #F2F2F2;
+  --secondary: #8B5CF6;
+  --tertiary: #F472B6;
+  --highlight: rgba(139, 92, 246, 0.20);
+  --textHighlight: #f472b666;
+}
+
+

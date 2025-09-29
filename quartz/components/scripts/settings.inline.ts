@@ -54,7 +54,7 @@ function closeModal(outer: HTMLElement) {
   outer.classList.remove("active")
 }
 
-document.addEventListener("nav", async () => {
+function initSettings() {
   const settingsRoot = document.querySelector(".settings") as HTMLElement | null
   if (!settingsRoot) return
 
@@ -133,6 +133,10 @@ document.addEventListener("nav", async () => {
   window.addCleanup(() => darkSelect.removeEventListener("change", darkHandler))
   if (fontSelect) window.addCleanup(() => fontSelect?.removeEventListener("change", () => applyFontFamily(fontSelect!.value)))
   if (sizeSelect) window.addCleanup(() => sizeSelect?.removeEventListener("change", () => applyFontSize(sizeSelect!.value)))
-})
+}
+
+// run on initial load and on SPA nav
+initSettings()
+document.addEventListener("nav", initSettings)
 
 

@@ -162,13 +162,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
   }
 
   // performance cap to avoid heavy render on large graphs
-  const MAX_NODES = 300
-  if (graphData.nodes.length > MAX_NODES) {
-    graphData.nodes.splice(MAX_NODES)
-    graphData.links = graphData.links.filter(
-      (l) => graphData.nodes.includes(l.source) && graphData.nodes.includes(l.target),
-    )
-  }
+  // removed hard cap per request; keep other perf tweaks
 
   const width = graph.offsetWidth
   const height = Math.max(graph.offsetHeight, 250)

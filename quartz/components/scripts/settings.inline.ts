@@ -134,8 +134,8 @@ function initSettings() {
   if (sizeSelect) window.addCleanup(() => sizeSelect?.removeEventListener("change", () => applyFontSize(sizeSelect!.value)))
 }
 
-// run on initial load and on SPA nav (spa.inline fires 'nav' once at boot)
+// run on initial load and on SPA nav
 initSettings()
-document.addEventListener("nav", () => initSettings())
+document.addEventListener("nav", initSettings)
 
 

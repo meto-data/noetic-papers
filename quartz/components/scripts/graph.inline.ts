@@ -161,9 +161,6 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
       })),
   }
 
-  // performance cap to avoid heavy render on large graphs
-  // removed hard cap per request; keep other perf tweaks
-
   const width = graph.offsetWidth
   const height = Math.max(graph.offsetHeight, 250)
 
@@ -361,7 +358,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
     autoDensity: true,
     backgroundAlpha: 0,
     preference: "webgpu",
-    resolution: Math.min(window.devicePixelRatio, 1.5),
+    resolution: window.devicePixelRatio,
     eventMode: "static",
   })
   graph.appendChild(app.canvas)
@@ -388,7 +385,7 @@ async function renderGraph(graph: HTMLElement, fullSlug: FullSlug) {
         fill: computedStyleMap["--dark"],
         fontFamily: computedStyleMap["--bodyFont"],
       },
-      resolution: Math.min(window.devicePixelRatio * 2, 3),
+      resolution: window.devicePixelRatio * 4,
     })
     label.scale.set(1 / scale)
 

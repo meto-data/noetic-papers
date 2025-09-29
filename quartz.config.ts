@@ -206,10 +206,6 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
-      Plugin.Glossary({
-        enableInlineTerms: true,
-        enableFrontmatter: true,
-      }),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [
@@ -222,7 +218,6 @@ const config: QuartzConfig = {
         enableSiteMap: true,
         enableRSS: true,
       }),
-      Plugin.GlossaryPage(),
       Plugin.Assets(),
       Plugin.Static(),
       Plugin.NotFoundPage(),

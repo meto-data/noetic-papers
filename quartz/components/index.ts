@@ -24,7 +24,6 @@ import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
 import Settings from "./Settings"
-import GlossaryTerms from "./GlossaryTerms"
 
 export {
   ArticleTitle,
@@ -53,5 +52,4 @@ export {
   Flex,
   ConditionalRender,
   Settings,
-  GlossaryTerms,
 }

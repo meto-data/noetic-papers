@@ -82,6 +82,9 @@ a {
 
   &:hover {
     color: var(--tertiary);
+    text-decoration: underline;
+    text-decoration-color: color-mix(in srgb, var(--tertiary) 70%, transparent);
+    text-underline-offset: 3px;
   }
 
   &.internal {
@@ -109,6 +112,10 @@ a {
       &::before {
         content: "#";
       }
+    }
+    &:hover {
+      background-color: color-mix(in srgb, var(--highlight) 60%, transparent);
+      box-shadow: 0 0 0 2px color-mix(in srgb, var(--secondary) 20%, transparent) inset;
     }
   }
 
@@ -628,7 +635,7 @@ iframe.pdf {
   left: 0;
   width: 0;
   height: 3px;
-  background: var(--secondary);
+  background: linear-gradient(90deg, var(--secondary), var(--tertiary));
   transition: width 0.2s ease;
   z-index: 9999;
 }

@@ -12,13 +12,22 @@ const PaletteSwitcher: QuartzComponent = ({ displayClass }: QuartzComponentProps
         <option value="sereneSky">Serene Sky</option>
         <option value="warmSand">Warm Sand</option>
         <option value="warmTeal">Warm Teal</option>
-        <option value="warmPlum">Warm Plum</option>
-        <option value="warmSlate">Warm Slate</option>
+        <option value="softMint">Soft Mint</option>
+        <option value="clearBlue">Clear Blue</option>
+        <option value="oliveSage">Olive Sage</option>
+        <option value="stone">Stone</option>
+        <option value="cleanGray">Clean Gray</option>
       </select>
       <select class="palette-dark-select" aria-label="Dark palette">
         <option value="default">Default Dark</option>
         <option value="midnightBlue">Midnight Blue</option>
         <option value="graphite">Graphite</option>
+        <option value="onyx">Onyx</option>
+        <option value="forestNight">Forest Night</option>
+        <option value="deepTeal">Deep Teal</option>
+        <option value="cobaltDark">Cobalt Dark</option>
+        <option value="slateDark">Slate Dark</option>
+        <option value="ink">Ink</option>
       </select>
     </div>
   )

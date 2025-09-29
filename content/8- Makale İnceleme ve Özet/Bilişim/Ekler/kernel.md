@@ -1,0 +1,2 @@
+- GPU veya CPU üzerinde çalışan küçük bir işlem birimi yahut fonksiyon. Özellikle deep learning, matris çarpımları, normalizasyonlar ve attention hesaplamaları gibi temel hesaplamalar GPU'da kerneller vasıtasıyla yapılır.
+- Örneğin `torch.mm(A, B)` ile matris çarpımı yaparken GPU'da her çekirdek (kernel) kendi parçasını hesaplar sonuçları birleştirir.

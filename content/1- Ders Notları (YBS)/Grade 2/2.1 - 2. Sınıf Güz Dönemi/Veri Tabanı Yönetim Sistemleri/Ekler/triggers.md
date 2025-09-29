@@ -1,0 +1,1 @@
+Veritabanında belli bir olay gerçekleştiğinde **otomatik çalışan küçük komutlar veya kurallar**.

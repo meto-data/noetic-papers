@@ -1,0 +1,1 @@
+Bir veri tabanını oluşturmak, üzerinde istenilen bilgiyi aramak, gerektiğinde bilgi eklemek/silmek/değiştirmek ve veri tabanı ile ilgili her türlü işletimsel gereksinimleri karşılamak için kullanılan geniş kapsamlı yazılım sistemidir. Birbirleri ile ilişkili veri ve programlar topluluğundan oluşmaktadır.

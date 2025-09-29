@@ -1,0 +1,1 @@
+İşlem sonunda veri tüm kurallara uygun olmalı.

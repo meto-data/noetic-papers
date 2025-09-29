@@ -1,0 +1,1 @@
+![[bilisimsistemunsur.png]]

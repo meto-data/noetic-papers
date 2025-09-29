@@ -1,0 +1,1 @@
+Verilerin sistematik olarak tanımlanmış bir yapıda depolandığı, erişildiği, güncellendiği, taşınabildiği, daha geniş kapsamıyla bütüncül bir şekilde yönetildiği bir sistemdir. Başka bir tanımla **veriyi düzenli, erişilebilir, ve yönetilebilir şekilde saklayan sistemdir.**

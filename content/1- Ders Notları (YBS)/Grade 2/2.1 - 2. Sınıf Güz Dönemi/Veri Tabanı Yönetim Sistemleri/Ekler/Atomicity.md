@@ -1,0 +1,1 @@
+ İşlem ya tamamen yapılır ya hiç yapılmaz.

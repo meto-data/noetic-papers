@@ -1,0 +1,2 @@
+- Matematikte bir işlem **associative** ise parantezleme fark etmez. $(a + b) + c = a + (b + c)$ gibi. <br>
+- Buna mukabil **[[non-associativity]]** ise parantezleme sonucu farklı çıkan işlemdir. **[[floating-point sayıları|floating-point]]** sayılarda toplama ve çarpma genellikle böyledir.

@@ -61,7 +61,7 @@ tags:
 	- Yönetici, karar verici, sistem analisti, programcı, diğer kullanıcılar, operatör vb.
 - **Prosedürler**: Bilgi sistemini çalıştırmak için kullanıcıların kullandığı stratejiler, politikalar, metotlar ve kuralları içerir.
 	- Strateji, politika, kural, metot, yetkiler vb.
-## Bilişim Sisteminin Unsurları Arasındaki Etkileşim
+## [[Bilişim Sisteminin Unsurları Arasındaki Etkileşim]]
 ![[bilisimsistemunsur.png]]
 
 ## Bilişim Sisteminin Faydaları

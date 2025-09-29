@@ -1,0 +1,1 @@
+İşlem tamamlandıysa veri kalıcı olmalı, sistem arıası gibi durumlarda bile kalıcı olmasının garanti edilmesi.

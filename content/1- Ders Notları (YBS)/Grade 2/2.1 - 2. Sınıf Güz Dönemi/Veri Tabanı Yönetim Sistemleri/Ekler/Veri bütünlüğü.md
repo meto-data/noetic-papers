@@ -1,0 +1,1 @@
+ Verinin doğruluğu ve tutarlılı

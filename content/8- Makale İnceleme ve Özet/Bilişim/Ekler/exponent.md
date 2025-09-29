@@ -1,0 +1,1 @@
+Sayının üssünü gösterir.

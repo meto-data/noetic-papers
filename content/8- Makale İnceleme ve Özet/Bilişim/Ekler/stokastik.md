@@ -1,0 +1,2 @@
+- "rastlantısal" sözcüğünden alıntıdır.
+- Rastgelelik içeren yahut olasılığa dayalı demektir.

@@ -1,0 +1,1 @@
+Eş zamanlı çalışan işlemler birbirine karışmamalı.

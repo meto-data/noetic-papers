@@ -1,0 +1,1 @@
+Veritabanında **önceden tanımlanmış ve saklanan fonksiyon veya komut dizisi**.

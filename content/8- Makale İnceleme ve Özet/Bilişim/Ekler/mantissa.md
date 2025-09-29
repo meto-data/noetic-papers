@@ -1,0 +1,1 @@
+Sayının ana kısmı, basamaklar. $3.45$ gibi.

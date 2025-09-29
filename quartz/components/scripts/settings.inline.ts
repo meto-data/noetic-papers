@@ -1,4 +1,3 @@
-export {}
 
 const SETTINGS_LIGHT_KEY = "palette-light"
 const SETTINGS_DARK_KEY = "palette-dark"
@@ -135,8 +134,8 @@ function initSettings() {
   if (sizeSelect) window.addCleanup(() => sizeSelect?.removeEventListener("change", () => applyFontSize(sizeSelect!.value)))
 }
 
-// run on initial load and on SPA nav
+// run on initial load and on SPA nav (spa.inline fires 'nav' once at boot)
 initSettings()
-document.addEventListener("nav", initSettings)
+document.addEventListener("nav", () => initSettings())
 
 

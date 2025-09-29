@@ -45,6 +45,42 @@ const PALETTES = {
       highlight: "rgba(234, 88, 12, 0.10)",
       textHighlight: "#fde68a80",
     },
+    // Warm Teal: same warm base with teal/emerald accents
+    warmTeal: {
+      light: "#FFFBF5",
+      lightgray: "#E7E5E4",
+      gray: "#A8A29E",
+      darkgray: "#44403C",
+      dark: "#1C1917",
+      secondary: "#0D9488",
+      tertiary: "#10B981",
+      highlight: "rgba(13, 148, 136, 0.12)",
+      textHighlight: "#a7f3d080",
+    },
+    // Warm Plum: same warm base with violet/mauve accents
+    warmPlum: {
+      light: "#FFFBF5",
+      lightgray: "#E7E5E4",
+      gray: "#A8A29E",
+      darkgray: "#44403C",
+      dark: "#1C1917",
+      secondary: "#7C3AED",
+      tertiary: "#8B5CF6",
+      highlight: "rgba(124, 58, 237, 0.12)",
+      textHighlight: "#d8b4fe80",
+    },
+    // Warm Slate: same warm base with soft blue/slate accents
+    warmSlate: {
+      light: "#FFFBF5",
+      lightgray: "#E7E5E4",
+      gray: "#A8A29E",
+      darkgray: "#44403C",
+      dark: "#1C1917",
+      secondary: "#3B82F6",
+      tertiary: "#60A5FA",
+      highlight: "rgba(59, 130, 246, 0.12)",
+      textHighlight: "#bfdbfe80",
+    },
   },
   dark: {
     // Default (current)
@@ -87,25 +123,34 @@ const PALETTES = {
 } as const
 
 // Select your palettes by setting exactly one option to true in each group
-// Light options: default | sereneSky | warmSand
+// Light options: default | sereneSky | warmSand | warmTeal | warmPlum | warmSlate
 const SELECT_LIGHT = {
   default: false,
   sereneSky: false,
-  warmSand: true,
+  warmSand: false,
+  warmTeal: true,
+  warmPlum: false,
+  warmSlate: false,
 } as const
 
 // Dark options: default | midnightBlue | graphite
 const SELECT_DARK = {
   default: false,
-  midnightBlue: false,
-  graphite: true,
+  midnightBlue: true,
+  graphite: false,
 } as const
 
 const lightMode = SELECT_LIGHT.sereneSky
   ? PALETTES.light.sereneSky
   : SELECT_LIGHT.warmSand
     ? PALETTES.light.warmSand
-    : PALETTES.light.default
+    : SELECT_LIGHT.warmTeal
+      ? PALETTES.light.warmTeal
+      : SELECT_LIGHT.warmPlum
+        ? PALETTES.light.warmPlum
+        : SELECT_LIGHT.warmSlate
+          ? PALETTES.light.warmSlate
+          : PALETTES.light.default
 
 const darkMode = SELECT_DARK.midnightBlue
   ? PALETTES.dark.midnightBlue

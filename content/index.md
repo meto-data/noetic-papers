@@ -11,7 +11,7 @@ Bağlantılardan da anlaşılacağı üzere birçok ders ve birçok konu başka 
 
 *λόγος* (lógos) kelimesi Yunanca "söylemek, ifade etmek, toplamak" anlamlarına geliyor. Söz, mantık, akıl, ölçü gibi anlamlara da gelebiliyor. Felsefî açıdan baktığımızda bilhassa stoacılarda *logos* kavramı kendini *"tanrısallık, tanrısal akıl, evrensel akıl"* gibi anlamlarla izhâr ediyor.
 
-Bu ikisini birleştirirsek kabaca düşünceyle ilgili söz de diyebiliriz, düşünceyle kavranılan *tanrısal akıl (logos)* da diyebiliriz, birçok çeşitli kombinasyon var. Fix olarak tek bir anlama zorlamıyoruz, *logos* kelimesin farklı anlamlarda kullanılabildiği gibi *noetic papers* da farklı anlamlarda kullanılabilir...
+Bu ikisini birleştirirsek kabaca düşünceyle ilgili söz de diyebiliriz, düşünceyle kavranılan *tanrısal akıl (logos)* da diyebiliriz, birçok çeşitli kombinasyon var. Fix olarak tek bir anlama zorlamıyoruz, *logos* kelimesin farklı anlamlarda kullanılabildiği gibi *noetic logos* da farklı anlamlarda kullanılabilir...
 
 ##### Sosyal Medya Hesaplarım
 - **Instagram**: [metophysica](https://www.instagram.com/metophysica)

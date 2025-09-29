@@ -90,15 +90,15 @@ const PALETTES = {
 // Light options: default | sereneSky | warmSand
 const SELECT_LIGHT = {
   default: false,
-  sereneSky: true,
-  warmSand: false,
+  sereneSky: false,
+  warmSand: true,
 } as const
 
 // Dark options: default | midnightBlue | graphite
 const SELECT_DARK = {
   default: false,
-  midnightBlue: true,
-  graphite: false,
+  midnightBlue: false,
+  graphite: true,
 } as const
 
 const lightMode = SELECT_LIGHT.sereneSky

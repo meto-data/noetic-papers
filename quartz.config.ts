@@ -128,8 +128,8 @@ const SELECT_LIGHT = {
   default: false,
   sereneSky: false,
   warmSand: false,
-  warmTeal: true,
-  warmPlum: false,
+  warmTeal: false,
+  warmPlum: true,
   warmSlate: false,
 } as const
 

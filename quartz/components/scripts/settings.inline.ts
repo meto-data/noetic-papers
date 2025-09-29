@@ -1,4 +1,3 @@
-
 const SETTINGS_LIGHT_KEY = "palette-light"
 const SETTINGS_DARK_KEY = "palette-dark"
 

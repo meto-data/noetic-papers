@@ -81,7 +81,7 @@
 
 #### Örnekler (Doğruluk Tablosu Oluşturma)
 
-##### **$\neg p \lor q$**:
+##### $\neg p \lor q$  için doğruluk tablosu oluşturun.
 
 | $p$ | $q$ | $\neg p$ | $\neg p \lor q$ |
 | --- | --- | -------- | --------------- |
@@ -90,7 +90,7 @@
 | F   | T   | T        | T               |
 | F   | F   | T        | T               |
 
-##### $\neg p  \land\neg q$:
+##### $\neg p  \land\neg q$ için doğruluk tablosu oluşturun.
 
 | $p$ | $q$ | $\neg p$ | $\neg q$ | $\neg p  \land\neg q$ |
 | --- | --- | -------- | -------- | --------------------- |
@@ -99,7 +99,7 @@
 | F   | T   | T        | F        | F                     |
 | F   | F   | T        | T        | T                     |
 
-##### $\neg q \rightarrow p$:
+##### $\neg q \rightarrow p$ için doğruluk tablosu oluşturun.
 
 | $q$ | $p$ | $\neg q$ | $\neg q \rightarrow p$ |
 | --- | --- | -------- | ---------------------- |
@@ -107,7 +107,7 @@
 | T   | F   | F        | T                      |
 | F   | T   | T        | T                      |
 | F   | F   | T        | F                      |
-##### $\neg p \leftrightarrow \neg q$:
+##### $\neg p \leftrightarrow \neg q$ için doğruluk tablosu oluşturun.
 
 | $p$ | $q$ | $\neg p$ | $\neg q$ | $\neg p \leftrightarrow \neg q$ |
 | --- | --- | -------- | -------- | ------------------------------- |

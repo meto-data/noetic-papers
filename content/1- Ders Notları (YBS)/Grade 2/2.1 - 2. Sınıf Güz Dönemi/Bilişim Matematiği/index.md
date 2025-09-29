@@ -10,4 +10,4 @@ Bir kişi devamsızlık hakkını doldurmuştu ve sınıfta kalmıştı, Hakan M
 
 İlk dönem Mesleki Matematik dersini, ikinci dönem İstatistik dersini üçüncü dönem ise seçmeli olarak Bilişim Matematiği dersini vermektedir. Diğer dönemlerde de seçmeli dersleri var tabii. Sayısal olduğu için korkmayı gerektirecek dersler değildir, YBS öğrencisinin ihtiyacı olduğu kadarını anlatır sadece. Sınırlar nettir, o sınırların içerisinden soruları sorar. 
 
-Sınavları klasiktir tabii, puan kırma konusunda da epey iyidir. Sonucu doğru yazsanız dâhi işlemlerinizde hata varsa veya eksik varsa geçmiş olsun (!).
+Sınavları klasiktir tabii, puan kırma konusunda da epey iyidir. Sonucu doğru yazsanız dâhi işlemlerinizde hata varsa veya eksik varsa geçmiş olsun (!). Sınav 45-50 dakika sürelidir. Derslerde konuyla alakalı sorular sorar, soruyu defterinde çözüp ilk doğru cevap veren 3 kişiye 5 puan verir. Vizeden önce de finalden önce de aşağı yukarı 5-6 olmak üzere toplamda 10-12 soru sorar. 

@@ -3,9 +3,8 @@
 // put your custom CSS here!
 /* Metin Hizalama */
 
-:root { --baseFontSize: 1.1rem; }
 body{
-  font-size: var(--baseFontSize);
+  font-size: 1.1rem;
 }
 .text-center {
   text-align: center;

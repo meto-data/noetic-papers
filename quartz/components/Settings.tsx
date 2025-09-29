@@ -22,7 +22,7 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
           <div class="settings-body">
             <label>
               Aydınlık tema
-              <select class="palette-light-select large">
+              <select class="palette-light-select">
                 <option value="default">Default Light</option>
                 <option value="sereneSky">Serene Sky</option>
                 <option value="warmSand">Warm Sand</option>
@@ -32,16 +32,12 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
                 <option value="oliveSage">Olive Sage</option>
                 <option value="stone">Stone</option>
                 <option value="cleanGray">Clean Gray</option>
-                <option value="githubLight">GitHub Light</option>
-                <option value="nordLight">Nord Light</option>
-                <option value="solarizedLight">Solarized Light</option>
-                <option value="obsidianLight">Obsidian Light</option>
               </select>
             </label>
 
             <label>
               Karanlık tema
-              <select class="palette-dark-select large">
+              <select class="palette-dark-select">
                 <option value="default">Default Dark</option>
                 <option value="midnightBlue">Midnight Blue</option>
                 <option value="graphite">Graphite</option>
@@ -51,46 +47,6 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
                 <option value="cobaltDark">Cobalt Dark</option>
                 <option value="slateDark">Slate Dark</option>
                 <option value="ink">Ink</option>
-                <option value="githubDark">GitHub Dark</option>
-                <option value="nordDark">Nord Dark</option>
-                <option value="solarizedDark">Solarized Dark</option>
-                <option value="obsidianDark">Obsidian Dark</option>
-              </select>
-            </label>
-            <div class="palette-previews">
-              <div class="preview light-preview">
-                <div class="swatch secondary"></div>
-                <div class="swatch tertiary"></div>
-                <div class="swatch highlight"></div>
-                <span>Aydınlık önizleme</span>
-              </div>
-              <div class="preview dark-preview">
-                <div class="swatch secondary"></div>
-                <div class="swatch tertiary"></div>
-                <div class="swatch highlight"></div>
-                <span>Karanlık önizleme</span>
-              </div>
-            </div>
-
-            <label>
-              Yazı tipi
-              <select class="font-select large">
-                <option value="">Varsayılan (Inter)</option>
-                <option value="Inter">Inter</option>
-                <option value="Roboto">Roboto</option>
-                <option value="Source Sans Pro">Source Sans Pro</option>
-                <option value="Noto Sans">Noto Sans</option>
-                <option value="Merriweather">Merriweather</option>
-              </select>
-            </label>
-
-            <label>
-              Yazı boyutu
-              <select class="font-size-select large">
-                <option value="1.0rem">Küçük</option>
-                <option value="1.1rem" selected>Orta (Varsayılan)</option>
-                <option value="1.2rem">Büyük</option>
-                <option value="1.3rem">Çok büyük</option>
               </select>
             </label>
           </div>

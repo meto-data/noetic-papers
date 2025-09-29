@@ -48,17 +48,15 @@ function applyFontFamily(name: string) {
   let existingLink = document.getElementById(linkId) as HTMLLinkElement | null
   if (existingLink) existingLink.remove()
   
-  if (name && name !== "Inter") {
+  if (name) {
     const link = document.createElement("link")
     link.id = linkId
     link.rel = "stylesheet"
-    link.href = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(name)}:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap`
+    link.href = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(name)}:wght@300;400;500;600;700&display=swap`
     document.head.appendChild(link)
-    document.documentElement.style.setProperty("--bodyFont", `"${name}", system-ui, sans-serif`)
-    document.documentElement.style.setProperty("--headerFont", `"${name}", system-ui, sans-serif`)
+    document.documentElement.style.setProperty("--bodyFont", `"${name}", var(--bodyFont)`)
   } else {
     document.documentElement.style.removeProperty("--bodyFont")
-    document.documentElement.style.removeProperty("--headerFont")
   }
   localStorage.setItem("font-family", name)
 }

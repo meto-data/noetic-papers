@@ -5,7 +5,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Noetic Papers",
+    pageTitle: "Noetic Logos",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -14,7 +14,7 @@ const config: QuartzConfig = {
       tagId: 'G-W727BKLZVN',
     },
     locale: "tr-TR",
-    baseUrl: "www.noetic-papers.vercel.app",
+    baseUrl: "www.noetic-logos.vercel.app",
     ignorePatterns: [
       "private",
       "templates",

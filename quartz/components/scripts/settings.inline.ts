@@ -1,7 +1,8 @@
-const LIGHT_KEY = "palette-light"
-const DARK_KEY = "palette-dark"
+(function() {
+const SETTINGS_LIGHT_KEY = "palette-light"
+const SETTINGS_DARK_KEY = "palette-dark"
 
-type LightKey =
+type SettingsLightKey =
   | "default"
   | "sereneSky"
   | "warmSand"
@@ -11,8 +12,12 @@ type LightKey =
   | "oliveSage"
   | "stone"
   | "cleanGray"
+  | "githubLight"
+  | "nordLight"
+  | "solarizedLight"
+  | "obsidianPrimary"
 
-type DarkKey =
+type SettingsDarkKey =
   | "default"
   | "midnightBlue"
   | "graphite"
@@ -22,16 +27,43 @@ type DarkKey =
   | "cobaltDark"
   | "slateDark"
   | "ink"
+  | "githubDark"
+  | "nordDark"
+  | "solarizedDark"
+  | "obsidianPrimary"
 
-function applyPalettes(light: LightKey, dark: DarkKey) {
-  localStorage.setItem(LIGHT_KEY, light)
-  localStorage.setItem(DARK_KEY, dark)
+function applyPalettes(light: SettingsLightKey, dark: SettingsDarkKey) {
+  localStorage.setItem(SETTINGS_LIGHT_KEY, light)
+  localStorage.setItem(SETTINGS_DARK_KEY, dark)
   document.documentElement.setAttribute("data-palette-light", light)
   document.documentElement.setAttribute("data-palette-dark", dark)
   const event: CustomEventMap["palettechange"] = new CustomEvent("palettechange", {
     detail: { light, dark },
   })
   document.dispatchEvent(event)
+}
+
+function applyFontFamily(name: string) {
+  const linkId = "dynamic-google-font"
+  let existingLink = document.getElementById(linkId) as HTMLLinkElement | null
+  if (existingLink) existingLink.remove()
+  
+  if (name) {
+    const link = document.createElement("link")
+    link.id = linkId
+    link.rel = "stylesheet"
+    link.href = `https://fonts.googleapis.com/css2?family=${encodeURIComponent(name)}:wght@300;400;500;600;700&display=swap`
+    document.head.appendChild(link)
+    document.documentElement.style.setProperty("--bodyFont", `"${name}", var(--bodyFont)`)
+  } else {
+    document.documentElement.style.removeProperty("--bodyFont")
+  }
+  localStorage.setItem("font-family", name)
+}
+
+function applyFontSize(size: string) {
+  document.documentElement.style.setProperty("--baseFontSize", size)
+  localStorage.setItem("font-size", size)
 }
 
 function openModal(outer: HTMLElement) {
@@ -53,16 +85,26 @@ document.addEventListener("nav", async () => {
   const closeBtn = settingsRoot.querySelector(".settings-close") as HTMLButtonElement
   const lightSelect = settingsRoot.querySelector(".palette-light-select") as HTMLSelectElement
   const darkSelect = settingsRoot.querySelector(".palette-dark-select") as HTMLSelectElement
+  const fontSelect = settingsRoot.querySelector(".font-select") as HTMLSelectElement | null
+  const sizeSelect = settingsRoot.querySelector(".font-size-select") as HTMLSelectElement | null
 
-  const light = (localStorage.getItem(LIGHT_KEY) as LightKey) ?? "default"
-  const dark = (localStorage.getItem(DARK_KEY) as DarkKey) ?? "default"
+  const light = (localStorage.getItem(SETTINGS_LIGHT_KEY) as SettingsLightKey) ?? "default"
+  const dark = (localStorage.getItem(SETTINGS_DARK_KEY) as SettingsDarkKey) ?? "default"
+  const savedFont = localStorage.getItem("font-family") || ""
+  const savedSize = localStorage.getItem("font-size") || "1.1rem"
+  
   lightSelect.value = light
   darkSelect.value = dark
+  if (fontSelect) fontSelect.value = savedFont
+  if (sizeSelect) sizeSelect.value = savedSize
+  
   applyPalettes(light, dark)
+  if (savedFont) applyFontFamily(savedFont)
+  applyFontSize(savedSize)
 
   const onOpen = () => openModal(outer)
   const onClose = () => closeModal(outer)
-  const onChange = () => applyPalettes(lightSelect.value as LightKey, darkSelect.value as DarkKey)
+  const onChange = () => applyPalettes(lightSelect.value as SettingsLightKey, darkSelect.value as SettingsDarkKey)
   const onOutsideClick = (e: MouseEvent) => {
     if (e.target === outer) closeModal(outer)
   }
@@ -72,12 +114,15 @@ document.addEventListener("nav", async () => {
   outer.addEventListener("click", onOutsideClick)
   lightSelect.addEventListener("change", onChange)
   darkSelect.addEventListener("change", onChange)
+  if (fontSelect) fontSelect.addEventListener("change", () => applyFontFamily(fontSelect!.value))
+  if (sizeSelect) sizeSelect.addEventListener("change", () => applyFontSize(sizeSelect!.value))
 
   window.addCleanup(() => btn.removeEventListener("click", onOpen))
   window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
   window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
   window.addCleanup(() => lightSelect.removeEventListener("change", onChange))
   window.addCleanup(() => darkSelect.removeEventListener("change", onChange))
+  if (fontSelect) window.addCleanup(() => fontSelect?.removeEventListener("change", () => applyFontFamily(fontSelect!.value)))
+  if (sizeSelect) window.addCleanup(() => sizeSelect?.removeEventListener("change", () => applyFontSize(sizeSelect!.value)))
 })
-
-
+})()

@@ -32,10 +32,6 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
                 <option value="oliveSage">Olive Sage</option>
                 <option value="stone">Stone</option>
                 <option value="cleanGray">Clean Gray</option>
-                <option value="githubLight">GitHub Light</option>
-                <option value="nordLight">Nord Light</option>
-                <option value="solarizedLight">Solarized Light</option>
-                <option value="obsidianPrimary">Obsidian Primary</option>
               </select>
             </label>
 
@@ -51,38 +47,6 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
                 <option value="cobaltDark">Cobalt Dark</option>
                 <option value="slateDark">Slate Dark</option>
                 <option value="ink">Ink</option>
-                <option value="githubDark">GitHub Dark</option>
-                <option value="nordDark">Nord Dark</option>
-                <option value="solarizedDark">Solarized Dark</option>
-                <option value="obsidianPrimary">Obsidian Primary</option>
-              </select>
-            </label>
-
-            <label>
-              Yazı tipi
-              <select class="font-select">
-                <option value="">Varsayılan (Inter)</option>
-                <option value="Inter">Inter</option>
-                <option value="Roboto">Roboto</option>
-                <option value="Poppins">Poppins</option>
-                <option value="Source Sans Pro">Source Sans Pro</option>
-                <option value="Noto Sans">Noto Sans</option>
-                <option value="Open Sans">Open Sans</option>
-                <option value="Lato">Lato</option>
-                <option value="Merriweather">Merriweather (Serif)</option>
-                <option value="Playfair Display">Playfair Display (Serif)</option>
-              </select>
-            </label>
-
-            <label>
-              Yazı boyutu
-              <select class="font-size-select">
-                <option value="0.9rem">Çok küçük</option>
-                <option value="1.0rem">Küçük</option>
-                <option value="1.1rem" selected>Orta (Varsayılan)</option>
-                <option value="1.2rem">Büyük</option>
-                <option value="1.3rem">Çok büyük</option>
-                <option value="1.4rem">Dev</option>
               </select>
             </label>
           </div>

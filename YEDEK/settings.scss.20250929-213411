@@ -41,10 +41,9 @@
   background: var(--light);
   color: var(--darkgray);
   border: 1px solid var(--lightgray);
-  border-radius: 16px;
-  width: min(640px, 94vw);
-  box-shadow: 0 20px 40px rgba(0,0,0,.15), 0 4px 8px rgba(0,0,0,.05);
-  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  width: min(560px, 92vw);
+  box-shadow: 0 10px 25px rgba(0,0,0,.12);
 }
 
 .settings-header {
@@ -79,22 +78,8 @@
   border: 1px solid var(--lightgray);
   background: var(--light);
   color: var(--darkgray);
-  padding: .8rem 1rem;
-  border-radius: 8px;
-  font-size: 1.05rem;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-  cursor: pointer;
-}
-
-.settings-body select:hover {
-  border-color: var(--secondary);
-  box-shadow: 0 0 0 3px color-mix(in srgb, var(--secondary) 15%, transparent);
-}
-
-.settings-body select:focus {
-  outline: none;
-  border-color: var(--secondary);
-  box-shadow: 0 0 0 4px color-mix(in srgb, var(--secondary) 20%, transparent);
+  padding: .5rem .6rem;
+  border-radius: 6px;
 }
 
 @media all and (max-width: 800px) {

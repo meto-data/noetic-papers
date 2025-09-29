@@ -233,7 +233,6 @@ a {
       z-index: 1;
       grid-area: grid-sidebar-left;
       flex-direction: column;
-      margin-left: 5%;
       @media all and ($mobile) {
         gap: 0;
         align-items: center;
@@ -243,13 +242,12 @@ a {
         flex-direction: row;
         padding: 0;
         padding-top: 2rem;
-        margin-left: 0;
       }
     }
 
     & .sidebar.right {
       grid-area: grid-sidebar-right;
-      margin-right: 5%;
+      margin-right: 0;
       flex-direction: column;
       @media all and ($mobile) {
         margin-left: inherit;
@@ -261,7 +259,6 @@ a {
         width: 100%;
         flex-direction: row;
         padding: 0;
-        margin-right: 0;
         & > * {
           flex: 1;
           max-height: 24rem;

@@ -97,6 +97,57 @@
   box-shadow: 0 0 0 4px color-mix(in srgb, var(--secondary) 20%, transparent);
 }
 
+.checkbox-label {
+  display: flex !important;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.checkbox-label input[type="checkbox"] {
+  margin: 0;
+}
+
+.checkbox-text {
+  color: var(--darkgray);
+  font-size: 1rem;
+}
+
+// Focus mode styles
+body.focus-mode {
+  .sidebar.left,
+  .sidebar.right {
+    display: none !important;
+  }
+  
+  .page > #quartz-body {
+    grid-template-columns: 1fr !important;
+    grid-template-areas: 
+      "grid-header"
+      "grid-center"
+      "grid-footer" !important;
+  }
+}
+
+.focus-mode-exit {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: var(--secondary);
+  color: var(--light);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  z-index: 1000;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.focus-mode-exit:hover {
+  background: var(--tertiary);
+}
+
 @media all and (max-width: 800px) {
   .settings-modal { 
     width: 96vw; 

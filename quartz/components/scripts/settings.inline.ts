@@ -68,6 +68,28 @@ function applyFontSize(size: string) {
   localStorage.setItem("font-size", size)
 }
 
+function applyFocusMode(enabled: boolean) {
+  if (enabled) {
+    document.body.classList.add("focus-mode")
+    // Add exit button
+    if (!document.querySelector(".focus-mode-exit")) {
+      const exitBtn = document.createElement("button")
+      exitBtn.className = "focus-mode-exit"
+      exitBtn.innerHTML = "✕ Odak modundan çık"
+      exitBtn.addEventListener("click", () => {
+        const toggle = document.querySelector(".focus-mode-toggle") as HTMLInputElement | null
+        if (toggle) toggle.checked = false
+        applyFocusMode(false)
+      })
+      document.body.appendChild(exitBtn)
+    }
+  } else {
+    document.body.classList.remove("focus-mode")
+    document.querySelector(".focus-mode-exit")?.remove()
+  }
+  localStorage.setItem("focus-mode", enabled ? "true" : "false")
+}
+
 function openModal(outer: HTMLElement) {
   outer.setAttribute("aria-hidden", "false")
   outer.classList.add("active")
@@ -89,20 +111,24 @@ document.addEventListener("nav", async () => {
   const darkSelect = settingsRoot.querySelector(".palette-dark-select") as HTMLSelectElement
   const fontSelect = settingsRoot.querySelector(".font-select") as HTMLSelectElement | null
   const sizeSelect = settingsRoot.querySelector(".font-size-select") as HTMLSelectElement | null
+  const focusToggle = settingsRoot.querySelector(".focus-mode-toggle") as HTMLInputElement | null
 
   const light = (localStorage.getItem(SETTINGS_LIGHT_KEY) as SettingsLightKey) ?? "default"
   const dark = (localStorage.getItem(SETTINGS_DARK_KEY) as SettingsDarkKey) ?? "default"
   const savedFont = localStorage.getItem("font-family") || ""
   const savedSize = localStorage.getItem("font-size") || "1.1rem"
+  const savedFocusMode = localStorage.getItem("focus-mode") === "true"
   
   lightSelect.value = light
   darkSelect.value = dark
   if (fontSelect) fontSelect.value = savedFont
   if (sizeSelect) sizeSelect.value = savedSize
+  if (focusToggle) focusToggle.checked = savedFocusMode
   
   applyPalettes(light, dark)
   if (savedFont) applyFontFamily(savedFont)
   applyFontSize(savedSize)
+  applyFocusMode(savedFocusMode)
 
   const onOpen = () => openModal(outer)
   const onClose = () => closeModal(outer)
@@ -118,6 +144,7 @@ document.addEventListener("nav", async () => {
   darkSelect.addEventListener("change", onChange)
   if (fontSelect) fontSelect.addEventListener("change", () => applyFontFamily(fontSelect!.value))
   if (sizeSelect) sizeSelect.addEventListener("change", () => applyFontSize(sizeSelect!.value))
+  if (focusToggle) focusToggle.addEventListener("change", () => applyFocusMode(focusToggle!.checked))
 
   window.addCleanup(() => btn.removeEventListener("click", onOpen))
   window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
@@ -126,5 +153,6 @@ document.addEventListener("nav", async () => {
   window.addCleanup(() => darkSelect.removeEventListener("change", onChange))
   if (fontSelect) window.addCleanup(() => fontSelect?.removeEventListener("change", () => applyFontFamily(fontSelect!.value)))
   if (sizeSelect) window.addCleanup(() => sizeSelect?.removeEventListener("change", () => applyFontSize(sizeSelect!.value)))
+  if (focusToggle) window.addCleanup(() => focusToggle?.removeEventListener("change", () => applyFocusMode(focusToggle!.checked)))
 })
 })()

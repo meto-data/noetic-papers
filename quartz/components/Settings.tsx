@@ -85,6 +85,11 @@ const Settings: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
                 <option value="1.4rem">Dev</option>
               </select>
             </label>
+
+            <label class="checkbox-label">
+              <input type="checkbox" class="focus-mode-toggle" />
+              <span class="checkbox-text">Odak modu (yan panelleri gizle)</span>
+            </label>
           </div>
         </div>
       </div>

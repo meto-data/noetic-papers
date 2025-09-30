@@ -184,6 +184,12 @@
   font-weight: 600;
 }
 
+.word-count {
+  font-size: 0.8rem;
+  color: var(--gray);
+  margin-left: 0.5rem;
+}
+
 @media all and (max-width: 800px) {
   .file-tree-modal {
     width: 96vw;

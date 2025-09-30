@@ -19,9 +19,16 @@
 
   function countWords(text: string): number {
     if (!text) return 0
-    // strip code blocks
-    const cleaned = text.replace(/```[\s\S]*?```/g, " ")
-    const words = cleaned.match(/\b\p{L}[\p{L}\p{N}'’-]*\b/gu) || []
+    // strip code blocks and markdown
+    let cleaned = text.replace(/```[\s\S]*?```/g, " ")
+    cleaned = cleaned.replace(/`[^`]+`/g, " ") // inline code
+    cleaned = cleaned.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // links
+    cleaned = cleaned.replace(/[#*_~`]/g, " ") // markdown symbols
+
+    // Split by whitespace and filter empty strings
+    const words = cleaned.split(/\s+/).filter(word => word.length > 0)
+
+    // Count actual words (not just unicode letters)
     return words.length
   }
 
@@ -100,20 +107,31 @@
     return { root, altFiles, altWords, wordMap }
   }
 
-  function cleanFolderName(name: string): string {
-    // "2--Genel-Notlar" -> "2- Genel Notlar"
-    return name.replace(/-+/g, (match) => (match.length > 1 ? " " : "-")).replace(/-/g, "- ")
+  function cleanDisplayName(name: string): string {
+    // "8- Makale İnceleme ve Özet" formatına çevir
+    // Önce tüm tireleri boşluk ile değiştir
+    let cleanName = name.replace(/-/g, " ")
+
+    // Eğer başında sayı-tire varsa, onu koru
+    if (/^\d+-/.test(name)) {
+      const match = name.match(/^(\d+)-/)
+      if (match) {
+        cleanName = match[1] + "- " + cleanName.substring(match[0].length)
+      }
+    }
+
+    return cleanName
   }
 
-  function renderTreeNode(node: TreeNode, isRoot = false, maxDepth = Infinity): string {
+  function renderTreeNode(node: TreeNode, isRoot = false, maxDepth = Infinity, wordMap?: Map<string, number>, totalWords?: number): string {
     if (isRoot) {
-      return node.children.map((child) => renderTreeNode(child, false, maxDepth)).join("")
+      return node.children.map((child) => renderTreeNode(child, false, maxDepth, wordMap, totalWords)).join("")
     }
 
     const indent = "&nbsp;&nbsp;".repeat(Math.max(0, node.level - 1))
     const icon = node.isFolder ? "📁" : "📄"
     const prefix = node.level > 1 ? "├── " : ""
-    const displayName = node.isFolder ? cleanFolderName(node.name) : node.name
+    const displayName = cleanDisplayName(node.name)
 
     let html = `<div class="tree-item ${node.isFolder ? "folder" : "file"}" data-level="${
       node.level
@@ -125,13 +143,48 @@
       html += `<a href="/${node.slug}" class="tree-file-link">${displayName}</a>`
     }
 
+    // Add word count for files and percentage for folders
+    if (wordMap && totalWords && totalWords > 0) {
+      if (node.isFolder) {
+        // Calculate folder word count (sum of all children recursively)
+        const folderWords = calculateFolderWords(node, wordMap)
+        const percentage = totalWords > 0 ? ((folderWords / totalWords) * 100).toFixed(2).replace('.', ',') : "0,00"
+        html += ` <span class="word-count">(${folderWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
+      } else {
+        const fileWords = wordMap.get(node.slug) || 0
+        const percentage = totalWords > 0 ? ((fileWords / totalWords) * 100).toFixed(2).replace('.', ',') : "0,00"
+        html += ` <span class="word-count">(${fileWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
+      }
+    }
+
     html += `</div>`
 
     if (node.children.length > 0 && node.level < maxDepth) {
-      html += node.children.map((child) => renderTreeNode(child, false, maxDepth)).join("")
+      const childMaxDepth = maxDepth
+      html += node.children.map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords)).join("")
     }
 
     return html
+  }
+
+  function calculateFolderWords(node: TreeNode, wordMap: Map<string, number>): number {
+    if (!node.isFolder) {
+      return wordMap.get(node.slug) || 0
+    }
+
+    // Sum up all file words in this folder and subfolders
+    function sumWords(n: TreeNode): number {
+      let sum = 0
+      if (!n.isFolder && wordMap.has(n.slug)) {
+        sum += wordMap.get(n.slug) || 0
+      }
+      for (const child of n.children) {
+        sum += sumWords(child)
+      }
+      return sum
+    }
+
+    return sumWords(node)
   }
 
   function calculateStats(node: TreeNode): { folders: number; files: number } {
@@ -174,40 +227,23 @@
 
     const renderTreeView = () => {
       if (!cachedData) return
-      const maxDepth = parseInt(depthSelect?.value || "3", 10)
-      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, maxDepth)}</div>`
+      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, Infinity)}</div>`
     }
 
     const renderDetailView = async () => {
       if (!cachedData) return
-      const d = await fetchData
       const depth = parseInt(depthSelect?.value || "2", 10)
 
-      // Only include folders (paths with at least depth segments)
-      const totals = new Map<string, number>()
-      for (const slug of Object.keys(d || {})) {
-        const parts = slug.split("/").filter(Boolean)
-        if (parts.length < depth) continue // skip files that are too shallow
-        
-        const key = parts.slice(0, depth).join("/")
-        const words = cachedData.wordMap.get(slug) || 0
-        totals.set(key, (totals.get(key) || 0) + words)
-      }
+      // Calculate total words for percentage calculation
+      const totalWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
 
-      const sum = Array.from(totals.values()).reduce((a, b) => a + b, 0) || 1
-      const rows = Array.from(totals.entries())
-        .sort((a, b) => b[1] - a[1])
-        .map(([key, words]) => {
-          const pct = ((words / sum) * 100).toFixed(2).replace('.', ',')
-          const displayKey = cleanFolderName(key.split("/").pop() || key)
-          return `<div class="detail-row"><span class="detail-key">${displayKey}</span><span class="detail-bar"><span style="width:${pct.replace(',', '.')}%"></span></span><span class="detail-pct">${pct}%</span></div>`
-        })
-        .join("")
+      // Use the same tree rendering but with word counts and percentages
+      const treeHtml = renderTreeNode(cachedData.root, true, Infinity, cachedData.wordMap, totalWords)
 
       content.innerHTML = `
         <div class="detail-view">
-          <div class="detail-caption">Kelime ağırlıklı dağılım (derinlik ${depth})</div>
-          ${rows || '<div class="tree-loading">Veri bulunamadı</div>'}
+          <div class="detail-caption">Kelime ağırlıklı dosya ağacı (derinlik ${depth})</div>
+          <div class="tree-view">${treeHtml}</div>
         </div>`
     }
 

@@ -1,7 +1,7 @@
 (function() {
   const EXCLUDED_FOLDERS = [
     "ekler", "görseller", "pdf", "pdfler", "images", "assets",
-    "attachments", "files", "media", "resimler", "dosyalar"
+    "attachments", "files", "media", "resimler", "dosyalar", "notlar"
   ]
 
   interface TreeNode {

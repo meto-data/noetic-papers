@@ -144,6 +144,14 @@
   color: var(--secondary);
 }
 
+.tree-item[data-level="1"] > .tree-folder-name { color: var(--level-1, var(--secondary)); }
+.tree-item[data-level="2"] > .tree-folder-name { color: var(--level-2, color-mix(in srgb, var(--secondary) 85%, var(--tertiary))); }
+.tree-item[data-level="3"] > .tree-folder-name { color: var(--level-3, color-mix(in srgb, var(--secondary) 70%, var(--tertiary))); }
+.tree-item[data-level="4"] > .tree-folder-name { color: var(--level-4, color-mix(in srgb, var(--secondary) 55%, var(--tertiary))); }
+.tree-item[data-level="5"] > .tree-folder-name { color: var(--level-5, color-mix(in srgb, var(--secondary) 40%, var(--tertiary))); }
+.tree-item[data-level="6"] > .tree-folder-name { color: var(--level-6, var(--tertiary)); }
+
+
 .tree-file-link {
   color: var(--dark);
   text-decoration: none;

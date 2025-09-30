@@ -1,0 +1,9 @@
+[build]
+  publish = "public"
+  command = "npx quartz build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = true

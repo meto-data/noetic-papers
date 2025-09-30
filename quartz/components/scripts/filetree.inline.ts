@@ -344,6 +344,30 @@
       }
     }
 
+    const onGraphOpen = async () => {
+      openModal()
+      console.log("[filetree] opening graph modal…")
+
+      try {
+        if (!cachedData) {
+          cachedData = await buildTreeFromData()
+          const stats = calculateStats(cachedData.root)
+          const totalAllWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
+          statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
+          statsFiles.textContent = `${stats.files} dosya`
+          statsAlt.textContent = `${cachedData.altFiles} alt dosya (${totalAllWords.toLocaleString('tr-TR')} kelime)`
+        }
+        
+        const modal = rootEl.querySelector('.file-tree-modal') as HTMLElement
+        modal.classList.add('graph-mode')
+        renderDetailView()
+        console.log("[filetree] built graph view")
+      } catch (e) {
+        console.error("[filetree] failed:", e)
+        content.innerHTML = `<div class="tree-loading">Hata: ağacı oluşturamadım.</div>`
+      }
+    }
+
     // no depth control in UI anymore
 
     const onClose = () => closeModal()
@@ -394,12 +418,12 @@
       if (tv) tv.innerHTML = html
     }
 
-    btn.addEventListener("click", onOpen)
+    btn.addEventListener("click", onGraphOpen)
     closeBtn.addEventListener("click", onClose)
     outer.addEventListener("click", onOutsideClick)
     graphBtn.addEventListener("click", onGraphClick)
 
-    window.addCleanup(() => btn.removeEventListener("click", onOpen))
+    window.addCleanup(() => btn.removeEventListener("click", onGraphOpen))
     window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
     window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
     window.addCleanup(() => graphBtn.removeEventListener("click", onGraphClick))

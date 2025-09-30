@@ -28,9 +28,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Flex({
       components: [
         { Component: Component.PageTitle(), grow: true },
-        { Component: Component.Darkmode() },
-        { Component: Component.FileTree() },
       ],
+      wrap: "wrap",
     }),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
@@ -42,6 +41,7 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Settings() },
         { Component: Component.ReaderMode() },
       ],
+      wrap: "wrap",
     }),
     Component.Explorer(),
   ],
@@ -59,9 +59,8 @@ export const defaultListPageLayout: PageLayout = {
     Component.Flex({
       components: [
         { Component: Component.PageTitle(), grow: true },
-        { Component: Component.Darkmode() },
-        { Component: Component.FileTree() },
       ],
+      wrap: "wrap",
     }),
     Component.MobileOnly(Component.Spacer()),
     Component.Flex({
@@ -72,6 +71,7 @@ export const defaultListPageLayout: PageLayout = {
         },
         { Component: Component.Settings() },
       ],
+      wrap: "wrap",
     }),
     Component.Explorer(),
   ],

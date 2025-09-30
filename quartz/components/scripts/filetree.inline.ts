@@ -1,7 +1,7 @@
 (function() {
   const EXCLUDED_FOLDERS = [
     "ekler", "görseller", "pdf", "pdfler", "images", "assets",
-    "attachments", "files", "media", "resimler", "dosyalar", "notlar"
+    "attachments", "media", "resimler", "dosyalar", "notlar"
   ]
 
   interface TreeNode {
@@ -14,7 +14,8 @@
 
   function shouldExcludeFolder(folderName: string): boolean {
     const lower = folderName.toLowerCase()
-    return EXCLUDED_FOLDERS.some((excluded) => lower === excluded || lower.includes(excluded))
+    // exact segment match only (avoid excluding e.g. 'profiles')
+    return EXCLUDED_FOLDERS.some((excluded) => lower === excluded)
   }
 
   function shouldExcludeFile(fileName: string): boolean {

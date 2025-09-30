@@ -274,12 +274,20 @@
       // Calculate total words for percentage calculation
       const totalWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
 
-      // Use the same tree rendering but with word counts and percentages, hide files initially
-      const treeHtml = renderTreeNode(cachedData.root, true, Infinity, cachedData.wordMap, totalWords, false, true)
+      // Controls: depth range (1-10) and show files toggle
+      const controls = `
+        <div class="graph-controls">
+          <label>Derinlik: <input type="range" min="1" max="10" step="1" value="1" class="graph-depth" /></label>
+          <label><input type="checkbox" class="graph-hide-files" checked /> Dosyaları gösterme</label>
+        </div>`
+
+      const depth = 1
+      const hideFiles = true
+      const treeHtml = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, !hideFiles, true)
 
       content.innerHTML = `
         <div class="detail-view">
-          <div class="detail-caption">Kelime ağırlıklı dosya ağacı — Klasörlere tıklayarak dosyaları görün</div>
+          ${controls}
           <div class="tree-view">${treeHtml}</div>
         </div>`
     }
@@ -298,6 +306,7 @@
         statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
         statsFiles.textContent = `${stats.files} dosya`
         statsAlt.textContent = `${cachedData.altFiles} alt dosya (${includedWords.toLocaleString('tr-TR')} kelime)`
+        outer.querySelector('.file-tree-modal')?.classList.remove('graph-mode')
         renderTreeView()
         console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles: cachedData.altFiles, includedWords })
       } catch (e) {
@@ -316,24 +325,35 @@
     btn.addEventListener("click", onOpen)
     closeBtn.addEventListener("click", onClose)
     outer.addEventListener("click", onOutsideClick)
-    graphBtn.addEventListener("click", renderDetailView)
+    graphBtn.addEventListener("click", () => {
+      if (!cachedData) return
+      const modal = rootEl.querySelector('.file-tree-modal') as HTMLElement
+      const isGraph = modal.classList.contains('graph-mode')
+      if (isGraph) {
+        modal.classList.remove('graph-mode')
+        renderTreeView()
+      } else {
+        modal.classList.add('graph-mode')
+        renderDetailView()
+      }
+    })
 
     window.addCleanup(() => btn.removeEventListener("click", onOpen))
     window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
     window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
-    window.addCleanup(() => graphBtn.removeEventListener("click", renderDetailView))
+    // cleanup is implicit since we used inline listener; modal is re-bound per nav
 
-    // Delegate clicks for folder toggling in detail view (currently only folder tree; files hidden entirely)
-    content.addEventListener('click', (ev) => {
-      const target = ev.target as HTMLElement
-      const item = target.closest('.tree-item.folder[data-toggle-folder="true"]') as HTMLElement | null
-      if (!item) return
-      // toggle subfolders block if exists
-      const subfolders = item.nextElementSibling as HTMLElement | null
-      if (subfolders) {
-        const isVisible = subfolders.style.display !== 'none'
-        subfolders.style.display = isVisible ? 'none' : 'block'
-      }
+    // Graph controls interactions (depth + hide files)
+    content.addEventListener('input', () => {
+      const depthEl = content.querySelector('.graph-depth') as HTMLInputElement | null
+      const hideEl = content.querySelector('.graph-hide-files') as HTMLInputElement | null
+      if (!depthEl || !hideEl || !cachedData) return
+      const totalWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
+      const depth = Math.max(1, Math.min(10, parseInt(depthEl.value || '1', 10)))
+      const hideFiles = hideEl.checked
+      const html = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, !hideFiles, true)
+      const tv = content.querySelector('.tree-view') as HTMLElement
+      if (tv) tv.innerHTML = html
     })
   })
 })()

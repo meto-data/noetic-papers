@@ -236,8 +236,7 @@
     const statsFolder = rootEl.querySelector(".stats-folders") as HTMLElement
     const statsFiles = rootEl.querySelector(".stats-files") as HTMLElement
     const statsAlt = rootEl.querySelector(".stats-altfiles") as HTMLElement
-    const detailBtn = rootEl.querySelector(".file-tree-detail") as HTMLButtonElement
-    const depthSelect = rootEl.querySelector(".detail-depth") as HTMLSelectElement
+    const graphBtn = rootEl.querySelector(".file-tree-graph") as HTMLButtonElement
 
     let cachedData: { root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number> } | null = null
 
@@ -257,7 +256,6 @@
 
     const renderDetailView = async () => {
       if (!cachedData) return
-      const depth = parseInt(depthSelect?.value || "2", 10)
 
       // Calculate total words for percentage calculation
       const totalWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
@@ -267,7 +265,7 @@
 
       content.innerHTML = `
         <div class="detail-view">
-          <div class="detail-caption">Kelime ağırlıklı dosya ağacı (derinlik ${depth}) - Klasörlere tıklayarak dosyaları görün</div>
+          <div class="detail-caption">Kelime ağırlıklı dosya ağacı — Klasörlere tıklayarak dosyaları görün</div>
           <div class="tree-view">${treeHtml}</div>
         </div>`
     }
@@ -294,9 +292,7 @@
       }
     }
 
-    const onDepthChange = () => {
-      renderTreeView()
-    }
+    // no depth control in UI anymore
 
     const onClose = () => closeModal()
     const onOutsideClick = (e: MouseEvent) => {
@@ -306,14 +302,12 @@
     btn.addEventListener("click", onOpen)
     closeBtn.addEventListener("click", onClose)
     outer.addEventListener("click", onOutsideClick)
-    depthSelect.addEventListener("change", onDepthChange)
-    detailBtn.addEventListener("click", renderDetailView)
+    graphBtn.addEventListener("click", renderDetailView)
 
     window.addCleanup(() => btn.removeEventListener("click", onOpen))
     window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
     window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
-      window.addCleanup(() => depthSelect.removeEventListener("change", onDepthChange))
-    window.addCleanup(() => detailBtn.removeEventListener("click", renderDetailView))
+    window.addCleanup(() => graphBtn.removeEventListener("click", renderDetailView))
 
     // Global function for folder toggling (called from onclick in HTML)
     ;(window as any).toggleFolder = (element: HTMLElement) => {

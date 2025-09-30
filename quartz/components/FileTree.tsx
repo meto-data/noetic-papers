@@ -21,15 +21,11 @@ const FileTree: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
           <div class="file-tree-header">
             <span>📁 Dosya Ağacı</span>
             <div class="file-tree-tools">
-              <label class="depth-label">
-                Derinlik:
-                <select class="detail-depth">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                </select>
-              </label>
-              <button class="file-tree-detail" aria-label="Detaylı Bakış">Detaylı Bakış</button>
+              <button class="file-tree-graph" aria-label="Grafik Görünümü">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                  <path d="M3 3h2v18H3zM7 13h2v8H7zM11 9h2v12h-2zM15 5h2v16h-2zM19 1h2v20h-2z"/>
+                </svg>
+              </button>
               <button class="file-tree-close" aria-label="Kapat">×</button>
             </div>
           </div>

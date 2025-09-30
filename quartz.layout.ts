@@ -25,24 +25,32 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.Flex({
-      components: [
-        { Component: Component.PageTitle(), grow: true },
-      ],
-      wrap: "wrap",
-    }),
+    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Settings() },
-        { Component: Component.ReaderMode() },
-      ],
-      wrap: "wrap",
-    }),
+    Component.DesktopOnly(
+      Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.FileTree() },
+          { Component: Component.Darkmode() },
+          { Component: Component.Settings() },
+        ],
+      }),
+    ),
+    Component.MobileOnly(
+      Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.Settings() },
+        ],
+      }),
+    ),
     Component.Explorer(),
   ],
   right: [
@@ -56,23 +64,32 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
   left: [
-    Component.Flex({
-      components: [
-        { Component: Component.PageTitle(), grow: true },
-      ],
-      wrap: "wrap",
-    }),
+    Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Settings() },
-      ],
-      wrap: "wrap",
-    }),
+    Component.DesktopOnly(
+      Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.FileTree() },
+          { Component: Component.Darkmode() },
+          { Component: Component.Settings() },
+        ],
+      }),
+    ),
+    Component.MobileOnly(
+      Component.Flex({
+        components: [
+          {
+            Component: Component.Search(),
+            grow: true,
+          },
+          { Component: Component.Settings() },
+        ],
+      }),
+    ),
     Component.Explorer(),
   ],
   right: [],

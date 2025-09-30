@@ -25,7 +25,7 @@
     return words.length
   }
 
-  async function buildTreeFromData(): Promise<{ root: TreeNode; altFiles: number; wordMap: Map<string, number> }> {
+  async function buildTreeFromData(): Promise<{ root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number> }> {
     const root: TreeNode = { name: "root", slug: "", isFolder: true, children: [], level: 0 }
 
     const data = await fetchData
@@ -36,6 +36,7 @@
     pathMap.set("", root)
 
     let altFiles = 0
+    let altWords = 0
     const wordMap = new Map<string, number>() // slug -> word count
 
     for (const slug of allSlugs) {
@@ -43,6 +44,16 @@
       const parts = slug.split("/").filter((p) => p.length > 0)
       let currentPath = ""
       let currentNode: TreeNode | null = root
+
+      // Calculate word count first
+      let wordCount = 0
+      if (file && typeof file.content === "string") {
+        wordCount = countWords(file.content)
+        wordMap.set(slug, wordCount)
+      } else if (file && typeof file.text === "string") {
+        wordCount = countWords(file.text)
+        wordMap.set(slug, wordCount)
+      }
 
       for (let i = 0; i < parts.length && currentNode; i++) {
         const part = parts[i]
@@ -52,6 +63,7 @@
         if (!isLastPart && shouldExcludeFolder(part)) {
           // Count files under excluded folders as alt files
           altFiles += file ? 1 : 0
+          altWords += wordCount
           currentNode = null
           break
         }
@@ -73,13 +85,6 @@
         currentNode = childNode
         currentPath = newPath
       }
-
-      // word count for files
-      if (file && typeof file.content === "string") {
-        wordMap.set(slug, countWords(file.content))
-      } else if (file && typeof file.text === "string") {
-        wordMap.set(slug, countWords(file.text))
-      }
     }
 
     function sortTree(node: TreeNode) {
@@ -92,7 +97,12 @@
     }
 
     sortTree(root)
-    return { root, altFiles, wordMap }
+    return { root, altFiles, altWords, wordMap }
+  }
+
+  function cleanFolderName(name: string): string {
+    // "2--Genel-Notlar" -> "2- Genel Notlar"
+    return name.replace(/-+/g, (match) => (match.length > 1 ? " " : "-")).replace(/-/g, "- ")
   }
 
   function renderTreeNode(node: TreeNode, isRoot = false, maxDepth = Infinity): string {
@@ -103,15 +113,16 @@
     const indent = "&nbsp;&nbsp;".repeat(Math.max(0, node.level - 1))
     const icon = node.isFolder ? "📁" : "📄"
     const prefix = node.level > 1 ? "├── " : ""
+    const displayName = node.isFolder ? cleanFolderName(node.name) : node.name
 
     let html = `<div class="tree-item ${node.isFolder ? "folder" : "file"}" data-level="${
       node.level
     }">${indent}${prefix}${icon} `
 
     if (node.isFolder) {
-      html += `<span class="tree-folder-name">${node.name}</span>`
+      html += `<span class="tree-folder-name">${displayName}</span>`
     } else {
-      html += `<a href="/${node.slug}" class="tree-file-link">${node.name}</a>`
+      html += `<a href="/${node.slug}" class="tree-file-link">${displayName}</a>`
     }
 
     html += `</div>`
@@ -136,16 +147,6 @@
     return { folders, files }
   }
 
-  function groupByDepth(slugs: string[], depth: number): Map<string, number> {
-    const map = new Map<string, number>()
-    for (const slug of slugs) {
-      const parts = slug.split("/").filter(Boolean)
-      const key = parts.slice(0, depth).join("/") || "/"
-      map.set(key, (map.get(key) || 0) + 1)
-    }
-    return map
-  }
-
   document.addEventListener("nav", () => {
     const rootEl = document.querySelector(".file-tree") as HTMLElement | null
     if (!rootEl) return
@@ -160,6 +161,8 @@
     const detailBtn = rootEl.querySelector(".file-tree-detail") as HTMLButtonElement
     const depthSelect = rootEl.querySelector(".detail-depth") as HTMLSelectElement
 
+    let cachedData: { root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number> } | null = null
+
     const openModal = () => {
       outer.setAttribute("aria-hidden", "false")
       outer.classList.add("active")
@@ -169,53 +172,65 @@
       outer.classList.remove("active")
     }
 
+    const renderTreeView = () => {
+      if (!cachedData) return
+      const maxDepth = parseInt(depthSelect?.value || "3", 10)
+      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, maxDepth)}</div>`
+    }
+
+    const renderDetailView = async () => {
+      if (!cachedData) return
+      const d = await fetchData
+      const depth = parseInt(depthSelect?.value || "2", 10)
+
+      // Only include folders (paths with at least depth segments)
+      const totals = new Map<string, number>()
+      for (const slug of Object.keys(d || {})) {
+        const parts = slug.split("/").filter(Boolean)
+        if (parts.length < depth) continue // skip files that are too shallow
+        
+        const key = parts.slice(0, depth).join("/")
+        const words = cachedData.wordMap.get(slug) || 0
+        totals.set(key, (totals.get(key) || 0) + words)
+      }
+
+      const sum = Array.from(totals.values()).reduce((a, b) => a + b, 0) || 1
+      const rows = Array.from(totals.entries())
+        .sort((a, b) => b[1] - a[1])
+        .map(([key, words]) => {
+          const pct = ((words / sum) * 100).toFixed(2).replace('.', ',')
+          const displayKey = cleanFolderName(key.split("/").pop() || key)
+          return `<div class="detail-row"><span class="detail-key">${displayKey}</span><span class="detail-bar"><span style="width:${pct.replace(',', '.')}%"></span></span><span class="detail-pct">${pct}%</span></div>`
+        })
+        .join("")
+
+      content.innerHTML = `
+        <div class="detail-view">
+          <div class="detail-caption">Kelime ağırlıklı dağılım (derinlik ${depth})</div>
+          ${rows || '<div class="tree-loading">Veri bulunamadı</div>'}
+        </div>`
+    }
+
     const onOpen = async () => {
       openModal()
       console.log("[filetree] opening modal…")
 
       try {
-        const { root, altFiles, wordMap } = await buildTreeFromData()
-        const stats = calculateStats(root)
+        cachedData = await buildTreeFromData()
+        const stats = calculateStats(cachedData.root)
         statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
         statsFiles.textContent = `${stats.files} dosya`
-        statsAlt.textContent = `${altFiles} alt dosya`
-        const maxDepth = parseInt(depthSelect?.value || "3", 10)
-        content.innerHTML = `<div class="tree-view">${renderTreeNode(root, true, maxDepth)}</div>`
-        console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles })
-
-        // attach detail view
-        detailBtn.onclick = async () => {
-          const d = await fetchData
-          const slugs = Object.keys(d || {})
-          const depth = parseInt(depthSelect?.value || "2", 10)
-          const groups = groupByDepth(slugs, depth)
-
-          // compute word-weighted shares
-          const totals = new Map<string, number>()
-          for (const [slug, file] of Object.entries(d || {})) {
-            const key = (slug.split("/").filter(Boolean).slice(0, depth).join("/") || "/")
-            const words = wordMap.get(slug) || 0
-            totals.set(key, (totals.get(key) || 0) + words)
-          }
-          const sum = Array.from(totals.values()).reduce((a, b) => a + b, 0) || 1
-          const rows = Array.from(totals.entries())
-            .sort((a, b) => b[1] - a[1])
-            .map(([key, words]) => {
-              const pct = ((words / sum) * 100).toFixed(1)
-              return `<div class="detail-row"><span class="detail-key">${key}</span><span class="detail-bar"><span style="width:${pct}%"></span></span><span class="detail-pct">${pct}%</span></div>`
-            })
-            .join("")
-
-          content.innerHTML = `
-            <div class="detail-view">
-              <div class="detail-caption">Kelime ağırlıklı dağılım (derinlik ${depth})</div>
-              ${rows || '<div class="tree-loading">Veri bulunamadı</div>'}
-            </div>`
-        }
+        statsAlt.textContent = `${cachedData.altFiles} alt dosya (${cachedData.altWords.toLocaleString('tr-TR')} kelime)`
+        renderTreeView()
+        console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles: cachedData.altFiles, altWords: cachedData.altWords })
       } catch (e) {
         console.error("[filetree] failed:", e)
         content.innerHTML = `<div class="tree-loading">Hata: ağacı oluşturamadım.</div>`
       }
+    }
+
+    const onDepthChange = () => {
+      renderTreeView()
     }
 
     const onClose = () => closeModal()
@@ -226,9 +241,13 @@
     btn.addEventListener("click", onOpen)
     closeBtn.addEventListener("click", onClose)
     outer.addEventListener("click", onOutsideClick)
+    depthSelect.addEventListener("change", onDepthChange)
+    detailBtn.addEventListener("click", renderDetailView)
 
     window.addCleanup(() => btn.removeEventListener("click", onOpen))
     window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
     window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
+    window.addCleanup(() => depthSelect.removeEventListener("change", onDepthChange))
+    window.addCleanup(() => detailBtn.removeEventListener("click", renderDetailView))
   })
 })()

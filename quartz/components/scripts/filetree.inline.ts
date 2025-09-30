@@ -157,7 +157,7 @@
 
     let html = `<div class="tree-item ${node.isFolder ? "folder" : "file"}" data-level="${
       node.level
-    }"${node.isFolder && isDetailView ? ` onclick="toggleFolder(this)"` : ""}>${indent}${prefix}${icon} `
+    }"${node.isFolder && isDetailView ? ` data-toggle-folder="true"` : ""}>${indent}${prefix}${icon} `
 
     if (node.isFolder) {
       html += `<span class="tree-folder-name">${displayName}</span>`
@@ -183,9 +183,44 @@
 
     if (node.children.length > 0 && node.level < maxDepth) {
       const childMaxDepth = maxDepth
-      const childrenHtml = node.children.map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView)).join("")
-      if (childrenHtml.trim()) {
-        html += `<div class="folder-children" style="display: none;">${childrenHtml}</div>`
+      // render subfolders always in detail view; files only when toggled
+      const folderChildren = node.children
+        .filter((c) => c.isFolder)
+        .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView))
+        .join("")
+      if (folderChildren.trim()) {
+        // subfolders are visible by default so navigation of structure is clear
+        html += `<div class="folder-children">${folderChildren}</div>`
+      }
+
+      if (isDetailView) {
+        // build immediate files list for this folder, hidden by default
+        const filesChildren = node.children
+          .filter((c) => !c.isFolder)
+          .map((fileNode) => {
+            const fileDisplayName = cleanDisplayName(fileNode.name)
+            let fileHtml = `<div class="tree-item file" data-level="${fileNode.level}">` +
+              `${indent}${prefix}📄 <a href="/${fileNode.slug}" class="tree-file-link">${fileDisplayName}</a>`
+            if (wordMap && totalWords) {
+              const fileWords = wordMap.get(fileNode.slug) || 0
+              const percentage = totalWords > 0 ? ((fileWords / totalWords) * 100).toFixed(2).replace('.', ',') : "0,00"
+              fileHtml += ` <span class="word-count">(${fileWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
+            }
+            fileHtml += `</div>`
+            return fileHtml
+          })
+          .join("")
+        if (filesChildren.trim()) {
+          html += `<div class="folder-files" style="display: none;">${filesChildren}</div>`
+        }
+      } else {
+        // normal view: render everything recursively (folders + files)
+        const allChildren = node.children
+          .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView))
+          .join("")
+        if (allChildren.trim()) {
+          html += allChildren
+        }
       }
     }
 
@@ -309,21 +344,19 @@
     window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
     window.addCleanup(() => graphBtn.removeEventListener("click", renderDetailView))
 
-    // Global function for folder toggling (called from onclick in HTML)
-    ;(window as any).toggleFolder = (element: HTMLElement) => {
-      const children = element.querySelector('.folder-children') as HTMLElement
-      if (children) {
-        const isVisible = children.style.display !== 'none'
-        children.style.display = isVisible ? 'none' : 'block'
+    // Delegate clicks for folder toggling in detail view
+    content.addEventListener('click', (ev) => {
+      const target = ev.target as HTMLElement
+      const item = target.closest('.tree-item.folder[data-toggle-folder="true"]') as HTMLElement | null
+      if (!item) return
 
-        // Change icon based on state
-        const icon = element.querySelector('.tree-folder-name')
-        if (icon) {
-          icon.textContent = icon.textContent?.includes('📂') ?
-            icon.textContent.replace('📂', '📁') :
-            icon.textContent?.replace('📁', '📂')
-        }
+      // toggle subfolder visibility
+      const subfolders = item.nextElementSibling as HTMLElement | null
+      const filesContainer = subfolders?.nextElementSibling as HTMLElement | null
+      const current = filesContainer && filesContainer.style.display !== 'none'
+      if (filesContainer) {
+        filesContainer.style.display = current ? 'none' : 'block'
       }
-    }
+    })
   })
 })()

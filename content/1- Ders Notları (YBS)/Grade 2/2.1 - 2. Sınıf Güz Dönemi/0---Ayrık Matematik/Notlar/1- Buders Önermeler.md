@@ -58,5 +58,18 @@ $p(x): \space x+1<5$
 
 
 ##### [["İSE" Bağlacı ]] $(\implies)$ (if)
+##### Karşıtı (Converse), Tersi (Inverse) ve Karşıt Tersi (Contrapositive)
+
+$$p \implies q$$
+
+###### Karşıtı:  $q \implies p \text { (önermeler yer değiştirir)}$ 
+###### Tersi: $\neg p \implies \neg p \text{( İlgili önermenin olumsuzu değil, tersidir!!! İki önermenin de olumsuzu alınır.)}$
+###### Karşıt Tersi: $\neg q \implies \neg p (\text{ İki önerme hem yer değiştirir hem de olumsuzu alınır.})$
+- Karşıt tersi ile oluşturulmuş önermenin doğruluk değeri $p \implies q$'nun doğruluk değeri aynıdır.
+- İspat yaparken $p \implies q$'yu ispat etmekte zorlandığımızda contrapositive yazarak ispatlama tekniği vardır. Karşıt tersini ispatlamak aynı zamanda kendisini ispatlamaktır.
+
+
+
+
 ##### [["ANCAK VE ANCAK" Bağlacı]] $(\iff)$ (if and only if)
 ##### [["YA DA" Bağlacı]] $(\oplus \space \text{   ya da }\space\space \veebar)$ (exclusive or)

@@ -39,7 +39,7 @@
 	- Bir malın fiyat beklentisi yükselecekse o mal alınır. Aynı şekilde, bir malın fiyat beklentisi düşecekse, o mal alınmaz.
 7. **[[Geleceğe yönelik gelir beklentisi]]**
 	- Geleceğe yönelik gelirimizin artacağını düşünürsek pahalı olan malı gelecekte alırız.
-### [[Firmalar Neden Kurulur?]]
+### [[Firmalar Neden Kurulur]]?
 - Firmalar, insanların isteklerini ve ihtiyaçlarını karşılayan ürün ve hizmetler sunarak değer yaratmak ve bu değerden kâr elde etmek amacıyla kurulurlar.
 #### [[Ekonomik Kâr Nedir?]]
 Ekonomik kâr, bir işletmenin toplam gelirinden hem açık (muhasebe) maliyetlerini hem de örtük maliyetlerini çıkardıktan sonra kalan kârdır.

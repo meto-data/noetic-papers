@@ -44,7 +44,7 @@
     return words.length
   }
 
-  async function buildTreeFromData(): Promise<{ root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number> }> {
+  async function buildTreeFromData(): Promise<{ root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number>; allWordMap: Map<string, number> }> {
     const root: TreeNode = { name: "root", slug: "", isFolder: true, children: [], level: 0 }
 
     const data = await fetchData
@@ -56,7 +56,8 @@
 
     let altFiles = 0
     let altWords = 0
-    const wordMap = new Map<string, number>() // slug -> word count
+    const wordMap = new Map<string, number>() // visible slug -> word count
+    const allWordMap = new Map<string, number>() // all slugs (except index) -> word count
 
     for (const slug of allSlugs) {
       const file = data[slug]
@@ -71,13 +72,15 @@
       let currentNode: TreeNode | null = root
       let isExcluded = false
 
-      // Calculate word count first (but add to map only if not excluded)
+      // Calculate word count first
       let wordCount = 0
       if (file && typeof file.content === "string") {
         wordCount = countWords(file.content)
       } else if (file && typeof file.text === "string") {
         wordCount = countWords(file.text)
       }
+      // track all files (even under excluded folders) for accurate percentages
+      allWordMap.set(slug, wordCount)
 
       for (let i = 0; i < parts.length && currentNode; i++) {
         const part = parts[i]
@@ -111,7 +114,7 @@
         currentPath = newPath
       }
 
-      // Add to wordMap only if not excluded
+      // Add to visible wordMap only if not excluded
       if (!isExcluded) {
         wordMap.set(slug, wordCount)
       }
@@ -127,7 +130,7 @@
     }
 
     sortTree(root)
-    return { root, altFiles, altWords, wordMap }
+    return { root, altFiles, altWords, wordMap, allWordMap }
   }
 
   function cleanDisplayName(name: string): string {
@@ -260,7 +263,7 @@
     const statsAlt = rootEl.querySelector(".stats-altfiles") as HTMLElement
     const graphBtn = rootEl.querySelector(".file-tree-graph") as HTMLButtonElement
 
-    let cachedData: { root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number> } | null = null
+    let cachedData: { root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number>; allWordMap: Map<string, number> } | null = null
 
     const openModal = () => {
       outer.setAttribute("aria-hidden", "false")
@@ -279,8 +282,8 @@
     const renderDetailView = async () => {
       if (!cachedData) return
 
-      // Calculate total words for percentage calculation
-      const totalWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
+      // Calculate total words for percentage calculation (all files under tree, including hidden ones)
+      const totalWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
 
       // Controls: depth range (1-10) and show files toggle
       const controls = `
@@ -292,7 +295,7 @@
         </div>`
 
       const depth = 1
-      const treeHtml = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, false, true)
+      const treeHtml = renderTreeNode(cachedData.root, true, depth, cachedData.allWordMap, totalWords, false, true)
 
       content.innerHTML = `
         <div class="detail-view">
@@ -367,9 +370,9 @@
       if (!target.classList.contains('graph-depth')) return
       const depthEl = target
       if (!cachedData) return
-      const totalWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
+      const totalWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
       const depth = Math.max(1, Math.min(10, parseInt(depthEl.value || '1', 10)))
-      const html = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, false, true)
+      const html = renderTreeNode(cachedData.root, true, depth, cachedData.allWordMap, totalWords, false, true)
       const tv = content.querySelector('.tree-view') as HTMLElement
       if (tv) tv.innerHTML = html
     }

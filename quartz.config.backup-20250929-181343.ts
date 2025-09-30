@@ -17,7 +17,7 @@ const config: QuartzConfig = {
       tagId: 'G-W727BKLZVN',
     },
     locale: "tr-TR",
-    baseUrl: "noetic-logos.vercel.app",
+    baseUrl: "/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

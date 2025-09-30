@@ -24,9 +24,13 @@ export interface Options {
 
 const defaultOptions: Options = {
   folderDefaultState: "collapsed",
-  folderClickBehavior: "link",
+  folderClickBehavior: "collapse",
   useSavedState: true,
   mapFn: (node) => {
+    // dont show empty folders
+    if (node.isFolder && node.children.length === 0) {
+      return
+    }
     return node
   },
   sortFn: (a, b) => {
@@ -46,7 +50,21 @@ const defaultOptions: Options = {
       return -1
     }
   },
-  filterFn: (node) => node.slugSegment !== "tags",
+  filterFn: (node) => {
+    // set folder names to lowercase
+    const name = node.displayName.toLowerCase()
+    // remove leading number and space from folder name
+    const nameWithoutNumber = name.replace(/^[0-9]+\s*-\s*/, "")
+    // check if folder should be excluded
+    if (node.isFolder) {
+      const excludedFolders = ["ekler", "görseller", "pdf", "notlar", "images", "image", "media", "assets", "static", "files", "file", "attachments", "attachment", "zettelkasten"]
+      return !excludedFolders.includes(nameWithoutNumber)
+    } else {
+      const excludedFiles = ["index", "readme"]
+      const stem = name.replace(/\\.md$/, "")
+      return !excludedFiles.includes(stem)
+    }
+  },
   order: ["filter", "map", "sort"],
 }
 

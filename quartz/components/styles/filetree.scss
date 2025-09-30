@@ -190,6 +190,19 @@
   margin-left: 0.5rem;
 }
 
+.folder-children {
+  margin-left: 1rem;
+}
+
+.tree-item.folder {
+  cursor: pointer;
+  user-select: none;
+}
+
+.tree-item.folder:hover {
+  background-color: color-mix(in srgb, var(--secondary) 5%, transparent);
+}
+
 @media all and (max-width: 800px) {
   .file-tree-modal {
     width: 96vw;

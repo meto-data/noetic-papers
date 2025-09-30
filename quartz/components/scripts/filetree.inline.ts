@@ -17,6 +17,17 @@
     return EXCLUDED_FOLDERS.some((excluded) => lower === excluded || lower.includes(excluded))
   }
 
+  function shouldExcludeFile(fileName: string): boolean {
+    const lower = fileName.toLowerCase()
+    // Exclude index files and common system files
+    return lower === 'index' ||
+           lower.startsWith('index.') ||
+           lower === 'readme' ||
+           lower.startsWith('readme.') ||
+           lower === '.DS_Store' ||
+           lower.startsWith('.')
+  }
+
   function countWords(text: string): number {
     if (!text) return 0
     // strip code blocks and markdown
@@ -49,6 +60,12 @@
     for (const slug of allSlugs) {
       const file = data[slug]
       const parts = slug.split("/").filter((p) => p.length > 0)
+
+      // Skip index files completely
+      if (shouldExcludeFile(parts[parts.length - 1])) {
+        continue
+      }
+
       let currentPath = ""
       let currentNode: TreeNode | null = root
 
@@ -123,19 +140,24 @@
     return cleanName
   }
 
-  function renderTreeNode(node: TreeNode, isRoot = false, maxDepth = Infinity, wordMap?: Map<string, number>, totalWords?: number): string {
+  function renderTreeNode(node: TreeNode, isRoot = false, maxDepth = Infinity, wordMap?: Map<string, number>, totalWords?: number, showFiles: boolean = true, isDetailView: boolean = false): string {
     if (isRoot) {
-      return node.children.map((child) => renderTreeNode(child, false, maxDepth, wordMap, totalWords)).join("")
+      return node.children.map((child) => renderTreeNode(child, false, maxDepth, wordMap, totalWords, showFiles, isDetailView)).join("")
+    }
+
+    // In detail view, hide files unless showFiles is true
+    if (isDetailView && !node.isFolder && !showFiles) {
+      return ""
     }
 
     const indent = "&nbsp;&nbsp;".repeat(Math.max(0, node.level - 1))
-    const icon = node.isFolder ? "📁" : "📄"
+    const icon = node.isFolder ? (isDetailView ? "📂" : "📁") : "📄"
     const prefix = node.level > 1 ? "├── " : ""
     const displayName = cleanDisplayName(node.name)
 
     let html = `<div class="tree-item ${node.isFolder ? "folder" : "file"}" data-level="${
       node.level
-    }">${indent}${prefix}${icon} `
+    }"${node.isFolder && isDetailView ? ` onclick="toggleFolder(this)"` : ""}>${indent}${prefix}${icon} `
 
     if (node.isFolder) {
       html += `<span class="tree-folder-name">${displayName}</span>`
@@ -150,7 +172,7 @@
         const folderWords = calculateFolderWords(node, wordMap)
         const percentage = totalWords > 0 ? ((folderWords / totalWords) * 100).toFixed(2).replace('.', ',') : "0,00"
         html += ` <span class="word-count">(${folderWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
-      } else {
+      } else if (showFiles) {
         const fileWords = wordMap.get(node.slug) || 0
         const percentage = totalWords > 0 ? ((fileWords / totalWords) * 100).toFixed(2).replace('.', ',') : "0,00"
         html += ` <span class="word-count">(${fileWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
@@ -161,7 +183,10 @@
 
     if (node.children.length > 0 && node.level < maxDepth) {
       const childMaxDepth = maxDepth
-      html += node.children.map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords)).join("")
+      const childrenHtml = node.children.map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView)).join("")
+      if (childrenHtml.trim()) {
+        html += `<div class="folder-children" style="display: none;">${childrenHtml}</div>`
+      }
     }
 
     return html
@@ -227,7 +252,7 @@
 
     const renderTreeView = () => {
       if (!cachedData) return
-      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, Infinity)}</div>`
+      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, Infinity, undefined, undefined, true, false)}</div>`
     }
 
     const renderDetailView = async () => {
@@ -237,12 +262,12 @@
       // Calculate total words for percentage calculation
       const totalWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
 
-      // Use the same tree rendering but with word counts and percentages
-      const treeHtml = renderTreeNode(cachedData.root, true, Infinity, cachedData.wordMap, totalWords)
+      // Use the same tree rendering but with word counts and percentages, hide files initially
+      const treeHtml = renderTreeNode(cachedData.root, true, Infinity, cachedData.wordMap, totalWords, false, true)
 
       content.innerHTML = `
         <div class="detail-view">
-          <div class="detail-caption">Kelime ağırlıklı dosya ağacı (derinlik ${depth})</div>
+          <div class="detail-caption">Kelime ağırlıklı dosya ağacı (derinlik ${depth}) - Klasörlere tıklayarak dosyaları görün</div>
           <div class="tree-view">${treeHtml}</div>
         </div>`
     }
@@ -254,11 +279,15 @@
       try {
         cachedData = await buildTreeFromData()
         const stats = calculateStats(cachedData.root)
+
+        // Calculate total words for included files only (not alt files)
+        const includedWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
+
         statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
         statsFiles.textContent = `${stats.files} dosya`
-        statsAlt.textContent = `${cachedData.altFiles} alt dosya (${cachedData.altWords.toLocaleString('tr-TR')} kelime)`
+        statsAlt.textContent = `${cachedData.altFiles} alt dosya (${includedWords.toLocaleString('tr-TR')} kelime)`
         renderTreeView()
-        console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles: cachedData.altFiles, altWords: cachedData.altWords })
+        console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles: cachedData.altFiles, includedWords })
       } catch (e) {
         console.error("[filetree] failed:", e)
         content.innerHTML = `<div class="tree-loading">Hata: ağacı oluşturamadım.</div>`
@@ -283,7 +312,24 @@
     window.addCleanup(() => btn.removeEventListener("click", onOpen))
     window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
     window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
-    window.addCleanup(() => depthSelect.removeEventListener("change", onDepthChange))
+      window.addCleanup(() => depthSelect.removeEventListener("change", onDepthChange))
     window.addCleanup(() => detailBtn.removeEventListener("click", renderDetailView))
+
+    // Global function for folder toggling (called from onclick in HTML)
+    ;(window as any).toggleFolder = (element: HTMLElement) => {
+      const children = element.querySelector('.folder-children') as HTMLElement
+      if (children) {
+        const isVisible = children.style.display !== 'none'
+        children.style.display = isVisible ? 'none' : 'block'
+
+        // Change icon based on state
+        const icon = element.querySelector('.tree-folder-name')
+        if (icon) {
+          icon.textContent = icon.textContent?.includes('📂') ?
+            icon.textContent.replace('📂', '📁') :
+            icon.textContent?.replace('📁', '📂')
+        }
+      }
+    }
   })
 })()

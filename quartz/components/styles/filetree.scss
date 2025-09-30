@@ -144,6 +144,13 @@
   color: var(--secondary);
 }
 
+/* Normalize file vs folder text size */
+.tree-item .tree-folder-name,
+.tree-item .tree-file-link {
+  font-size: 1em; /* inherit from .tree-view (0.9rem) */
+  line-height: 1.4;
+}
+
 .tree-item[data-level="1"] > .tree-folder-name { color: var(--level-1, var(--secondary)); }
 .tree-item[data-level="2"] > .tree-folder-name { color: var(--level-2, color-mix(in srgb, var(--secondary) 85%, var(--tertiary))); }
 .tree-item[data-level="3"] > .tree-folder-name { color: var(--level-3, color-mix(in srgb, var(--secondary) 70%, var(--tertiary))); }

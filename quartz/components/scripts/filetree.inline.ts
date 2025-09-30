@@ -329,15 +329,15 @@
         cachedData = await buildTreeFromData()
         const stats = calculateStats(cachedData.root)
 
-        // Calculate total words for included files only (not alt files)
-        const includedWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
+        // Toplam kelime: tüm dosyalar (index hariç), hariç klasörlerin içi dahil
+        const totalAllWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
 
         statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
         statsFiles.textContent = `${stats.files} dosya`
-        statsAlt.textContent = `${cachedData.altFiles} alt dosya (${includedWords.toLocaleString('tr-TR')} kelime)`
+        statsAlt.textContent = `${cachedData.altFiles} alt dosya (${totalAllWords.toLocaleString('tr-TR')} kelime)`
         outer.querySelector('.file-tree-modal')?.classList.remove('graph-mode')
         renderTreeView()
-        console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles: cachedData.altFiles, includedWords })
+        console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles: cachedData.altFiles, totalAllWords })
       } catch (e) {
         console.error("[filetree] failed:", e)
         content.innerHTML = `<div class="tree-loading">Hata: ağacı oluşturamadım.</div>`

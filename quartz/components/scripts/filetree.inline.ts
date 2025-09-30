@@ -69,15 +69,14 @@
 
       let currentPath = ""
       let currentNode: TreeNode | null = root
+      let isExcluded = false
 
-      // Calculate word count first
+      // Calculate word count first (but add to map only if not excluded)
       let wordCount = 0
       if (file && typeof file.content === "string") {
         wordCount = countWords(file.content)
-        wordMap.set(slug, wordCount)
       } else if (file && typeof file.text === "string") {
         wordCount = countWords(file.text)
-        wordMap.set(slug, wordCount)
       }
 
       for (let i = 0; i < parts.length && currentNode; i++) {
@@ -89,6 +88,7 @@
           // Count files under excluded folders as alt files
           altFiles += file ? 1 : 0
           altWords += wordCount
+          isExcluded = true
           currentNode = null
           break
         }
@@ -109,6 +109,11 @@
 
         currentNode = childNode
         currentPath = newPath
+      }
+
+      // Add to wordMap only if not excluded
+      if (!isExcluded) {
+        wordMap.set(slug, wordCount)
       }
     }
 
@@ -171,11 +176,13 @@
       if (node.isFolder) {
         // Calculate folder word count (sum of all children recursively)
         const folderWords = calculateFolderWords(node, wordMap)
-        const percentage = totalWords > 0 ? ((folderWords / totalWords) * 100).toFixed(2).replace('.', ',') : "0,00"
+        const pctNum = (folderWords / totalWords) * 100
+        const percentage = (pctNum > 0 && pctNum < 0.01) ? '0,01' : pctNum.toFixed(2).replace('.', ',')
         html += ` <span class="word-count">(${folderWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
       } else if (showFiles) {
         const fileWords = wordMap.get(node.slug) || 0
-        const percentage = totalWords > 0 ? ((fileWords / totalWords) * 100).toFixed(2).replace('.', ',') : "0,00"
+        const pctNumF = (fileWords / totalWords) * 100
+        const percentage = (pctNumF > 0 && pctNumF < 0.01) ? '0,01' : pctNumF.toFixed(2).replace('.', ',')
         html += ` <span class="word-count">(${fileWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
       }
     }
@@ -324,12 +331,17 @@
       if (e.target === outer) closeModal()
     }
 
-    btn.addEventListener("click", onOpen)
-    closeBtn.addEventListener("click", onClose)
-    outer.addEventListener("click", onOutsideClick)
-    graphBtn.addEventListener("click", () => {
-      if (!cachedData) return
+    // Bind listeners with named functions so we can clean them up reliably
+    const onGraphClick = async () => {
+      if (!cachedData) {
+        // open modal and load data if needed
+        await onOpen()
+      }
       const modal = rootEl.querySelector('.file-tree-modal') as HTMLElement
+      const isActive = outer.classList.contains('active')
+      if (!isActive) {
+        openModal()
+      }
       const isGraph = modal.classList.contains('graph-mode')
       if (isGraph) {
         modal.classList.remove('graph-mode')
@@ -338,25 +350,18 @@
         modal.classList.add('graph-mode')
         renderDetailView()
       }
-    })
+    }
 
-    window.addCleanup(() => btn.removeEventListener("click", onOpen))
-    window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
-    window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
-    // cleanup is implicit since we used inline listener; modal is re-bound per nav
-
-    // Graph controls interactions (depth + hide files)
-    // Update the depth value bubble live, but re-render only when change completes
-    content.addEventListener('input', (ev) => {
+    const onInputDepth = (ev: Event) => {
       const target = ev.target as HTMLElement
       if (!(target instanceof HTMLInputElement)) return
       if (!target.classList.contains('graph-depth')) return
       const val = target.value
       const bubble = content.querySelector('.graph-depth-value') as HTMLElement | null
       if (bubble) bubble.textContent = val
-    })
+    }
 
-    content.addEventListener('change', (ev) => {
+    const onChangeDepth = (ev: Event) => {
       const target = ev.target as HTMLElement
       if (!(target instanceof HTMLInputElement)) return
       if (!target.classList.contains('graph-depth')) return
@@ -367,6 +372,22 @@
       const html = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, false, true)
       const tv = content.querySelector('.tree-view') as HTMLElement
       if (tv) tv.innerHTML = html
-    })
+    }
+
+    btn.addEventListener("click", onOpen)
+    closeBtn.addEventListener("click", onClose)
+    outer.addEventListener("click", onOutsideClick)
+    graphBtn.addEventListener("click", onGraphClick)
+
+    window.addCleanup(() => btn.removeEventListener("click", onOpen))
+    window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
+    window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
+    window.addCleanup(() => graphBtn.removeEventListener("click", onGraphClick))
+
+    // Graph controls interactions
+    content.addEventListener('input', onInputDepth)
+    content.addEventListener('change', onChangeDepth)
+    window.addCleanup(() => content.removeEventListener('input', onInputDepth))
+    window.addCleanup(() => content.removeEventListener('change', onChangeDepth))
   })
 })()

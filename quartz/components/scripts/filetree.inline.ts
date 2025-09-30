@@ -218,11 +218,28 @@
   }
 
   function calculateFolderWords(node: TreeNode, wordMap: Map<string, number>): number {
+    // If the provided map contains comprehensive data (e.g., allWordMap),
+    // compute by prefix so that hidden/excluded descendants are still counted.
+    const isComprehensive = wordMap.size > 0 && !node.isFolder ? false : true
+
     if (!node.isFolder) {
       return wordMap.get(node.slug) || 0
     }
 
-    // Sum up all file words in this folder and subfolders
+    if (isComprehensive) {
+      const prefix = node.slug ? node.slug + "/" : ""
+      let total = 0
+      for (const [slug, words] of wordMap.entries()) {
+        if (!prefix) {
+          total += words
+        } else if (slug.startsWith(prefix)) {
+          total += words
+        }
+      }
+      return total
+    }
+
+    // Fallback: sum only visible children recursively (used in normal view)
     function sumWords(n: TreeNode): number {
       let sum = 0
       if (!n.isFolder && wordMap.has(n.slug)) {
@@ -282,7 +299,7 @@
     const renderDetailView = async () => {
       if (!cachedData) return
 
-      // Calculate total words for percentage calculation (all files under tree, including hidden ones)
+      // Calculate total words for percentage calculation (all files except index, across tree)
       const totalWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
 
       // Controls: depth range (1-10) and show files toggle

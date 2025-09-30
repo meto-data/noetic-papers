@@ -42,8 +42,8 @@
   color: var(--darkgray);
   border: 1px solid var(--lightgray);
   border-radius: 16px;
-  width: min(860px, 96vw);
-  max-height: 85vh;
+  width: min(720px, 94vw);
+  max-height: 80vh;
   box-shadow: 0 20px 40px rgba(0,0,0,.15), 0 4px 8px rgba(0,0,0,.05);
   backdrop-filter: blur(8px);
   display: flex;
@@ -54,34 +54,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 0.5rem;
   padding: .75rem 1rem;
   border-bottom: 1px solid var(--lightgray);
   color: var(--dark);
   font-weight: 600;
-}
-
-.file-tree-tools {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.file-tree-detail {
-  border: 1px solid var(--lightgray);
-  background: var(--light);
-  color: var(--darkgray);
-  border-radius: 6px;
-  padding: 0.4rem 0.6rem;
-  cursor: pointer;
-}
-
-.depth-label select {
-  border: 1px solid var(--lightgray);
-  background: var(--light);
-  color: var(--darkgray);
-  border-radius: 6px;
-  padding: 0.25rem 0.4rem;
 }
 
 .file-tree-close {
@@ -141,58 +117,33 @@
   padding: 2rem;
 }
 
-.detail-view {
-  display: grid;
-  gap: 0.5rem;
-}
-
-.detail-caption {
-  color: var(--gray);
-  margin-bottom: 0.4rem;
-}
-
-.detail-row {
-  display: grid;
-  grid-template-columns: 1fr auto auto;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.detail-key {
-  color: var(--darkgray);
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-.detail-bar {
-  background: var(--lightgray);
-  height: 8px;
-  width: 220px;
-  border-radius: 6px;
-  overflow: hidden;
-}
-
-.detail-bar > span {
-  display: block;
-  height: 100%;
-  background: linear-gradient(90deg, var(--secondary), var(--tertiary));
-}
-
-.detail-pct {
-  color: var(--dark);
-  font-weight: 600;
-}
-
 @media all and (max-width: 800px) {
   .file-tree-modal {
     width: 96vw;
-    max-height: 90vh;
+    max-height: 85vh;
   }
+  
   .file-tree-content {
     padding: 0.75rem;
   }
+  
   .tree-view {
     font-size: 0.85rem;
+  }
+  
+  .file-tree-header {
+    padding: 0.6rem 0.75rem;
+  }
+  
+  .file-tree-stats {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}
+
+@media all and (max-width: 480px) {
+  .file-tree-modal { 
+    width: 98vw;
+    max-height: 90vh;
   }
 }

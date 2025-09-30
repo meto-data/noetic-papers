@@ -20,23 +20,11 @@ const FileTree: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
         <div class="file-tree-modal" role="dialog" aria-modal="true" aria-label="Dosya Ağacı">
           <div class="file-tree-header">
             <span>📁 Dosya Ağacı</span>
-            <div class="file-tree-tools">
-              <label class="depth-label">
-                Derinlik:
-                <select class="detail-depth">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                </select>
-              </label>
-              <button class="file-tree-detail" aria-label="Detaylı Bakış">Detaylı Bakış</button>
-              <button class="file-tree-close" aria-label="Kapat">×</button>
-            </div>
+            <button class="file-tree-close" aria-label="Kapat">×</button>
           </div>
           <div class="file-tree-stats">
             <span class="stats-folders">0 klasör</span>
             <span class="stats-files">0 dosya</span>
-            <span class="stats-altfiles">0 alt dosya</span>
           </div>
           <div class="file-tree-content">
             <div class="tree-loading">Yükleniyor...</div>

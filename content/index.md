@@ -7,7 +7,7 @@ Gerek Yönetim Bilişim Sistemleri dersi hakkında gerekse bilişim, siber güve
 
 Bağlantılardan da anlaşılacağı üzere birçok ders ve birçok konu başka ders ve konularla bağlantı hâlinde. Obsidian kullanmaya aslında bu bağlantıları somut bir şekilde görebilmek için başlamıştım. 
 
-*"noësis"* fiili zihinsel algı, düşünce, kavrayış gibi anlamlarla ele alabiliriz. Yunanca'ya noētikós (düşünceyle ilgili, zekâyla ilgili) olarak evrilmiştir, İngilizce'ye ise noetic olarak geçmiştir.
+*"noësis"* kelimesini zihinsel algı, düşünce, kavrayış gibi anlamlarla ele alabiliriz. Yunanca'ya noētikós (düşünceyle ilgili, zekâyla ilgili) olarak evrilmiştir, İngilizce'ye ise noetic olarak geçmiştir.
 
 *λόγος* (lógos) kelimesi Yunanca "söylemek, ifade etmek, toplamak" anlamlarına geliyor. Söz, mantık, akıl, ölçü gibi anlamlara da gelebiliyor. Felsefî açıdan baktığımızda bilhassa stoacılarda *logos* kavramı kendini *"tanrısallık, tanrısal akıl, evrensel akıl"* gibi anlamlarla izhâr ediyor.
 

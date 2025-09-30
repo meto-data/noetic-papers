@@ -277,13 +277,14 @@
       // Controls: depth range (1-10) and show files toggle
       const controls = `
         <div class="graph-controls">
-          <label>Derinlik: <input type="range" min="1" max="10" step="1" value="1" class="graph-depth" /></label>
-          <label><input type="checkbox" class="graph-hide-files" checked /> Dosyaları gösterme</label>
+          <label class="graph-depth-label">Derinlik:
+            <input type="range" min="1" max="10" step="1" value="1" class="graph-depth" />
+            <span class="graph-depth-value">1</span>
+          </label>
         </div>`
 
       const depth = 1
-      const hideFiles = true
-      const treeHtml = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, !hideFiles, true)
+      const treeHtml = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, false, true)
 
       content.innerHTML = `
         <div class="detail-view">
@@ -344,14 +345,25 @@
     // cleanup is implicit since we used inline listener; modal is re-bound per nav
 
     // Graph controls interactions (depth + hide files)
-    content.addEventListener('input', () => {
-      const depthEl = content.querySelector('.graph-depth') as HTMLInputElement | null
-      const hideEl = content.querySelector('.graph-hide-files') as HTMLInputElement | null
-      if (!depthEl || !hideEl || !cachedData) return
+    // Update the depth value bubble live, but re-render only when change completes
+    content.addEventListener('input', (ev) => {
+      const target = ev.target as HTMLElement
+      if (!(target instanceof HTMLInputElement)) return
+      if (!target.classList.contains('graph-depth')) return
+      const val = target.value
+      const bubble = content.querySelector('.graph-depth-value') as HTMLElement | null
+      if (bubble) bubble.textContent = val
+    })
+
+    content.addEventListener('change', (ev) => {
+      const target = ev.target as HTMLElement
+      if (!(target instanceof HTMLInputElement)) return
+      if (!target.classList.contains('graph-depth')) return
+      const depthEl = target
+      if (!cachedData) return
       const totalWords = Array.from(cachedData.wordMap.values()).reduce((a, b) => a + b, 0)
       const depth = Math.max(1, Math.min(10, parseInt(depthEl.value || '1', 10)))
-      const hideFiles = hideEl.checked
-      const html = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, !hideFiles, true)
+      const html = renderTreeNode(cachedData.root, true, depth, cachedData.wordMap, totalWords, false, true)
       const tv = content.querySelector('.tree-view') as HTMLElement
       if (tv) tv.innerHTML = html
     })

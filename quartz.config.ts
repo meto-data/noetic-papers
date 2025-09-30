@@ -169,7 +169,7 @@ const config: QuartzConfig = {
       tagId: 'G-W727BKLZVN',
     },
     locale: "tr-TR",
-    baseUrl: "/",
+    baseUrl: "https://noetic-logos.netlify.app",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

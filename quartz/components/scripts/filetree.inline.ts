@@ -183,40 +183,19 @@
 
     if (node.children.length > 0 && node.level < maxDepth) {
       const childMaxDepth = maxDepth
-      // render subfolders always in detail view; files only when toggled
-      const folderChildren = node.children
-        .filter((c) => c.isFolder)
-        .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView))
-        .join("")
-      if (folderChildren.trim()) {
-        // subfolders are visible by default so navigation of structure is clear
-        html += `<div class="folder-children">${folderChildren}</div>`
-      }
-
       if (isDetailView) {
-        // build immediate files list for this folder, hidden by default
-        const filesChildren = node.children
-          .filter((c) => !c.isFolder)
-          .map((fileNode) => {
-            const fileDisplayName = cleanDisplayName(fileNode.name)
-            let fileHtml = `<div class="tree-item file" data-level="${fileNode.level}">` +
-              `${indent}${prefix}📄 <a href="/${fileNode.slug}" class="tree-file-link">${fileDisplayName}</a>`
-            if (wordMap && totalWords) {
-              const fileWords = wordMap.get(fileNode.slug) || 0
-              const percentage = totalWords > 0 ? ((fileWords / totalWords) * 100).toFixed(2).replace('.', ',') : "0,00"
-              fileHtml += ` <span class="word-count">(${fileWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
-            }
-            fileHtml += `</div>`
-            return fileHtml
-          })
+        // GRAPH VIEW: Only folders, recursively
+        const folderChildren = node.children
+          .filter((c) => c.isFolder)
+          .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, false, true))
           .join("")
-        if (filesChildren.trim()) {
-          html += `<div class="folder-files" style="display: none;">${filesChildren}</div>`
+        if (folderChildren.trim()) {
+          html += `<div class="folder-children">${folderChildren}</div>`
         }
       } else {
-        // normal view: render everything recursively (folders + files)
+        // NORMAL VIEW: Render everything (folders + files)
         const allChildren = node.children
-          .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView))
+          .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, true, false))
           .join("")
         if (allChildren.trim()) {
           html += allChildren
@@ -344,18 +323,16 @@
     window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
     window.addCleanup(() => graphBtn.removeEventListener("click", renderDetailView))
 
-    // Delegate clicks for folder toggling in detail view
+    // Delegate clicks for folder toggling in detail view (currently only folder tree; files hidden entirely)
     content.addEventListener('click', (ev) => {
       const target = ev.target as HTMLElement
       const item = target.closest('.tree-item.folder[data-toggle-folder="true"]') as HTMLElement | null
       if (!item) return
-
-      // toggle subfolder visibility
+      // toggle subfolders block if exists
       const subfolders = item.nextElementSibling as HTMLElement | null
-      const filesContainer = subfolders?.nextElementSibling as HTMLElement | null
-      const current = filesContainer && filesContainer.style.display !== 'none'
-      if (filesContainer) {
-        filesContainer.style.display = current ? 'none' : 'block'
+      if (subfolders) {
+        const isVisible = subfolders.style.display !== 'none'
+        subfolders.style.display = isVisible ? 'none' : 'block'
       }
     })
   })

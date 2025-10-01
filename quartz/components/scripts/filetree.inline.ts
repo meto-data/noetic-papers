@@ -14,13 +14,11 @@
 
   function shouldExcludeFolder(folderName: string): boolean {
     const lower = folderName.toLowerCase()
-    // exact segment match only (avoid excluding e.g. 'profiles')
     return EXCLUDED_FOLDERS.some((excluded) => lower === excluded)
   }
 
   function shouldExcludeFile(fileName: string): boolean {
     const lower = fileName.toLowerCase()
-    // Exclude index files and common system files
     return lower === 'index' ||
            lower.startsWith('index.') ||
            lower === 'readme' ||
@@ -32,17 +30,24 @@
 
   function countWords(text: string): number {
     if (!text) return 0
-    // strip code blocks and markdown
     let cleaned = text.replace(/```[\s\S]*?```/g, " ")
-    cleaned = cleaned.replace(/`[^`]+`/g, " ") // inline code
-    cleaned = cleaned.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1") // links
-    cleaned = cleaned.replace(/[#*_~`]/g, " ") // markdown symbols
+    cleaned = cleaned.replace(/`[^`]+`/g, " ")
+    cleaned = cleaned.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    cleaned = cleaned.replace(/[#*_~`]/g, " ")
 
-    // Split by whitespace and filter empty strings
     const words = cleaned.split(/\s+/).filter(word => word.length > 0)
-
-    // Count actual words (not just unicode letters)
     return words.length
+  }
+
+  function cleanDisplayName(name: string): string {
+    let cleanName = name.replace(/-/g, " ")
+    if (/^\d+-/.test(name)) {
+      const match = name.match(/^(\d+)-/)
+      if (match) {
+        cleanName = match[1] + "- " + cleanName.substring(match[0].length)
+      }
+    }
+    return cleanName
   }
 
   async function buildTreeFromData(): Promise<{ root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number>; allWordMap: Map<string, number> }> {
@@ -62,14 +67,13 @@
 
     let altFiles = 0
     let altWords = 0
-    const wordMap = new Map<string, number>() // visible slug -> word count
-    const allWordMap = new Map<string, number>() // all slugs (except index) -> word count
+    const wordMap = new Map<string, number>()
+    const allWordMap = new Map<string, number>()
 
     for (const slug of allSlugs) {
       const file = data[slug]
       const parts = slug.split("/").filter((p) => p.length > 0)
 
-      // Skip index files completely
       if (shouldExcludeFile(parts[parts.length - 1])) {
         continue
       }
@@ -78,14 +82,12 @@
       let currentNode: TreeNode | null = root
       let isExcluded = false
 
-      // Calculate word count first
       let wordCount = 0
       if (file && typeof file.content === "string") {
         wordCount = countWords(file.content)
       } else if (file && typeof file.text === "string") {
         wordCount = countWords(file.text)
       }
-      // track all files (even under excluded folders) for accurate percentages
       allWordMap.set(slug, wordCount)
 
       for (let i = 0; i < parts.length && currentNode; i++) {
@@ -94,7 +96,6 @@
         const newPath = currentPath ? `${currentPath}/${part}` : part
 
         if (!isLastPart && shouldExcludeFolder(part)) {
-          // Count files under excluded folders as alt files
           altFiles += file ? 1 : 0
           altWords += wordCount
           isExcluded = true
@@ -120,7 +121,6 @@
         currentPath = newPath
       }
 
-      // Add to visible wordMap only if not excluded
       if (!isExcluded) {
         wordMap.set(slug, wordCount)
       }
@@ -139,6 +139,76 @@
     return { root, altFiles, altWords, wordMap, allWordMap }
   }
 
+  function renderTreeNode(node: TreeNode, isRoot = false, maxDepth = Infinity, wordMap?: Map<string, number>, totalWords?: number, showFiles: boolean = true, isDetailView: boolean = false): string {
+    if (isRoot) {
+      return node.children.map((child) => renderTreeNode(child, false, maxDepth, wordMap, totalWords, showFiles, isDetailView)).join("")
+    }
+
+    // Hide files in detail view unless showFiles is true
+    if (isDetailView && !node.isFolder && !showFiles) {
+      return ""
+    }
+
+    const indent = "&nbsp;&nbsp;".repeat(Math.max(0, node.level - 1))
+    const icon = node.isFolder ? "📁" : "📄"
+    const prefix = node.level > 1 ? "├── " : ""
+    const displayName = cleanDisplayName(node.name)
+
+    let html = `<div class="tree-item ${node.isFolder ? "folder" : "file"}" data-level="${node.level}">${indent}${prefix}${icon} `
+
+    if (node.isFolder) {
+      html += `<span class="tree-folder-name">${displayName}</span>`
+    } else {
+      html += `<a href="/${node.slug}" class="tree-file-link">${displayName}</a>`
+    }
+
+    // Add word count for files and percentage for folders
+    if (wordMap && totalWords && totalWords > 0) {
+      if (node.isFolder) {
+        const folderWords = calculateFolderWords(node, wordMap)
+        const pctNum = (folderWords / totalWords) * 100
+        const percentage = (pctNum > 0 && pctNum < 0.01) ? '0,01' : pctNum.toFixed(2).replace('.', ',')
+        html += ` <span class="word-count">(${folderWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
+      } else if (showFiles) {
+        const fileWords = wordMap.get(node.slug) || 0
+        const pctNumF = (fileWords / totalWords) * 100
+        const percentage = (pctNumF > 0 && pctNumF < 0.01) ? '0,01' : pctNumF.toFixed(2).replace('.', ',')
+        html += ` <span class="word-count">(${fileWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
+      }
+    }
+
+    html += `</div>`
+
+    if (node.children.length > 0 && node.level < maxDepth) {
+      const childMaxDepth = maxDepth
+      const allChildren = node.children
+        .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView))
+        .join("")
+      if (allChildren.trim()) {
+        html += allChildren
+      }
+    }
+
+    return html
+  }
+
+  function calculateFolderWords(node: TreeNode, wordMap: Map<string, number>): number {
+    if (!node.isFolder) {
+      return wordMap.get(node.slug) || 0
+    }
+
+    const prefix = node.slug ? node.slug + "/" : ""
+    let total = 0
+    for (const [slug, words] of wordMap.entries()) {
+      if (!prefix) {
+        total += words
+      } else if (slug.startsWith(prefix)) {
+        total += words
+      }
+    }
+    return total
+  }
+
   function calculateStats(node: TreeNode): { folders: number; files: number } {
     let folders = node.isFolder ? 1 : 0
     let files = node.isFolder ? 0 : 1
@@ -152,35 +222,75 @@
     return { folders, files }
   }
 
-  document.addEventListener("nav", async () => {
-    console.log("🌳 FileTree script: updating statistics")
-    
+  document.addEventListener("nav", () => {
     const rootEl = document.querySelector(".file-tree") as HTMLElement | null
     if (!rootEl) return
 
+    const outer = rootEl.querySelector(".file-tree-modal-outer") as HTMLElement
+    const btn = rootEl.querySelector(".file-tree-button") as HTMLButtonElement
+    const closeBtn = rootEl.querySelector(".file-tree-close") as HTMLButtonElement
+    const content = rootEl.querySelector(".file-tree-content") as HTMLElement
     const statsFolder = rootEl.querySelector(".stats-folders") as HTMLElement
     const statsFiles = rootEl.querySelector(".stats-files") as HTMLElement
     const statsAlt = rootEl.querySelector(".stats-altfiles") as HTMLElement
 
-    if (!statsFolder || !statsFiles || !statsAlt) return
+    let cachedData: { root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number>; allWordMap: Map<string, number> } | null = null
 
-    try {
-      const data = await buildTreeFromData()
-      const stats = calculateStats(data.root)
-      const totalAllWords = Array.from(data.allWordMap.values()).reduce((a, b) => a + b, 0)
-      
-      statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
-      statsFiles.textContent = `${stats.files} dosya`
-      statsAlt.textContent = `${data.altFiles} alt dosya (${totalAllWords.toLocaleString('tr-TR')} kelime)`
-      
-      console.log("🌳 Statistics updated:", {
-        folders: stats.folders - 1,
-        files: stats.files,
-        altFiles: data.altFiles,
-        totalWords: totalAllWords
-      })
-    } catch (e) {
-      console.error("🌳 Failed to update statistics:", e)
+    const openModal = () => {
+      outer.setAttribute("aria-hidden", "false")
+      outer.classList.add("active")
     }
+    const closeModal = () => {
+      outer.setAttribute("aria-hidden", "true")
+      outer.classList.remove("active")
+    }
+
+    const renderTreeView = () => {
+      if (!cachedData) return
+      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, Infinity, undefined, undefined, true, false)}</div>`
+    }
+
+    const onOpen = async () => {
+      openModal()
+      console.log("[filetree] opening modal…")
+
+      try {
+        if (!cachedData) {
+          cachedData = await buildTreeFromData()
+        }
+        
+        const stats = calculateStats(cachedData.root)
+        const totalAllWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
+
+        statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
+        statsFiles.textContent = `${stats.files} dosya`
+        statsAlt.textContent = `${cachedData.altFiles} alt dosya (${totalAllWords.toLocaleString('tr-TR')} kelime)`
+        
+        renderTreeView()
+        console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles: cachedData.altFiles, totalAllWords })
+      } catch (e) {
+        console.error("[filetree] failed:", e)
+        content.innerHTML = `<div class="tree-loading">Hata: ağacı oluşturamadım.</div>`
+      }
+    }
+
+    const onClose = () => closeModal()
+    const onOutsideClick = (e: MouseEvent) => {
+      if (e.target === outer) closeModal()
+    }
+
+    btn.addEventListener("click", onOpen, { passive: false })
+    btn.addEventListener("touchend", onOpen, { passive: false })
+    closeBtn.addEventListener("click", onClose, { passive: false })
+    closeBtn.addEventListener("touchend", onClose, { passive: false })
+    outer.addEventListener("click", onOutsideClick)
+
+    window.addCleanup(() => {
+      btn.removeEventListener("click", onOpen)
+      btn.removeEventListener("touchend", onOpen)
+      closeBtn.removeEventListener("click", onClose)
+      closeBtn.removeEventListener("touchend", onClose)
+      outer.removeEventListener("click", onOutsideClick)
+    })
   })
 })()

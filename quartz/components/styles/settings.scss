@@ -14,6 +14,8 @@
   justify-content: center;
   padding: 0;
   cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
   transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
 }
 
@@ -31,6 +33,7 @@
   align-items: center;
   justify-content: center;
   z-index: 10000;
+  -webkit-overflow-scrolling: touch;
 }
 
 .settings-modal-outer.active {
@@ -66,13 +69,18 @@
 
 .settings-body {
   display: grid;
-  gap: 1rem;
+  gap: 1.5rem;
   padding: 1rem;
 }
 
 .settings-body label {
   display: grid;
-  gap: .35rem;
+  gap: .5rem;
+  margin-top: 0.75rem;
+}
+
+.settings-body label:first-child {
+  margin-top: 0;
 }
 
 .settings-body select {
@@ -107,7 +115,11 @@
   
   .settings-body {
     padding: 0.75rem;
-    gap: 0.75rem;
+    gap: 1.25rem;
+  }
+  
+  .settings-body label {
+    margin-top: 0.5rem;
   }
   
   .settings-body select {
@@ -121,15 +133,24 @@
 }
 
 @media all and (max-width: 480px) {
-  .settings-modal { width: 98vw; }
+  .settings-modal { 
+    width: 98vw; 
+    max-height: 95vh;
+  }
   
   .settings-body {
     padding: 0.5rem;
-    gap: 0.6rem;
+    gap: 1rem;
   }
   
   .settings-body label {
     font-size: 0.9rem;
+    margin-top: 0.4rem;
+  }
+  
+  .settings-body select {
+    padding: 0.5rem 0.6rem;
+    font-size: 0.95rem;
   }
 }
 

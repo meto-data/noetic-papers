@@ -91,6 +91,16 @@ document.addEventListener("nav", async () => {
   const fontSelect = settingsRoot.querySelector(".font-select") as HTMLSelectElement | null
   const sizeSelect = settingsRoot.querySelector(".font-size-select") as HTMLSelectElement | null
 
+  // Debug: Check if elements exist
+  if (!btn) {
+    console.warn("Settings button not found")
+    return
+  }
+  if (!outer) {
+    console.warn("Settings modal outer not found")
+    return
+  }
+
   const light = (localStorage.getItem(SETTINGS_LIGHT_KEY) as SettingsLightKey) ?? "default"
   const dark = (localStorage.getItem(SETTINGS_DARK_KEY) as SettingsDarkKey) ?? "default"
   const savedFont = localStorage.getItem("font-family") || ""
@@ -104,27 +114,51 @@ document.addEventListener("nav", async () => {
   if (savedFont) applyFontFamily(savedFont)
   applyFontSize(savedSize)
 
-  const onOpen = () => openModal(outer)
-  const onClose = () => closeModal(outer)
+  const onOpen = (e: Event) => {
+    e.preventDefault()
+    e.stopPropagation()
+    openModal(outer)
+  }
+  const onClose = (e: Event) => {
+    e.preventDefault()
+    e.stopPropagation()
+    closeModal(outer)
+  }
   const onChange = () => applyPalettes(lightSelect.value as SettingsLightKey, darkSelect.value as SettingsDarkKey)
   const onOutsideClick = (e: MouseEvent) => {
     if (e.target === outer) closeModal(outer)
   }
 
-  btn.addEventListener("click", onOpen)
-  closeBtn.addEventListener("click", onClose)
+  // Remove existing listeners first
+  btn.removeEventListener("click", onOpen)
+  closeBtn.removeEventListener("click", onClose)
+  outer.removeEventListener("click", onOutsideClick)
+  lightSelect.removeEventListener("change", onChange)
+  darkSelect.removeEventListener("change", onChange)
+
+  // Add new listeners
+  btn.addEventListener("click", onOpen, { passive: false })
+  closeBtn.addEventListener("click", onClose, { passive: false })
   outer.addEventListener("click", onOutsideClick)
   lightSelect.addEventListener("change", onChange)
   darkSelect.addEventListener("change", onChange)
-  if (fontSelect) fontSelect.addEventListener("change", () => applyFontFamily(fontSelect!.value))
-  if (sizeSelect) sizeSelect.addEventListener("change", () => applyFontSize(sizeSelect!.value))
+  if (fontSelect) {
+    fontSelect.removeEventListener("change", () => applyFontFamily(fontSelect!.value))
+    fontSelect.addEventListener("change", () => applyFontFamily(fontSelect!.value))
+  }
+  if (sizeSelect) {
+    sizeSelect.removeEventListener("change", () => applyFontSize(sizeSelect!.value))
+    sizeSelect.addEventListener("change", () => applyFontSize(sizeSelect!.value))
+  }
 
-  window.addCleanup(() => btn.removeEventListener("click", onOpen))
-  window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
-  window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
-  window.addCleanup(() => lightSelect.removeEventListener("change", onChange))
-  window.addCleanup(() => darkSelect.removeEventListener("change", onChange))
-  if (fontSelect) window.addCleanup(() => fontSelect?.removeEventListener("change", () => applyFontFamily(fontSelect!.value)))
-  if (sizeSelect) window.addCleanup(() => sizeSelect?.removeEventListener("change", () => applyFontSize(sizeSelect!.value)))
+  window.addCleanup(() => {
+    btn.removeEventListener("click", onOpen)
+    closeBtn.removeEventListener("click", onClose)
+    outer.removeEventListener("click", onOutsideClick)
+    lightSelect.removeEventListener("change", onChange)
+    darkSelect.removeEventListener("change", onChange)
+    if (fontSelect) fontSelect.removeEventListener("change", () => applyFontFamily(fontSelect!.value))
+    if (sizeSelect) sizeSelect.removeEventListener("change", () => applyFontSize(sizeSelect!.value))
+  })
 })
 })()

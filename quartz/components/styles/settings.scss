@@ -16,7 +16,11 @@
   cursor: pointer;
   touch-action: manipulation;
   -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  user-select: none;
   transition: background-color .15s ease, border-color .15s ease, box-shadow .15s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .settings-button:hover {

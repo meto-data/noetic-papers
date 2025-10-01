@@ -84,8 +84,13 @@ function closeModal(outer: HTMLElement) {
   outer.classList.remove("active")
 }
 
-document.addEventListener("nav", async () => {
-  console.log("🔧 Settings script: nav event triggered")
+// Multiple event listeners to ensure it works
+document.addEventListener("nav", initSettings)
+document.addEventListener("DOMContentLoaded", initSettings)
+window.addEventListener("load", initSettings)
+
+function initSettings() {
+  console.log("🔧 Settings script: initSettings called")
   
   const settingsRoot = document.querySelector(".settings") as HTMLElement | null
   console.log("🔧 Settings root found:", !!settingsRoot)
@@ -197,5 +202,5 @@ document.addEventListener("nav", async () => {
     if (fontSelect) fontSelect.removeEventListener("change", () => applyFontFamily(fontSelect!.value))
     if (sizeSelect) sizeSelect.removeEventListener("change", () => applyFontSize(sizeSelect!.value))
   })
-})
+}
 })()

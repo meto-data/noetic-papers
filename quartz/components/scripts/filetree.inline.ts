@@ -25,8 +25,9 @@
            lower.startsWith('index.') ||
            lower === 'readme' ||
            lower.startsWith('readme.') ||
-           lower === '.DS_Store' ||
-           lower.startsWith('.')
+           lower === '.ds_store' ||
+           lower === '.gitignore' ||
+           lower === '.gitkeep'
   }
 
   function countWords(text: string): number {
@@ -267,18 +268,37 @@
     return { folders, files }
   }
 
-  document.addEventListener("nav", () => {
-    const rootEl = document.querySelector(".file-tree") as HTMLElement | null
-    if (!rootEl) return
+// Multiple event listeners to ensure it works
+document.addEventListener("nav", initFileTree)
+document.addEventListener("DOMContentLoaded", initFileTree)
+window.addEventListener("load", initFileTree)
 
-    const outer = rootEl.querySelector(".file-tree-modal-outer") as HTMLElement
-    const btn = rootEl.querySelector(".file-tree-button") as HTMLButtonElement
-    const closeBtn = rootEl.querySelector(".file-tree-close") as HTMLButtonElement
-    const content = rootEl.querySelector(".file-tree-content") as HTMLElement
-    const statsFolder = rootEl.querySelector(".stats-folders") as HTMLElement
-    const statsFiles = rootEl.querySelector(".stats-files") as HTMLElement
-    const statsAlt = rootEl.querySelector(".stats-altfiles") as HTMLElement
-    const graphBtn = rootEl.querySelector(".file-tree-graph") as HTMLButtonElement
+function initFileTree() {
+  console.log("🌳 FileTree script: initFileTree called")
+  
+  const rootEl = document.querySelector(".file-tree") as HTMLElement | null
+  console.log("🌳 FileTree root found:", !!rootEl)
+  if (!rootEl) {
+    console.warn("❌ FileTree root not found!")
+    return
+  }
+
+  const outer = rootEl.querySelector(".file-tree-modal-outer") as HTMLElement
+  const btn = rootEl.querySelector(".file-tree-button") as HTMLButtonElement
+  const closeBtn = rootEl.querySelector(".file-tree-close") as HTMLButtonElement
+  const content = rootEl.querySelector(".file-tree-content") as HTMLElement
+  const statsFolder = rootEl.querySelector(".stats-folders") as HTMLElement
+  const statsFiles = rootEl.querySelector(".stats-files") as HTMLElement
+  const statsAlt = rootEl.querySelector(".stats-altfiles") as HTMLElement
+  const graphBtn = rootEl.querySelector(".file-tree-graph") as HTMLButtonElement
+
+  console.log("🌳 Elements found:", {
+    outer: !!outer,
+    btn: !!btn,
+    closeBtn: !!closeBtn,
+    content: !!content,
+    graphBtn: !!graphBtn
+  })
 
     let cachedData: { root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number>; allWordMap: Map<string, number> } | null = null
 
@@ -344,9 +364,17 @@
       }
     }
 
-    const onGraphOpen = async () => {
+    const onGraphOpen = async (e: Event) => {
+      console.log("🌳 FileTree button clicked!", {
+        eventType: e.type,
+        target: e.target,
+        currentTarget: e.currentTarget
+      })
+      e.preventDefault()
+      e.stopPropagation()
+      
       openModal()
-      console.log("[filetree] opening graph modal…")
+      console.log("🌳 Opening file tree modal…")
 
       try {
         if (!cachedData) {
@@ -361,9 +389,9 @@
         const modal = rootEl.querySelector('.file-tree-modal') as HTMLElement
         modal.classList.add('graph-mode')
         renderDetailView()
-        console.log("[filetree] built graph view")
+        console.log("🌳 Built graph view")
       } catch (e) {
-        console.error("[filetree] failed:", e)
+        console.error("🌳 Failed:", e)
         content.innerHTML = `<div class="tree-loading">Hata: ağacı oluşturamadım.</div>`
       }
     }
@@ -418,20 +446,30 @@
       if (tv) tv.innerHTML = html
     }
 
-    btn.addEventListener("click", onGraphOpen)
-    closeBtn.addEventListener("click", onClose)
+    console.log("🌳 Adding event listeners...")
+    btn.addEventListener("click", onGraphOpen, { passive: false })
+    btn.addEventListener("touchend", onGraphOpen, { passive: false })
+    closeBtn.addEventListener("click", onClose, { passive: false })
+    closeBtn.addEventListener("touchend", onClose, { passive: false })
     outer.addEventListener("click", onOutsideClick)
-    graphBtn.addEventListener("click", onGraphClick)
+    graphBtn.addEventListener("click", onGraphClick, { passive: false })
+    graphBtn.addEventListener("touchend", onGraphClick, { passive: false })
+    console.log("🌳 Event listeners added successfully!")
 
-    window.addCleanup(() => btn.removeEventListener("click", onGraphOpen))
-    window.addCleanup(() => closeBtn.removeEventListener("click", onClose))
-    window.addCleanup(() => outer.removeEventListener("click", onOutsideClick))
-    window.addCleanup(() => graphBtn.removeEventListener("click", onGraphClick))
+    window.addCleanup(() => {
+      btn.removeEventListener("click", onGraphOpen)
+      btn.removeEventListener("touchend", onGraphOpen)
+      closeBtn.removeEventListener("click", onClose)
+      closeBtn.removeEventListener("touchend", onClose)
+      outer.removeEventListener("click", onOutsideClick)
+      graphBtn.removeEventListener("click", onGraphClick)
+      graphBtn.removeEventListener("touchend", onGraphClick)
+    })
 
     // Graph controls interactions
     content.addEventListener('input', onInputDepth)
     content.addEventListener('change', onChangeDepth)
     window.addCleanup(() => content.removeEventListener('input', onInputDepth))
     window.addCleanup(() => content.removeEventListener('change', onChangeDepth))
-  })
+}
 })()

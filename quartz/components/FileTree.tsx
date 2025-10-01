@@ -26,6 +26,13 @@ const FileTree: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
             <span class="stats-files">0 dosya</span>
             <span class="stats-altfiles">0 alt dosya</span>
           </div>
+          <div class="file-tree-controls">
+            <label class="depth-control">
+              Derinlik:
+              <input type="range" min="1" max="10" step="1" value="10" class="depth-slider" />
+              <span class="depth-value">10</span>
+            </label>
+          </div>
           <div class="file-tree-content">
             <div class="tree-loading">Yükleniyor...</div>
           </div>

@@ -233,6 +233,7 @@
     const statsFolder = rootEl.querySelector(".stats-folders") as HTMLElement
     const statsFiles = rootEl.querySelector(".stats-files") as HTMLElement
     const statsAlt = rootEl.querySelector(".stats-altfiles") as HTMLElement
+    const depthValue = rootEl.querySelector(".depth-value") as HTMLElement
 
     let cachedData: { root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number>; allWordMap: Map<string, number> } | null = null
 
@@ -245,9 +246,9 @@
       outer.classList.remove("active")
     }
 
-    const renderTreeView = () => {
+    const renderTreeView = (maxDepth: number = 10) => {
       if (!cachedData) return
-      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, Infinity, undefined, undefined, true, false)}</div>`
+      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, maxDepth, undefined, undefined, true, false)}</div>`
     }
 
     const onOpen = async () => {
@@ -279,11 +280,33 @@
       if (e.target === outer) closeModal()
     }
 
+    const onDepthInput = (e: Event) => {
+      const target = e.target as HTMLInputElement
+      if (target.classList.contains('depth-slider')) {
+        const value = target.value
+        if (depthValue) {
+          depthValue.textContent = value
+        }
+      }
+    }
+
+    const onDepthChange = (e: Event) => {
+      const target = e.target as HTMLInputElement
+      if (target.classList.contains('depth-slider')) {
+        const depth = parseInt(target.value, 10)
+        renderTreeView(depth)
+      }
+    }
+
     btn.addEventListener("click", onOpen, { passive: false })
     btn.addEventListener("touchend", onOpen, { passive: false })
     closeBtn.addEventListener("click", onClose, { passive: false })
     closeBtn.addEventListener("touchend", onClose, { passive: false })
     outer.addEventListener("click", onOutsideClick)
+    
+    // Depth control events
+    content.addEventListener('input', onDepthInput)
+    content.addEventListener('change', onDepthChange)
 
     window.addCleanup(() => {
       btn.removeEventListener("click", onOpen)
@@ -291,6 +314,8 @@
       closeBtn.removeEventListener("click", onClose)
       closeBtn.removeEventListener("touchend", onClose)
       outer.removeEventListener("click", onOutsideClick)
+      content.removeEventListener('input', onDepthInput)
+      content.removeEventListener('change', onDepthChange)
     })
   })
 })()

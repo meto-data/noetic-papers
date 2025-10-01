@@ -91,6 +91,62 @@
   color: var(--gray);
 }
 
+.file-tree-controls {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--lightgray);
+  background: color-mix(in srgb, var(--lightgray) 10%, transparent);
+}
+
+.depth-control {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--darkgray);
+  font-size: 0.9rem;
+}
+
+.depth-slider {
+  width: 200px;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--secondary), var(--tertiary));
+  outline: none;
+}
+
+.depth-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--secondary);
+  border: 2px solid var(--light);
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  cursor: pointer;
+}
+
+.depth-slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--secondary);
+  border: 2px solid var(--light);
+  box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  cursor: pointer;
+}
+
+.depth-value {
+  background: color-mix(in srgb, var(--lightgray) 30%, transparent);
+  padding: 0.25rem 0.5rem;
+  border-radius: 999px;
+  font-weight: 700;
+  color: var(--secondary);
+  min-width: 1.5rem;
+  text-align: center;
+}
+
 .file-tree-content {
   flex: 1;
   overflow-y: auto;

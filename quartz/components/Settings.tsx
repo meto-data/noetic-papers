@@ -28,14 +28,6 @@ const Settings: QuartzComponent = (props: QuartzComponentProps) => {
             <button class="settings-close" aria-label="Kapat">×</button>
           </div>
           <div class="settings-body">
-            {MobileOnly(() => (
-              <div class="setting-row">
-                  <h3>Araçlar</h3>
-                  <div class="tools-wrapper">
-                    <Darkmode />
-                  </div>
-              </div>
-            ))(props)}
             <div class="setting-row">
               <h3>Görünüm</h3>
               <label>

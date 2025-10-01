@@ -48,7 +48,12 @@
   async function buildTreeFromData(): Promise<{ root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number>; allWordMap: Map<string, number> }> {
     const root: TreeNode = { name: "root", slug: "", isFolder: true, children: [], level: 0 }
 
-    const data = await fetchData
+    const fetchData = async () => {
+      const data = await fetch("/content/index.json").then((res) => res.json())
+      return data
+    }
+
+    const data = await fetchData()
     const allSlugs = Object.keys(data || {})
     console.log("[filetree] total slugs:", allSlugs.length)
 
@@ -134,127 +139,6 @@
     return { root, altFiles, altWords, wordMap, allWordMap }
   }
 
-  function cleanDisplayName(name: string): string {
-    // "8- Makale İnceleme ve Özet" formatına çevir
-    // Önce tüm tireleri boşluk ile değiştir
-    let cleanName = name.replace(/-/g, " ")
-
-    // Eğer başında sayı-tire varsa, onu koru
-    if (/^\d+-/.test(name)) {
-      const match = name.match(/^(\d+)-/)
-      if (match) {
-        cleanName = match[1] + "- " + cleanName.substring(match[0].length)
-      }
-    }
-
-    return cleanName
-  }
-
-  function renderTreeNode(node: TreeNode, isRoot = false, maxDepth = Infinity, wordMap?: Map<string, number>, totalWords?: number, showFiles: boolean = true, isDetailView: boolean = false): string {
-    if (isRoot) {
-      return node.children.map((child) => renderTreeNode(child, false, maxDepth, wordMap, totalWords, showFiles, isDetailView)).join("")
-    }
-
-    // In detail view, hide files unless showFiles is true
-    if (isDetailView && !node.isFolder && !showFiles) {
-      return ""
-    }
-
-    const indent = "&nbsp;&nbsp;".repeat(Math.max(0, node.level - 1))
-    const icon = node.isFolder ? (isDetailView ? "📂" : "📁") : "📄"
-    const prefix = node.level > 1 ? "├── " : ""
-    const displayName = cleanDisplayName(node.name)
-
-    let html = `<div class="tree-item ${node.isFolder ? "folder" : "file"}" data-level="${
-      node.level
-    }"${node.isFolder && isDetailView ? ` data-toggle-folder="true"` : ""}>${indent}${prefix}${icon} `
-
-    if (node.isFolder) {
-      html += `<span class="tree-folder-name">${displayName}</span>`
-    } else {
-      html += `<a href="/${node.slug}" class="tree-file-link">${displayName}</a>`
-    }
-
-    // Add word count for files and percentage for folders
-    if (wordMap && totalWords && totalWords > 0) {
-      if (node.isFolder) {
-        // Calculate folder word count (sum of all children recursively)
-        const folderWords = calculateFolderWords(node, wordMap)
-        const pctNum = (folderWords / totalWords) * 100
-        const percentage = (pctNum > 0 && pctNum < 0.01) ? '0,01' : pctNum.toFixed(2).replace('.', ',')
-        html += ` <span class="word-count">(${folderWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
-      } else if (showFiles) {
-        const fileWords = wordMap.get(node.slug) || 0
-        const pctNumF = (fileWords / totalWords) * 100
-        const percentage = (pctNumF > 0 && pctNumF < 0.01) ? '0,01' : pctNumF.toFixed(2).replace('.', ',')
-        html += ` <span class="word-count">(${fileWords.toLocaleString('tr-TR')} kelime - ${percentage}%)</span>`
-      }
-    }
-
-    html += `</div>`
-
-    if (node.children.length > 0 && node.level < maxDepth) {
-      const childMaxDepth = maxDepth
-      if (isDetailView) {
-        // GRAPH VIEW: Only folders, recursively
-        const folderChildren = node.children
-          .filter((c) => c.isFolder)
-          .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, false, true))
-          .join("")
-        if (folderChildren.trim()) {
-          html += `<div class="folder-children">${folderChildren}</div>`
-        }
-      } else {
-        // NORMAL VIEW: Render everything (folders + files) recursively
-        const allChildren = node.children
-          .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView))
-          .join("")
-        if (allChildren.trim()) {
-          html += allChildren
-        }
-      }
-    }
-
-    return html
-  }
-
-  function calculateFolderWords(node: TreeNode, wordMap: Map<string, number>): number {
-    // If the provided map contains comprehensive data (e.g., allWordMap),
-    // compute by prefix so that hidden/excluded descendants are still counted.
-    const isComprehensive = wordMap.size > 0 && !node.isFolder ? false : true
-
-    if (!node.isFolder) {
-      return wordMap.get(node.slug) || 0
-    }
-
-    if (isComprehensive) {
-      const prefix = node.slug ? node.slug + "/" : ""
-      let total = 0
-      for (const [slug, words] of wordMap.entries()) {
-        if (!prefix) {
-          total += words
-        } else if (slug.startsWith(prefix)) {
-          total += words
-        }
-      }
-      return total
-    }
-
-    // Fallback: sum only visible children recursively (used in normal view)
-    function sumWords(n: TreeNode): number {
-      let sum = 0
-      if (!n.isFolder && wordMap.has(n.slug)) {
-        sum += wordMap.get(n.slug) || 0
-      }
-      for (const child of n.children) {
-        sum += sumWords(child)
-      }
-      return sum
-    }
-
-    return sumWords(node)
-  }
-
   function calculateStats(node: TreeNode): { folders: number; files: number } {
     let folders = node.isFolder ? 1 : 0
     let files = node.isFolder ? 0 : 1
@@ -268,208 +152,35 @@
     return { folders, files }
   }
 
-// Multiple event listeners to ensure it works
-document.addEventListener("nav", initFileTree)
-document.addEventListener("DOMContentLoaded", initFileTree)
-window.addEventListener("load", initFileTree)
+  document.addEventListener("nav", async () => {
+    console.log("🌳 FileTree script: updating statistics")
+    
+    const rootEl = document.querySelector(".file-tree") as HTMLElement | null
+    if (!rootEl) return
 
-function initFileTree() {
-  console.log("🌳 FileTree script: initFileTree called")
-  
-  const rootEl = document.querySelector(".file-tree") as HTMLElement | null
-  console.log("🌳 FileTree root found:", !!rootEl)
-  if (!rootEl) {
-    console.warn("❌ FileTree root not found!")
-    return
-  }
+    const statsFolder = rootEl.querySelector(".stats-folders") as HTMLElement
+    const statsFiles = rootEl.querySelector(".stats-files") as HTMLElement
+    const statsAlt = rootEl.querySelector(".stats-altfiles") as HTMLElement
 
-  const outer = rootEl.querySelector(".file-tree-modal-outer") as HTMLElement
-  const btn = rootEl.querySelector(".file-tree-button") as HTMLButtonElement
-  const closeBtn = rootEl.querySelector(".file-tree-close") as HTMLButtonElement
-  const content = rootEl.querySelector(".file-tree-content") as HTMLElement
-  const statsFolder = rootEl.querySelector(".stats-folders") as HTMLElement
-  const statsFiles = rootEl.querySelector(".stats-files") as HTMLElement
-  const statsAlt = rootEl.querySelector(".stats-altfiles") as HTMLElement
-  const graphBtn = rootEl.querySelector(".file-tree-graph") as HTMLButtonElement
+    if (!statsFolder || !statsFiles || !statsAlt) return
 
-  console.log("🌳 Elements found:", {
-    outer: !!outer,
-    btn: !!btn,
-    closeBtn: !!closeBtn,
-    content: !!content,
-    graphBtn: !!graphBtn
-  })
-
-    let cachedData: { root: TreeNode; altFiles: number; altWords: number; wordMap: Map<string, number>; allWordMap: Map<string, number> } | null = null
-
-    const openModal = () => {
-      outer.setAttribute("aria-hidden", "false")
-      outer.classList.add("active")
-    }
-    const closeModal = () => {
-      outer.setAttribute("aria-hidden", "true")
-      outer.classList.remove("active")
-    }
-
-    const renderTreeView = () => {
-      if (!cachedData) return
-      content.innerHTML = `<div class="tree-view">${renderTreeNode(cachedData.root, true, Infinity, undefined, undefined, true, false)}</div>`
-    }
-
-    const renderDetailView = async () => {
-      if (!cachedData) return
-
-      // Calculate total words for percentage calculation (all files except index, across tree)
-      const totalWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
-
-      // Controls: depth range (1-10) and show files toggle
-      const controls = `
-        <div class="graph-controls">
-          <label class="graph-depth-label">Derinlik:
-            <input type="range" min="1" max="10" step="1" value="1" class="graph-depth" />
-            <span class="graph-depth-value">1</span>
-          </label>
-        </div>`
-
-      const depth = 1
-      const treeHtml = renderTreeNode(cachedData.root, true, depth, cachedData.allWordMap, totalWords, false, true)
-
-      content.innerHTML = `
-        <div class="detail-view">
-          ${controls}
-          <div class="tree-view">${treeHtml}</div>
-        </div>`
-    }
-
-    const onOpen = async () => {
-      openModal()
-      console.log("[filetree] opening modal…")
-
-      try {
-        cachedData = await buildTreeFromData()
-        const stats = calculateStats(cachedData.root)
-
-        // Toplam kelime: tüm dosyalar (index hariç), hariç klasörlerin içi dahil
-        const totalAllWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
-
-        statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
-        statsFiles.textContent = `${stats.files} dosya`
-        statsAlt.textContent = `${cachedData.altFiles} alt dosya (${totalAllWords.toLocaleString('tr-TR')} kelime)`
-        outer.querySelector('.file-tree-modal')?.classList.remove('graph-mode')
-        renderTreeView()
-        console.log("[filetree] built:", { folders: stats.folders, files: stats.files, altFiles: cachedData.altFiles, totalAllWords })
-      } catch (e) {
-        console.error("[filetree] failed:", e)
-        content.innerHTML = `<div class="tree-loading">Hata: ağacı oluşturamadım.</div>`
-      }
-    }
-
-    const onGraphOpen = async (e: Event) => {
-      console.log("🌳 FileTree button clicked!", {
-        eventType: e.type,
-        target: e.target,
-        currentTarget: e.currentTarget
-      })
-      e.preventDefault()
-      e.stopPropagation()
+    try {
+      const data = await buildTreeFromData()
+      const stats = calculateStats(data.root)
+      const totalAllWords = Array.from(data.allWordMap.values()).reduce((a, b) => a + b, 0)
       
-      openModal()
-      console.log("🌳 Opening file tree modal…")
-
-      try {
-        if (!cachedData) {
-          cachedData = await buildTreeFromData()
-          const stats = calculateStats(cachedData.root)
-          const totalAllWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
-          statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
-          statsFiles.textContent = `${stats.files} dosya`
-          statsAlt.textContent = `${cachedData.altFiles} alt dosya (${totalAllWords.toLocaleString('tr-TR')} kelime)`
-        }
-        
-        const modal = rootEl.querySelector('.file-tree-modal') as HTMLElement
-        modal.classList.add('graph-mode')
-        renderDetailView()
-        console.log("🌳 Built graph view")
-      } catch (e) {
-        console.error("🌳 Failed:", e)
-        content.innerHTML = `<div class="tree-loading">Hata: ağacı oluşturamadım.</div>`
-      }
+      statsFolder.textContent = `${Math.max(0, stats.folders - 1)} klasör`
+      statsFiles.textContent = `${stats.files} dosya`
+      statsAlt.textContent = `${data.altFiles} alt dosya (${totalAllWords.toLocaleString('tr-TR')} kelime)`
+      
+      console.log("🌳 Statistics updated:", {
+        folders: stats.folders - 1,
+        files: stats.files,
+        altFiles: data.altFiles,
+        totalWords: totalAllWords
+      })
+    } catch (e) {
+      console.error("🌳 Failed to update statistics:", e)
     }
-
-    // no depth control in UI anymore
-
-    const onClose = () => closeModal()
-    const onOutsideClick = (e: MouseEvent) => {
-      if (e.target === outer) closeModal()
-    }
-
-    // Bind listeners with named functions so we can clean them up reliably
-    const onGraphClick = async () => {
-      if (!cachedData) {
-        // open modal and load data if needed
-        await onOpen()
-      }
-      const modal = rootEl.querySelector('.file-tree-modal') as HTMLElement
-      const isActive = outer.classList.contains('active')
-      if (!isActive) {
-        openModal()
-      }
-      const isGraph = modal.classList.contains('graph-mode')
-      if (isGraph) {
-        modal.classList.remove('graph-mode')
-        renderTreeView()
-      } else {
-        modal.classList.add('graph-mode')
-        renderDetailView()
-      }
-    }
-
-    const onInputDepth = (ev: Event) => {
-      const target = ev.target as HTMLElement
-      if (!(target instanceof HTMLInputElement)) return
-      if (!target.classList.contains('graph-depth')) return
-      const val = target.value
-      const bubble = content.querySelector('.graph-depth-value') as HTMLElement | null
-      if (bubble) bubble.textContent = val
-    }
-
-    const onChangeDepth = (ev: Event) => {
-      const target = ev.target as HTMLElement
-      if (!(target instanceof HTMLInputElement)) return
-      if (!target.classList.contains('graph-depth')) return
-      const depthEl = target
-      if (!cachedData) return
-      const totalWords = Array.from(cachedData.allWordMap.values()).reduce((a, b) => a + b, 0)
-      const depth = Math.max(1, Math.min(10, parseInt(depthEl.value || '1', 10)))
-      const html = renderTreeNode(cachedData.root, true, depth, cachedData.allWordMap, totalWords, false, true)
-      const tv = content.querySelector('.tree-view') as HTMLElement
-      if (tv) tv.innerHTML = html
-    }
-
-    console.log("🌳 Adding event listeners...")
-    btn.addEventListener("click", onGraphOpen, { passive: false })
-    btn.addEventListener("touchend", onGraphOpen, { passive: false })
-    closeBtn.addEventListener("click", onClose, { passive: false })
-    closeBtn.addEventListener("touchend", onClose, { passive: false })
-    outer.addEventListener("click", onOutsideClick)
-    graphBtn.addEventListener("click", onGraphClick, { passive: false })
-    graphBtn.addEventListener("touchend", onGraphClick, { passive: false })
-    console.log("🌳 Event listeners added successfully!")
-
-    window.addCleanup(() => {
-      btn.removeEventListener("click", onGraphOpen)
-      btn.removeEventListener("touchend", onGraphOpen)
-      closeBtn.removeEventListener("click", onClose)
-      closeBtn.removeEventListener("touchend", onClose)
-      outer.removeEventListener("click", onOutsideClick)
-      graphBtn.removeEventListener("click", onGraphClick)
-      graphBtn.removeEventListener("touchend", onGraphClick)
-    })
-
-    // Graph controls interactions
-    content.addEventListener('input', onInputDepth)
-    content.addEventListener('change', onChangeDepth)
-    window.addCleanup(() => content.removeEventListener('input', onInputDepth))
-    window.addCleanup(() => content.removeEventListener('change', onChangeDepth))
-}
+  })
 })()

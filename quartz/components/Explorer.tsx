@@ -57,12 +57,11 @@ const defaultOptions: Options = {
     const nameWithoutNumber = name.replace(/^[0-9]+\s*-\s*/, "")
     // check if folder should be excluded
     if (node.isFolder) {
-      const excludedFolders = ["ekler", "görseller", "pdf", "notlar", "images", "image", "media", "assets", "static", "files", "file", "attachments", "attachment", "zettelkasten"]
+      const excludedFolders = ["pdf", "images", "image", "media", "assets", "static", "files", "file", "attachments", "attachment", "zettelkasten"]
       return !excludedFolders.includes(nameWithoutNumber)
     } else {
-      const excludedFiles = ["index", "readme"]
-      const stem = name.replace(/\\.md$/, "")
-      return !excludedFiles.includes(stem)
+      // Don't exclude any files - show all files including index files
+      return true
     }
   },
   order: ["filter", "map", "sort"],

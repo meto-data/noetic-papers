@@ -3,21 +3,16 @@
 import settingsScript from "./scripts/settings.inline"
 // @ts-ignore
 import darkmodeScript from "./scripts/darkmode.inline"
-// @ts-ignore
-import fileTreeScript from "./scripts/filetree.inline"
 import styles from "./styles/settings.scss"
 import darkmodeStyles from "./styles/darkmode.scss"
-import filetreeStyles from "./styles/filetree.scss"
 import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import { classNames } from "../util/lang"
-import { i18n } from "../i18n"
 import { concatenateResources } from "../util/resources"
 import MobileOnly from "./MobileOnly"
 import Darkmode from "./Darkmode"
-import FileTree from "./FileTree"
 
 const Settings: QuartzComponent = (props: QuartzComponentProps) => {
-  const { displayClass, cfg } = props
+  const { displayClass } = props
   return (
     <div class={classNames(displayClass, "settings")}>
       <button class="settings-button" aria-label="Ayarlar">
@@ -33,15 +28,14 @@ const Settings: QuartzComponent = (props: QuartzComponentProps) => {
             <button class="settings-close" aria-label="Kapat">×</button>
           </div>
           <div class="settings-body">
-            <MobileOnly>
+            {MobileOnly(() => (
               <div class="setting-row">
                   <h3>Araçlar</h3>
                   <div class="tools-wrapper">
-                    <Darkmode {...props} />
-                    <FileTree {...props} />
+                    <Darkmode />
                   </div>
               </div>
-            </MobileOnly>
+            ))(props)}
             <div class="setting-row">
               <h3>Görünüm</h3>
               <label>
@@ -117,7 +111,7 @@ const Settings: QuartzComponent = (props: QuartzComponentProps) => {
   )
 }
 
-Settings.afterDOMLoaded = concatenateResources([settingsScript, darkmodeScript, fileTreeScript])
-Settings.css = concatenateResources([styles, darkmodeStyles, filetreeStyles])
+Settings.afterDOMLoaded = concatenateResources([settingsScript, darkmodeScript])
+Settings.css = concatenateResources([styles, darkmodeStyles])
 
 export default (() => Settings) satisfies QuartzComponentConstructor

@@ -37,7 +37,7 @@
 }
 
 .settings-modal-outer.active {
-  display: flex;
+  display: flex !important;
 }
 
 .settings-modal {
@@ -107,6 +107,13 @@
 
 
 @media all and (max-width: 800px) {
+  .settings-button {
+    min-width: 44px;
+    min-height: 44px;
+    width: 44px;
+    height: 44px;
+  }
+  
   .settings-modal { 
     width: 96vw; 
     max-height: 90vh;

@@ -70,18 +70,29 @@ function applyFontSize(size: string) {
 
 
 function openModal(outer: HTMLElement) {
+  console.log("🔧 openModal called with outer:", outer)
+  console.log("🔧 Before opening - aria-hidden:", outer.getAttribute("aria-hidden"), "classes:", outer.className)
   outer.setAttribute("aria-hidden", "false")
   outer.classList.add("active")
+  console.log("🔧 After opening - aria-hidden:", outer.getAttribute("aria-hidden"), "classes:", outer.className)
+  console.log("🔧 Modal should be visible now!")
 }
 
 function closeModal(outer: HTMLElement) {
+  console.log("🔧 closeModal called")
   outer.setAttribute("aria-hidden", "true")
   outer.classList.remove("active")
 }
 
 document.addEventListener("nav", async () => {
+  console.log("🔧 Settings script: nav event triggered")
+  
   const settingsRoot = document.querySelector(".settings") as HTMLElement | null
-  if (!settingsRoot) return
+  console.log("🔧 Settings root found:", !!settingsRoot)
+  if (!settingsRoot) {
+    console.warn("❌ Settings root not found!")
+    return
+  }
 
   const outer = settingsRoot.querySelector(".settings-modal-outer") as HTMLElement
   const btn = settingsRoot.querySelector(".settings-button") as HTMLButtonElement
@@ -92,12 +103,22 @@ document.addEventListener("nav", async () => {
   const sizeSelect = settingsRoot.querySelector(".font-size-select") as HTMLSelectElement | null
 
   // Debug: Check if elements exist
+  console.log("🔧 Elements found:", {
+    outer: !!outer,
+    btn: !!btn,
+    closeBtn: !!closeBtn,
+    lightSelect: !!lightSelect,
+    darkSelect: !!darkSelect,
+    fontSelect: !!fontSelect,
+    sizeSelect: !!sizeSelect
+  })
+
   if (!btn) {
-    console.warn("Settings button not found")
+    console.warn("❌ Settings button not found")
     return
   }
   if (!outer) {
-    console.warn("Settings modal outer not found")
+    console.warn("❌ Settings modal outer not found")
     return
   }
 
@@ -115,11 +136,21 @@ document.addEventListener("nav", async () => {
   applyFontSize(savedSize)
 
   const onOpen = (e: Event) => {
+    console.log("🔧 Settings button clicked!", {
+      eventType: e.type,
+      target: e.target,
+      currentTarget: e.currentTarget,
+      outer: outer,
+      outerClasses: outer?.className
+    })
     e.preventDefault()
     e.stopPropagation()
+    console.log("🔧 Calling openModal...")
     openModal(outer)
+    console.log("🔧 Modal should be open now, classes:", outer?.className)
   }
   const onClose = (e: Event) => {
+    console.log("🔧 Settings close button clicked!")
     e.preventDefault()
     e.stopPropagation()
     closeModal(outer)
@@ -137,11 +168,15 @@ document.addEventListener("nav", async () => {
   darkSelect.removeEventListener("change", onChange)
 
   // Add new listeners
+  console.log("🔧 Adding event listeners...")
   btn.addEventListener("click", onOpen, { passive: false })
+  btn.addEventListener("touchend", onOpen, { passive: false })
   closeBtn.addEventListener("click", onClose, { passive: false })
+  closeBtn.addEventListener("touchend", onClose, { passive: false })
   outer.addEventListener("click", onOutsideClick)
   lightSelect.addEventListener("change", onChange)
   darkSelect.addEventListener("change", onChange)
+  console.log("🔧 Event listeners added successfully!")
   if (fontSelect) {
     fontSelect.removeEventListener("change", () => applyFontFamily(fontSelect!.value))
     fontSelect.addEventListener("change", () => applyFontFamily(fontSelect!.value))
@@ -153,7 +188,9 @@ document.addEventListener("nav", async () => {
 
   window.addCleanup(() => {
     btn.removeEventListener("click", onOpen)
+    btn.removeEventListener("touchend", onOpen)
     closeBtn.removeEventListener("click", onClose)
+    closeBtn.removeEventListener("touchend", onClose)
     outer.removeEventListener("click", onOutsideClick)
     lightSelect.removeEventListener("change", onChange)
     darkSelect.removeEventListener("change", onChange)

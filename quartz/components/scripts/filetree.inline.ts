@@ -204,9 +204,9 @@
           html += `<div class="folder-children">${folderChildren}</div>`
         }
       } else {
-        // NORMAL VIEW: Render everything (folders + files)
+        // NORMAL VIEW: Render everything (folders + files) recursively
         const allChildren = node.children
-          .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, true, false))
+          .map((child) => renderTreeNode(child, false, childMaxDepth, wordMap, totalWords, showFiles, isDetailView))
           .join("")
         if (allChildren.trim()) {
           html += allChildren

@@ -1,0 +1,6 @@
+- Rahatça hesaplanabilen, kaydedilemeyen maliyettir. Örtük maliyet, ürün veya hizmet üretiminde doğrudan ve dolaylı olarak katlanılan fedakârlıkların parasal değerini ifade eder.
+	- Bir işletmenin sahip olduğu **fizikî ve finansal sermayesi** ile işletme sahibinin başka bir işletmede çalışması durumunda alternatif maliyeti, söz konusu firmanın örtük maliyetlerini ifade eder.
+	- Firma sahibinin maaşı, firma sahibinin kendi binasını iş yeri olarak kullanması gibi örtük maliyetler.
+	- Hem fırsat maliyeti hem de örtük maliyete örnek olarak kendi bilişim firmasını kurmak için mevcut firmasından ayrılan kişiyi örnek verebiliriz. Mevcut firmasındaki aldığı maaştan vazgeçmek, yeni bir firma kurmanın fırsat maliyetidir ve aynı zamanda örtük maliyettir.
+	- Her örtük maliyet aynı zamanda **[[fırsat maliyeti]]dir**.
+	- **İktisadi Kâr = Toplam satış gelirleri - (açık maliyetler + örtük maliyetler)**

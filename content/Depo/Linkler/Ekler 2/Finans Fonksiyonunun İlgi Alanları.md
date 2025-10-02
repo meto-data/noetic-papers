@@ -1,0 +1,9 @@
+#### 1- [[Firmanın Büyüklüğü (Firm Size) ve Büyüme Hızı (Growth Rate)]]
+- **Firmanın Büyüklüğü**: Firmanın büyüklüğü toplam varlıklar, gelir, çalışan sayısı, piyasa değeri gibi göstergelerle ölçülür. Büyüklük firmanın pazar gücünü, rekabet avantajını ve finansal esnekliğini etkiler.
+- **Büyüme Hızı**: Yıllık gelir artışı veya piyasa payı artışı gibi metriklerle ölçülür. Yüksek büyüme hızı pazar taleplerine hızlı yanıt verebilme yeteneği gösterirken aşırı hızlı büyüme finansal riskleri artırabilir. 
+#### 2- Firmanın Kaynakları Çeşitli Varlıklar Arasında Nasıl Dağıtılmalıdır? ([[Aktif Yapı / Asset Structure]])
+- **Aktif Yapı**: Firmanın sahip olduğu varlıkların (**[[Dönen Varlıklar]]** ve **[[Duran Varlıklar]]**) dağılımını ifade eder. Bu dağılım firmanın **[[ATLAS/Depo/Eskiler/DE/Ekler/Likidite|likidite]]** durumu, yatırım stratejileri, ve finansal performansı üzerinde doğrudan etkiye sahiptir.
+- **Varlık Dağılımının Önemi**: Varlıkların etkin bir şekilde dağıtılması firmanın operasyonel verimliliğini artırır ve finansal riskleri azaltır. Söz gelişi, aşırı likit varlık bulundurmak **[[fırsat maliyeti|fırsat maliyetlerini]]** artırabilirken yetersiz likidite ödeme güçlüğüne yol açabilir. 
+#### 3- Firmanın amacı açısından en iyi sonucu verecek kaynak bileşimi nasıl sağlanmalıdır ([[Pasif Yapı / Liability and Equity Structure]])
+- **Pasif Yapı**: Firmanın finansal kaynaklarının (**[[Öz Kaynaklar (Equity)]]** ve **[[Yabancı Kaynaklar (Borçlar)]]**) bileşimini ifade eder. Bu yapı firmanın maliyet yapısını, risk profilini ve büyüme potansiyelini belirler.
+- **Optimal Sermaye Yapısı** (Optimal Capital Structure): Firmanın piyasa değerini maksimize eden ve sermaye maliyetini minimize eden bir bileşimdir. Firmanın finansal esnekliğini ve rekabet gücünü artırır.

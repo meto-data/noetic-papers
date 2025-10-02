@@ -1,0 +1,2 @@
+- **Firmanın Büyüklüğü**: Firmanın büyüklüğü toplam varlıklar, gelir, çalışan sayısı, piyasa değeri gibi göstergelerle ölçülür. Büyüklük firmanın pazar gücünü, rekabet avantajını ve finansal esnekliğini etkiler.
+- **Büyüme Hızı**: Yıllık gelir artışı veya piyasa payı artışı gibi metriklerle ölçülür. Yüksek büyüme hızı pazar taleplerine hızlı yanıt verebilme yeteneği gösterirken aşırı hızlı büyüme finansal riskleri artırabilir. 

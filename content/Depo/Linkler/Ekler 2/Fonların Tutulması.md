@@ -1,0 +1,5 @@
+
+> [!quote] ...
+> "Para bulmak bir şey, ama o parayı akıllıca yönetmek her şey..."
+
+- Fonların sağlanmasının yanında etkin bir şekilde kullanılması daha büyük bir önem taşımaktadır. Tüm **dönen** ve **duran** varlıklara yatırım finansal yönetimin en büyük işlevlerinden biridir. Kasada ne kadar para tutulması, alacakların hangi zamanlara yayılması, stokların mevcut miktarının ayarlanması, elde bulundurulan fazla nakdin menkul kıymetler gibi gelir getiren başka alanlara kaydırılarak hem kâr hem anapara değerini koruması hem de istediğimizde nakde dönüştürerek fon sağlaması, borçların sürelerinin doğru ayarlanabilmesi, gereğinden fazla borca girilmemesi, alacakların belirli zaman aralıklarıyla bizzat tahsil edilebileceği gibi belirli bir komisyon karşılığında **[[faktoring]]** şirketine satılması gibi stratejilerle etkin yönetim sağlanabilir.

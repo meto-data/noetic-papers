@@ -1,0 +1,1 @@
+Bir işten, bir yerden elde edilen gelir

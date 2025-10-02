@@ -1,0 +1,1 @@
+ İhtiyaçlarımınız şahsi tercihler ve kültürel normlara göre şekillenmiş hâlidir.

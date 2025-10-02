@@ -1,0 +1,4 @@
+- Firmaların belirlediği amaç her ne olursa olsun mutlafa finansal bir amacı da kapsamalıdır.
+- Firmaların esas amacı kâr maksimizasyonudur. Fakat birçok firmaya göre finansal karar almaya temel olan kâr değil, **[[nakit]]**'tir. 
+- Nakit finansal karar almada etkili olur. Kâr ise faaliyetlerin ve alınan kararalrın sonuçlarının değerlendirilmesinde etkili olur.
+	- Firmalar kâr maksimizasyonu için karar alır, ortakların serveti onların satın alma güçlerini maksimize ederek artırılabilir. **Satın alma gücü, firmanın ortaklarına ödediği nakdin artmasıyla mümkündür.**

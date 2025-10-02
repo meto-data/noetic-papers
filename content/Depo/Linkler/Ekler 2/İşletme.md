@@ -1,0 +1,1 @@
+- Canlıların ihtiyaçlarını karşılamak için **[[Üretim Faktörleri|üretim faktörlerini]]** sistemli ve planlı bir şekilde bir araya getirerek mal ve hizmet üretmek için kurulan, işleyen ve işleten tüzel kişiliğe sahip kurum.

@@ -1,4 +1,4 @@
-#### DIKW Piramidi (Veri-Bilgi Piramidi)
+#### [[DIKW]] Piramidi (Veri-Bilgi Piramidi)
 
 
 ### **Piramidin Seviyeleri (Aşağıdan Yukarıya):**

@@ -1,0 +1,15 @@
+#### 1- [[Finansal Analiz]]
+- Firmalarda tutarlı kararların alınabilmesi açısından ilk basamağı oluşturur. Finansal analiz yaparak mevcut durumu saptarız ve geçmişe yönelik durumu tespit edip değerlendirerek geleceğe ilişkin kararlar alırız.
+#### 2- [[Finansal Planlama ve Denetim]]
+- **Finansal Planlama**: Gelecekle ilgili risk ve belirsizlikleri içerir. Amacı gelecekte ihtiyaç duyulacak fonları belirlemek ve etkili bir şekilde kullanımını sağlamaktır. Finansal planın başarılı olabilmesi için firma amaçlarının belirlenmesi gerekir.
+- **Denetim**: Gelecekle ilgili beklentilerin değişmesi, planlara uymayan uygulamalar ya da planın sağlıklı bir şekilde işlemesi denetim fonksiyonu ile mümkündür. Bu fonksiyonla beraber planlardan sapmalar kolaylıkla izlenerek gerekli ve zamanında yapılan düzenlemeler planın sağlıklı bir şekilde işlemesini sağlayacaktır.
+#### 3- [[Fonların Sağlanması]]
+- Kâr eden bir firmanın elde ettiği kârları dağıtmayıp firma bünyesinde tutması ile fon sorununun çözüleceği düşünebilir. Ancak firmalarda para giriş ve çıkışlarında miktar ve zaman yönünden farklılıklar çıkmaktadır. Bu nedenle fon açığı olduğunda aradaki fark firma dışındaki üçüncü kişi veya kurumlardan (bankalar, üçüncü kişiler, firmalar, sermaye piyasaları) sağlanabilir. Kullanılan her bir kaynağın firmaya farklı maliyetler çıkaracağı unutulmamalıdır. Bu nedenle **fonların sağlanmasının yanında en uygun fon kaynağının araştırılıp bulunması da ayrıca önemlidir**.
+#### 4- [[Fonların Tutulması]] (Yatırımı ve Kullanılması)
+
+> [!quote] ...
+> "Para bulmak bir şey, ama o parayı akıllıca yönetmek her şey..."
+
+- Fonların sağlanmasının yanında etkin bir şekilde kullanılması daha büyük bir önem taşımaktadır. Tüm **dönen** ve **duran** varlıklara yatırım finansal yönetimin en büyük işlevlerinden biridir. Kasada ne kadar para tutulması, alacakların hangi zamanlara yayılması, stokların mevcut miktarının ayarlanması, elde bulundurulan fazla nakdin menkul kıymetler gibi gelir getiren başka alanlara kaydırılarak hem kâr hem anapara değerini koruması hem de istediğimizde nakde dönüştürerek fon sağlaması, borçların sürelerinin doğru ayarlanabilmesi, gereğinden fazla borca girilmemesi, alacakların belirli zaman aralıklarıyla bizzat tahsil edilebileceği gibi belirli bir komisyon karşılığında **[[faktoring]]** şirketine satılması gibi stratejilerle etkin yönetim sağlanabilir.
+#### 5- [[Özel Finansal Sorunların Çözümü]]
+- Firmaların yaşam dönemleri boyunca çok da sık karşılaşmadıkları sorunlar vardır. Şirket birleşmeleri, tamamının ya da bir kısmının satılması, halka açılma, **[[konkordato|konkordatoya]]** gidilmesi, işletmenin tasfiyesi gibi sorunlar karşısında finansal yönetimin önemi artmakta, finans yöneticisinin sorunların gerektirdiği tüm değerlendirmeleri en etkin bir şekilde yapması gerekmektedir.

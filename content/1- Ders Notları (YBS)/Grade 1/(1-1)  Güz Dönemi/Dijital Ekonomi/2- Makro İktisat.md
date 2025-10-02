@@ -25,7 +25,7 @@ Makro iktisat, ekonomilerin bütün olarak incelenmesidir. Ekonominin büyük ö
 	- Bu ölçüm, o dönemde (içinde bulunulan) geçerli olan fiyatlarla **([[cari piyasa fiyatları]])** yapılır. Yani, enflasyon dolayısıyla gerçekleşen fiyat değişimlerinden doğrudan etkilenir. Dolayısıyla **enflasyon oranının yüksek olduğu dönemlerde Nominal Millî Gelir artış gösterir.** Değerler **gerçek** fiyat(lar)ı değil, enflasyona uğramış fiyat(lar)ı yansıtır.
 
 > [!important] Bilgi
-> "Nominal" kelimesi "sözde, itibarî, sembolik" gibi anlamlara gelir. Nominal Millî Gelir de gerçek fiyatı yansıtmadığı için böyle adlandırılmıştır muhtemelen. #ekstraBilgi 
+> "Nominal" kelimesi "sözde, itibarî, sembolik" gibi anlamlara gelir. Nominal Millî Gelir de gerçek fiyatı yansıtmadığı için böyle adlandırılmıştır muhtemelen.
 
 ### [[Reel Millî Gelir]]
 - ***Reel Millî Gelir***, nominalin aksine, **fiyat değişimlerinin etkisini ortadan kaldırarak ekonominin *gerçek* üretim kapasitesindeki değişimi ölçer.**
@@ -175,9 +175,7 @@ Merkez Bankası, bankalardan para alıp onlara para verirken uyguladığı faizl
 - Daha fazla turistlerin gelmesi daha fazla döviz harcaması yapılması demektir. Bu da arzı artırır.
 #### 3- [[Yatırım]]
 ##### a) [[Portföy Yatırımı]] (Kısa Vadeli Cüzdan Yatırımı)
- 1. Hisse senedi, tahvil gibi menkul kıymetlere yapılan yatırımlardır.
- 2. [[ Carry Trade]]:
-	 1. Yüksek faiz getirisi olan ülkelere yapılan kısa vadeli yatırımlardır.
+ - Hisse senedi, tahvil, türevler gibi menkul kıymetlere yapılan yatırımlardır.
 ##### b) [[Doğrudan Yatırım]]
 - Bir ülkede fabrika kurmak, şirket satın almak gibi doğrudan yatırımlar.
 
@@ -204,4 +202,3 @@ Merkez Bankası, bankalardan para alıp onlara para verirken uyguladığı faizl
 - Gayrisafi Yurt İçi Hasıla
 ### [[baz yıl]]
 - Reel Millî Geliri hesaplarken fiyatlardaki değişimlerin etkisini ortadan kaldırmak amaçtır. Bunu yapmak için geçmişte kalan belirli bir yıl referans alınır ve bu yıla "baz yıl" adı verilir.
-#makroiktisat

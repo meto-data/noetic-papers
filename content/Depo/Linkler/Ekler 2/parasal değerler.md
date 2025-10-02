@@ -1,0 +1,1 @@
+Nakit para, bankadaki mevduat gibi likit varlıklar.

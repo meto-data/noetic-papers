@@ -10,3 +10,5 @@
 ---
 
 Geleneksel finansda tek hedef kârdır, modern finansta ise `zaman + itibar + risk + kâr = piyasa değeri`dir. 
+
+[[ATLAS/Depo/Linkler/deneme]]

@@ -1,0 +1,1 @@
+Bir ticarî işletmeyi kısmen dâhi olsa kendi adına işleten kimse.

@@ -1,0 +1,1 @@
+Küçük ve Orta Büyüklükteki İşletme

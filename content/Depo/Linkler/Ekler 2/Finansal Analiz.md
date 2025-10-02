@@ -1,0 +1,1 @@
+- Firmalarda tutarlı kararların alınabilmesi açısından ilk basamağı oluşturur. Finansal analiz yaparak mevcut durumu saptarız ve geçmişe yönelik durumu tespit edip değerlendirerek geleceğe ilişkin kararlar alırız.

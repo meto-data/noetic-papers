@@ -12,10 +12,10 @@
 
 ## **[[Muhasebenin Beş İşlevi]]**
 - **Muhasebe:** İşletmelerdeki mâlî olayları 
-  1. **[[1- Dersler/1. Sınıf/(1.1) 1. Sınıf Güz Dönemi/Yönetim - Organizasyon/Ekler/6- Genel Muhasebe/1- Notlar/Ekler/saptamak|Saptamak]]** (Somut bir biçimde olayın gerçekleştiğini ortaya koymak. Bir belge söz konusu olmalı.), 
-  2. **[[80 - Stuff/Kavram Kasası/kaydetmek|Kaydetmek]]** (Yevmiye Defteri), 
-  3. **[[80 - Stuff/Kavram Kasası/sınıflandırmak|Sınıflandırmak]]** (Defter-i Kebir), 
-  4. **[[1- Dersler/1. Sınıf/(1.2) 1. Sınıf Bahar Dönemi/3- Muhasebe Uygulamaları/Ekler/Özetlemek|Özetlemek]]** (Finansal Tablolar -Bilanço ve gelir tablosu-), 
+  1. **[[Saptamak]]** (Somut bir biçimde olayın gerçekleştiğini ortaya koymak. Bir belge söz konusu olmalı.), 
+  2. **[[Kaydetmek]]** (Yevmiye Defteri), 
+  3. **[[Sınıflandırmak]]** (Defter-i Kebir), 
+  4. **[[Özetlemek]]** (Finansal Tablolar -Bilanço ve gelir tablosu-), 
   5. **[[Analiz Etmek ve Yorumlamak]]** (İşletme sahibi, işletme yöneticisi, devlet görevlileri veya yatırımcılar yorumlar) 
      suretiyle, ilgililere rapor biçimide sunan bir bilgi sistemidir.
 - Muhasebe, işletmelerdeki mâlî olayları saptamak, kaydetmek, sınıflandırmak, özetlemek, analiz etmek ve yorumlamak suretiyle, ilgililere rapor şeklinde sunan bir bilgi sistemidir.

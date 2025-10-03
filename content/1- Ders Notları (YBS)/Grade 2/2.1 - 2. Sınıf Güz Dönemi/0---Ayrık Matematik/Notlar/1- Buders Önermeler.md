@@ -1,5 +1,5 @@
 ## Önermeler Matematiği
-#### Doğruluk Değeri (Truth Value)
+#### [[Doğruluk Değeri]] (Truth Value)
 - Bir önerme ele aldığımızda, bu önerme ya doğrudur **(D/True) - 1** ya da yanlıştır **(Y/False) - 0**
 - Önerme sayısına *n* dersek, $2^n$ tane doğruluk değeri ortaya çıkar.
 
@@ -68,8 +68,31 @@ $$p \implies q$$
 - Karşıt tersi ile oluşturulmuş önermenin doğruluk değeri $p \implies q$'nun doğruluk değeri aynıdır.
 - İspat yaparken $p \implies q$'yu ispat etmekte zorlandığımızda contrapositive yazarak ispatlama tekniği vardır. Karşıt tersini ispatlamak aynı zamanda kendisini ispatlamaktır.
 
-
-
-
 ##### [["ANCAK VE ANCAK" Bağlacı]] $(\iff)$ (if and only if)
 ##### [["YA DA" Bağlacı]] $(\oplus \space \text{   ya da }\space\space \veebar)$ (exclusive or)
+
+
+---
+
+- **[[Totoloji]] (Tautology)**: Sonucu $1$ çıkan bileşik önermelere denir.
+- **[[Çelişki]] (Contradiction)**: Sonucu 0 çıkan bileşik önermelere denir.
+
+
+---
+
+#### Mantıksal Olarak Eşdeğer (Logically Equivalent)
+- İki bileşik önermenin doğruluk değerleri *her koşul altında* aynı sonucu veriyorsa, bu iki bileşik önerme birbiriyle **mantıksal olarak eşdeğer** denir.
+
+1. Doğruluk tablosu kullanımı ile tespit edilebilir (Truth Table).pk
+2. Sadeleştirme yolu ile tespit edilebilir (Simplification).
+
+---
+#### Niceleyiciler
+##### $\forall \text{: Her}$ $\space \space \space \exists \text{: Bazı}$
+#### $\neg (\forall) \equiv \exists \space \space \space \neg (\exists) \equiv \forall$
+
+##### $\text{Her } x \in \mathbb{R} \to \forall \space x  \in \mathbb{R}$
+##### $\text{Bazı } x \in \mathbb{R} \to \exists \space x \in \mathbb{R}$
+##### Örnek: <br>$\forall x \in \mathbb{N}, x<5$ <br>$\exists x \in \mathbb{R}, 2x-3=7$
+- $\forall x \in \mathbb{N} \equiv 0$
+- $\exists x \in \mathbb{R} \equiv 1$

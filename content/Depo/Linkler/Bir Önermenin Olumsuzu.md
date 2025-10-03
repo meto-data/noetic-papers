@@ -1,0 +1,5 @@
+- Bir önermenin doğruluk değerini değiştirir.
+	- $p$: Türkiye'nin başkenti Ankara'dır. $p \equiv 1$
+	- $\neg p$: Türkiye'nin başkenti Ankara değildir. $p \equiv 0$
+	- $p$: $(-5)^2 = 25$'tir. $p \equiv 1$
+	- $\neg p$: $(-5)^2 \not = 25$  $p \equiv 0$

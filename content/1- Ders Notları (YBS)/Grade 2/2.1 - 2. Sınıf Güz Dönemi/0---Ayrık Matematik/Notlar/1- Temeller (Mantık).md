@@ -9,7 +9,7 @@
 - Bir **önermenin** matematiksel ispatı, bir **aksiyomlar** kümesinden önermeye ulaşılan bir **mantıksal çıkarımlar** zinciridir.
 - **[[Algoritma]]**: Bir problemi çözmek için sonlu sayıda, birbirini tekrar eden, iyi tanımlı adımlar kümesidir.
 
-## Önerme
+## **[[Önerme]]**
 - Önerme, doğru ya da yanlış olarak nitelenebilen bir ifade/yargıdır.
 - Önermenin doğru ya da yanlış olmasına ilişkin bir sınırlama yoktur.
 - Yargı belirtmeyen veya sonucu zamanla değişen ifadeler önerme değildir.
@@ -72,7 +72,7 @@
 
 - $(p \lor q) \lor r \equiv p \lor (q \lor r)$  
 - $(p \land q) \land r \equiv p \land (q \land r)$
-#### Distributive Laws (Dağılma Kuralları)
+#### [[Distributive Laws]] (Dağılma Kuralları)
 > Farklı operatörler arasında parantez açma/kapama kuralıdır.
 
 - $p \lor (q \land r) \equiv (p \lor q)\land(p \lor r)$  

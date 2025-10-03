@@ -11,3 +11,4 @@
 #### 4: $p \implies \neg p \equiv \neg p$
 #### 5: $p \implies 1 \equiv 1$
 #### 6: $p \implies 0 \equiv \neg p$
+

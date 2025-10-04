@@ -173,38 +173,38 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
       }
 
       // pre-transform wikilinks (fix anchors to things that may contain illegal syntax e.g. codeblocks, latex)
-      if (opts.wikilinks) {
-        // replace all wikilinks inside a table first
-        src = src.replace(tableRegex, (value) => {
-          // escape all aliases and headers in wikilinks inside a table
-          return value.replace(tableWikilinkRegex, (_value, raw) => {
-            // const [raw]: (string | undefined)[] = capture
-            let escaped = raw ?? ""
-            escaped = escaped.replace("#", "\\#")
-            // escape pipe characters if they are not already escaped
-            escaped = escaped.replace(/((^|[^\\])(\\\\)*)\|/g, "$1\\|")
-
-            return escaped
-          })
-        })
-
-        // replace all other wikilinks
-        src = src.replace(wikilinkRegex, (value, ...capture) => {
-          const [rawFp, rawHeader, rawAlias]: (string | undefined)[] = capture
-
-          const [fp, anchor] = splitAnchor(`${rawFp ?? ""}${rawHeader ?? ""}`)
-          const blockRef = Boolean(rawHeader?.startsWith("#^")) ? "^" : ""
-          const displayAnchor = anchor ? `#${blockRef}${anchor.trim().replace(/^#+/, "")}` : ""
-          const displayAlias = rawAlias ?? rawHeader?.replace("#", "|") ?? ""
-          const embedDisplay = value.startsWith("!") ? "!" : ""
-
-          if (rawFp?.match(externalLinkRegex)) {
-            return `${embedDisplay}[${displayAlias.replace(/^\|/, "")}](${rawFp})`
-          }
-
-          return `${embedDisplay}[[${fp}${displayAnchor}${displayAlias}]]`
-        })
-      }
+      // if (opts.wikilinks) {
+      //   // replace all wikilinks inside a table first
+      //   src = src.replace(tableRegex, (value) => {
+      //     // escape all aliases and headers in wikilinks inside a table
+      //     return value.replace(tableWikilinkRegex, (_value, raw) => {
+      //       // const [raw]: (string | undefined)[] = capture
+      //       let escaped = raw ?? ""
+      //       escaped = escaped.replace("#", "\\#")
+      //       // escape pipe characters if they are not already escaped
+      //       escaped = escaped.replace(/((^|[^\\])(\\\\)*)\|/g, "$1\\|")
+      //
+      //       return escaped
+      //     })
+      //   })
+      //
+      //   // replace all other wikilinks
+      //   src = src.replace(wikilinkRegex, (value, ...capture) => {
+      //     const [rawFp, rawHeader, rawAlias]: (string | undefined)[] = capture
+      //
+      //     const [fp, anchor] = splitAnchor(`${rawFp ?? ""}${rawHeader ?? ""}`)
+      //     const blockRef = Boolean(rawHeader?.startsWith("#^")) ? "^" : ""
+      //     const displayAnchor = anchor ? `#${blockRef}${anchor.trim().replace(/^#+/, "")}` : ""
+      //     const displayAlias = rawAlias ?? rawHeader?.replace("#", "|") ?? ""
+      //     const embedDisplay = value.startsWith("!") ? "!" : ""
+      //
+      //     if (rawFp?.match(externalLinkRegex)) {
+      //       return `${embedDisplay}[${displayAlias.replace(/^\|/, "")}](${rawFp})`
+      //     }
+      //
+      //     return `${embedDisplay}[[${fp}${displayAnchor}${displayAlias}]]`
+      //   })
+      // }
 
       return src
     },

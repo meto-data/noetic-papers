@@ -148,7 +148,6 @@ function initSettings() {
       outer: outer,
       outerClasses: outer?.className
     })
-    e.preventDefault()
     e.stopPropagation()
     console.log("🔧 Calling openModal...")
     openModal(outer)

@@ -61,7 +61,7 @@ title: Finansal Yönetime Giriş ve Temel Kavramlar
 
 
 > [!important] Neden "Sermaye Şirketleri" deniliyor?
-> Alacaklara karşı temel güvence ortakların şahsi mal varlıkları değil, şirkete koymayı taahhüt ettikleri **[[sermaye]]**'dir. Bir banka, bir A.Ş.'ye kredi verirken "Bu şirketin ortakları zengin mi?" diye değil "Bu şirketin sermayesi ve mal varlığı güçlü mü?" diye bakar. Zira şirket borcunu ödeyemezse banka gidip ortağın kişisel arabasına haciz koyamaz; sadece şirketin varlıklarına ve sermayesine başvurabilir. Ortakların riski koydukları sermaye ile sınırlıdır. Bu yüzden bu şirketlerde "sermaye" ön plandadır.
+> Alacaklara karşı temel güvence ortakların şahsi mal varlıkları değil, şirkete koymayı taahhüt ettikleri **sermaye**'dir. Bir banka, bir A.Ş.'ye kredi verirken "Bu şirketin ortakları zengin mi?" diye değil "Bu şirketin sermayesi ve mal varlığı güçlü mü?" diye bakar. Zira şirket borcunu ödeyemezse banka gidip ortağın kişisel arabasına haciz koyamaz; sadece şirketin varlıklarına ve sermayesine başvurabilir. Ortakların riski koydukları sermaye ile sınırlıdır. Bu yüzden bu şirketlerde "sermaye" ön plandadır.
 
 
 ### Anonim Şirket (A.Ş.)

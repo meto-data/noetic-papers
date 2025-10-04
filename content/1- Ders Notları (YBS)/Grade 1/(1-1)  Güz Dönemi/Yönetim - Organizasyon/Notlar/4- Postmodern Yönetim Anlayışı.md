@@ -1,5 +1,4 @@
 
----
 - **Not**: Aylar sonra fark ettim ki Newton aslen derslerde iddia edildiği gibi mekanik bir yapıyı savunmamakta, bilakis o mekanik yapıya karşı çıkmakta. Fransız materyalistler Newton'u bize mekanik ve maddeci birisi olarak pazarladı, ancak Newton esasında koyu bir dindardır. Kaleme aldığı dinî eserlerdeki kelime sayısı bilim eserlerine kıyasen 3 kat daha fazladır, 18 saatinin çoğunu da dinî çalışmalara harcamaktadır.  Derslerde anlatılanlara doğrudan katılmak yerine onları eleştirel bir gözlükle kritize etmeye kalkmak daha iyi olur vesselam.
 
 ---

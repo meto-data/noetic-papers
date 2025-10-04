@@ -1,0 +1,1 @@
+- Standart tarayıcılarla erişilebilen ve arama motorları tarafından indekslenen web sayfalarıdır. Google tarayıcıyı açtığınızda karşınıza çıkan tüm siteler bu katmandadır.

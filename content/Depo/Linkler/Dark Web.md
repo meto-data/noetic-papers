@@ -1,0 +1,4 @@
+- Deep Web'in kapsamı içerisindedir.
+- Özel ağlar (Tor, I2P vb.) üzerinden anonimlik sağlayarak erişilen, arama motorlarınca indekslenmeyen içerikleri kapsar.
+	- Erişim için özel yazılım ve anonimleştirme araçları kullanılır.
+- İçinde hem yasa dışı faaliyetler (işkence videoları alım-satımı, çocuk pornogrofisi, silah pazarı, kiralık katil hizmetleri, çalıntı veri satışı, uyuşturucu ticareti vb.) hem de yasal amaçlar için gizlilik/anonimlik kullanan gruplar (gazeteciler, muhalifler, aktivistler) bulunabilir.

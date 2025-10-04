@@ -1,7 +1,7 @@
 3- **[[Bilişim Hukuku]]**: Teknolojideki gelişmeler ile beraber ortaya çıkacak ihtilafların çözümü ile ilgilenen hukuk dalı.
 - **[[Bilişim Suçu]] (Bilgisayar Suçu)**: Bir bilgisayar ve bilgisayar ağı kullanılarak işlenen herhangi bir suçu ifade etmek için kullanılır. Bilgisayar, bir suçun işlenmesinde kullanılmış olabileceği gibi bir suçun hedefi de olabilir.
 
-### **TCK 243**
+### **[[TCK 243]]**
 - (1) Bir bilişim sisteminin bütününe veya bir kısmına, hukuka aykırı olarak giren veya orada kalmaya devam eden kimseye bir yıla kadar hapis veya adlî para cezası verilir.
 - (2) Yukarıdaki fıkrada tanımlanan fiillerin bedeli karşılığı yararlanılabilen sistemler hakkında işlenmesi halinde, verilecek ceza yarı oranına kadar indirilir.
 - (3) Bu fiil nedeniyle sistemin içerdiği veriler yok olur veya değişirse, altı aydan iki yıla kadar hapis cezasına hükmolunur.
@@ -9,7 +9,7 @@
 
 Sızma testi
 
-### **TCK 244**
+### **[[TCK 244]]**
 - (1) Bir bilişim sisteminin işleyişini engelleyen veya bozan kişi, bir yıldan beş yıla kadar hapis cezası ile cezalandırılır.
 - (2) Bir bilişim sistemindeki verileri bozan, yok eden, değiştiren veya erişilmez kılan, sisteme veri yerleştiren, var olan verileri başka bir yere gönderen kişi, altı aydan üç yıla kadar hapis cezası ile cezalandırılır.
 - (3) Bu fillerin bir banka veya kredi kurumuna ya da bir kamu kurum veya kuruluşuna ait bilişim sistemi üzerinde işlenmesi halinde, verilecek ceza yarı oranında artırılır.
@@ -17,7 +17,7 @@ Sızma testi
 
 Ransomware falan...
 
-### TCK 245
+### **[[TCK 245]]**
 - (1) Başkasına ait bir banka veya kredi kartını, her ne suretle olursa olsun ele geçiren veya elinde bulunduran kimse, kart sahibinin veya kartın kendisine verilmesi gereken kişinin rızası olmaksızın bunu kullanarak veya kullandırtarak kendisine veya başkasına yarar sağlarsa, **üç yıldan altı yıla kadar hapis ve beşbin güne kadar adlî para cezası** ile cezalandırılır. 
 - (2) Başkalarına ait banka hesaplarıyla ilişkilendirilerek sahte banka veya kredi kartı üreten, satan, devreden, satın alan veya kabul eden kişi **üç yıldan yedi yıla kadar hapis ve onbin güne kadar adlî para cezası** ile cezalandırılır.
 - (3) Sahte oluşturulan veya üzerinde sahtecilik yapılan bir banka veya kredi kartını kullanmak suretiyle kendisine veya başkasına yarar sağlayan kişi, fiil daha ağır cezayı gerektiren başka bir suç oluşturmadığı takdirde, **dört yıldan sekiz yıla kadar hapis ve beşbin güne kadar adlî para cezası** ile cezalandırılır.
@@ -28,11 +28,11 @@ Ransomware falan...
 - zararına olarak işlenmesi hâlinde, ilgili akraba hakkında cezaya hükmolunamaz.
 - (5) **(Ek: 6/12/2006 - 5560/11. md.)** Birinci fıkra kapsamına giren fiillerle ilgili olarak bu Kanunun malvarlığına karşı suçlara ilişkin **etkin pişmanlık hükümleri** uygulanır.
 
-### TCK 124
+### [[TCK 124]]
 - (1) Kişiler arasındaki haberleşmenin hukuka aykırı olarak engellenmesi halinde altı aydan iki yıla kadar hapis veya adlî para cezasına hükmolunur.
 - (2) Kamu kurumları arasındaki haberleşmeyi hukuka aykırı olarak engelleyen kişi, bir yıldan beş yıla kadar hapis cezası ile cezalandırılır.
 - (3) Her türlü basın ve yayın organının yayınının hukuka aykırı bir şekilde engellenmesi halinde, ikinci fıkra hükmüne göre cezaya hükmolunur.
-### TCK 125
+### [[TCK 125]]
 - (1) Bir kimseye onur, şeref ve saygınlığını rencide edebilecek nitelikte somut bir fiil veya olgu isnat eden veya sövmek suretiyle bir kimsenin onur, şeref ve saygınlığına saldıran kişi, **üç aydan iki yıla kadar hapis veya adlî para cezası** ile cezalandırılır. Mağdurun gıyabında hakaretin cezalandırılabilmesi için fiilin en az üç kişiyle ihtilat ederek işlenmesi gerekir.
 - (2) Fiilin, mağduru muhatap alan sesli, yazılı veya görüntülü bir iletiyle işlenmesi halinde, yukarıdaki fıkrada belirtilen cezaya hükmolunur.
 - (3) Hakaret suçunun;
@@ -41,7 +41,7 @@ Ransomware falan...
 	- c) Kişinin mensup bulunduğu dine göre kutsal sayılan değerlerden bahisle,
 - İşlenmesi halinde, **cezanın alt sınırı bir yıldan az olamaz.**
 - (4) **(Değişik: 29/6/2005 - 5377/15 md.)** Hakaretin alenen işlenmesi halinde ceza altıda biri oranında artırılır.
-### TCK 132
+### [[TCK 132]]
 - (1) Kişiler arasındaki haberleşmenin gizliliğini ihlal eden kimse, **bir yıldan üç yıla kadar hapis cezası** ile cezalandırılır. Bu gizlilik ihlali haberleşme içeriklerinin kaydı suretiyle gerçekleşirse, verilecek ceza bir kat artırılır.
 - (2) Kişiler arasındaki haberleşme içeriklerini hukuka aykırı olarak ifşa eden kimse, **iki yıldan beş yıla kadar hapis cezası** ile cezalandırılır. 
 - (3) Kendisiyle yapılan haberleşmelerin içeriğini diğer tarafın rızası olmaksızın hukuka aykırı olarak alenen ifşa eden kişi, **bir yıldan üç yıla kadar hapis cezası** ile cezalandırılır. **(Ek cümle: 2/7/2012-6352/79 md.)** İfşa edilen bu verilerin basın ve yayın yoluyla yayımlanması halinde de aynı cezaya hükmolunur. 

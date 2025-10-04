@@ -12,7 +12,7 @@ title: Finansal Yönetime Giriş ve Temel Kavramlar
     - Fransızca ***fond*** sözcüğünden alıntıdır ki "zemin, dip, arka plan" anlamına gelir. *fond* ise Latince ***fundus*** sözcüğünden evrilmiştir ki, bu sözcük ilk anlam olarak dip, yer, toprak; 2. anlam olaraksa çiftlik, gelir getiren mülk'tür.
 - **[[Finans]]**: Aysel Göndoğdu'nun Herkese Göre Finans adlı kitabında finans *"Bir bireyin ya da işletmenin fon kaynağı bulması, bulduğu kaynağı verimli bir şekilde kullanması ve bunun için araştırma yapması"* olarak tanımlanır.
 - **[[Finansman]]**: Bir girişimin gerçekleşmesi, bir kuruluşun gelişip işleyebilmesi için gerekli mâlî imkânları sağlama.
-- **[[Finansal Yönetim]]**: Firmanın ihtiyaç duyduğu fonları temin edip bunları **firma değerini maksimize edecek yatırımlara yönlendirme faaliyetlerinin tümüdür.**
+- **Finansal Yönetim**: Firmanın ihtiyaç duyduğu fonları temin edip bunları **firma değerini maksimize edecek yatırımlara yönlendirme faaliyetlerinin tümüdür.**
 
 ## Sermaye
 - Üretim sürecinde kullanılan **mal ve hizmetlerle** **finansal kaynaklar.**

@@ -1,5 +1,5 @@
 ---
-title: 0 (Ders Hârici)- Ayrık Matematik | Bilişim Matematiği
+title: Ayrık Matematik
 ---
 ###### Kaynaklar
 - Rosen, K. H. (2015). *Ayrık matematik ve uygulamaları* (Çeviri: Ö. Akın ve M. Özöğüt). Ankara: Palme Yayıncılık.

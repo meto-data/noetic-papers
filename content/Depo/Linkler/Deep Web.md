@@ -1,0 +1,4 @@
+- Arama motorlarının indekslemediği, gizli kalan ancak meşru/normal sitelerin bir parçası olan içerikler. Çoğunlukla yasak içeriklerden oluşur.
+- Erişim için özel kimlik doğrulama, oturum açma veya doğrudan bağlantı gerekebilir.
+- Surface Web'den ayrıktır.
+- **Örneğin**: İntranetler, ERP/CRM yazılımlarının web arayüzleri, abonelik isteyen finans veri tabanları, sağlık verileri vb.

@@ -1,0 +1,10 @@
+- Fikir birliği
+- Ortak çıkarlar
+- Benzer beğeniler/eğilimler/tutumlar/değerler
+- Özgürlük (Anonim)
+	- Grup içinde fikirler gruba aittir, yani **anonim**dir. bu bağlamda anonimlik, fikirleri daha rahat ifade etmek hususunda insanları destekler.
+- Sesini duyurma çabası
+- Risk alma eğilimi artar.
+	- Risk toplu şekilde üstlenir. Hata yapıldığında birlikte yapılacağı için doğrudan şahsa yönelik bir hata değil, **gruba yönelik bir hata** olacaktır.
+- Resmî yapının eksikliği ve anlaşmazlıklar 
+- Duygusal destek arayışı 

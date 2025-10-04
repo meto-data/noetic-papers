@@ -1,0 +1,2 @@
+- [[Adi Hisse Senetleri]]: Oy hakkı ve temettü hakkı tanır.	 
+- [[İmtiyazlı Hisse Senetleri]]: Öncelikli temettü ve bazen sınırlı oy hakkı vardır.

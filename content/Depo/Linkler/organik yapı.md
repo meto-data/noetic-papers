@@ -1,0 +1,1 @@
+Esnek, yatay, geniş görev tanımları, işbirliği ve hızlı uyum.

@@ -1,0 +1,1 @@
+Yöneticiler astlarına daha fazla güven duyar ve onları karar alma süreçlerine dâhil eder. İletişim daha açık ve iki yönlüdür. Yöneticiler, astların fikirlerini ve önerilerini alır ve bunları kararlarında dikkate alır.

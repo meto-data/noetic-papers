@@ -1,0 +1,1 @@
+Likert'in ideal yönetim sistemi olarak kabul ettiği sistemdir. Yöneticiler astlarına tam güven duyar ve onlara karar alma süreçlerinde tam katılım sağlar. İletişim açık, dürüst ve çok yönlüdür. Astlar, hedef belirleme, problem çözme ve performans değerlendirme gibi konularda aktif rol alır.

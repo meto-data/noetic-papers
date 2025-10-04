@@ -1,4 +1,4 @@
-**Davranış:** Bir kişinin doğduğu andan itibaren gerek içsel gerek dışsal şekilde bilinçli veya bilinçdışı olarak geliştirdiği ve geliştirmeye devam ettiği düşünceler vasıtasıyla bulunduğu gözlemlenebilir fiziksel faaliyetler/tepkiler ya da faaliyet/tepki biçimleri. #fikir <br>
+**Davranış:** Bir kişinin doğduğu andan itibaren gerek içsel gerek dışsal şekilde bilinçli veya bilinçdışı olarak geliştirdiği ve geliştirmeye devam ettiği düşünceler vasıtasıyla bulunduğu gözlemlenebilir fiziksel faaliyetler/tepkiler ya da faaliyet/tepki biçimleri. <br>
 - Gözlemlenebilir.
 - Fiziksel hareketler.
 - İçsel uyaranlar
@@ -18,15 +18,15 @@
 - Sesini duyurma çabası
 - Risk alma eğilimi artar.
 	- Risk toplu şekilde üstlenir. Hata yapıldığında birlikte yapılacağı için doğrudan şahsa yönelik bir hata değil, **gruba yönelik bir hata** olacaktır.
-- Resmî yapının eksikliği ve anlaşmazlıklar #fikir
-- Duygusal destek arayışı #fikir
+- Resmî yapının eksikliği ve anlaşmazlıklar 
+- Duygusal destek arayışı 
 
-## [[Örgütsel Davranışı Etkileyen Faktörler]]
+### [[Örgütsel Davranışı Etkileyen Faktörler]]
 - **Liderlik/Yönetim tarzı**
 - **Hiyerarşik Yapı** 
 - **Örgüt Kültürü**
 ### **Kişilik** (Bkz. Jung Tipolojisi)
-- Kişilik: Kişinin doğduğu andan itibaren sahip olduğu ve bilinçdışı veya bilinçli bir biçimde çevreye veya kendisine dayanarak geliştirdiği/değiştirdiği/eklediği özellikler. #fikir 
+- Kişilik: Kişinin doğduğu andan itibaren sahip olduğu ve bilinçdışı veya bilinçli bir biçimde çevreye veya kendisine dayanarak geliştirdiği/değiştirdiği/eklediği özellikler. 
 - Kişiyi diğerlerinden ayıran, **tutarlı**, **düşünme ve davranış kalıpları/şekilleri**.
 #### **[[5 Büyük Kişilik Teorisi]]**
 - **Dışadönüklük**

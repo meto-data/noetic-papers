@@ -1,0 +1,5 @@
+- Değeri başka bir varlığa bağlı olan araçlardır. (Daha detaylı bir tanım için bkz. **[[türev]]**)
+- **[[Opsiyonlar (Options)]]**: Belirli bir tarihte veya tarihe kadar bir varlığı alma/satma hakkı.
+- **[[Vadeli Sözleşmeler]] (Futures)** : Gelecekte belirli bir fiyat üzerinden alım-satım yapma sözleşmeleri.
+- **[[Forward Sözleşmeleri]]**
+- **[[Swaplar]]**: İki tarafın nakit akışını veya faizleri değiştirmesine dayalı sözleşmeler.

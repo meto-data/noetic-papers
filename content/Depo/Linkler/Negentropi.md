@@ -1,0 +1,2 @@
+- Negentropi (Negatif Entropi), **bir sistemdeki düzeni ve organizasyonu** temsil eder. 
+- **Örnek:** Bilgisayarın bakım ve güncellemelerle ömrünün uzatılması.

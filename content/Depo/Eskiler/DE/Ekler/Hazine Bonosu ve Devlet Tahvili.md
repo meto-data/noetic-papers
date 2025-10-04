@@ -1,0 +1,2 @@
+- Devlet İç Borçlanma Senetleri (DİBS) olarak da bilinmektedir.
+- Bu senetler, devletin borçlanma ihtiyacını karşılamak amacıyla ihraç edilir ve yatırımcılara faiz geliri sağlar.

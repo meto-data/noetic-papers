@@ -109,7 +109,7 @@
 ---
 
 # Tanımlamalar, Kavramlar ve Kısaltmalar
-##### [[İnovasyon Kültürü]]:
+##### [[inovasyon Kültürü]]:
 - **İnovasyon kültürü**, örgüt içinde yaratıcılığı, yenilik yapmayı ve sürekli gelişimi teşvik eden bir anlayıştır.
 - Adem-i merkeziyetçi (merkezi olmayan) örgütlerde inovasyon kültürü artar çünkü bu tür yapılarda çalışanlar daha fazla özgürlük ve inisiyatif kullanarak kendi fikirlerini hayata geçirme olanağı bulur; bu da yenilikçi düşünceyi teşvik eder.
 ##### [[zamanındalık]]:

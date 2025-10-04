@@ -1,0 +1,1 @@
+Öncelikli temettü ve bazen sınırlı oy hakkı vardır.

@@ -1,0 +1,3 @@
+- Şirket kârının dağıtılmayıp kanunî zorunluluklar veya şirket ana sözleşmesi gereği ya da genel kurul kararıyla şirket bünyesinde bırakılan kısmıdır. Bu fonlar şirketin malî yapısını güçlendirir ve gelecekteki yatırımlar için kaynak oluşturur.
+- **[[Yasal Akçe]] (Kanunî Akçe)**: Türk Ticaret Kanunu gereğince ayrılması *zorunlu* olan yedek akçe.
+- **[[Statü Akçesi]] (Ana Sözleşme Akçesi)**: Kanunî zorunluluk olmamasına rağmen şirketin kuruluş belgesi olan **[[esas sözleşme]]**'de yer alan bir hüküm gereği kârdan ayrılması kararlaştırılan yedek akçedir.

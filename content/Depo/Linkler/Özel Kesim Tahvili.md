@@ -1,0 +1,2 @@
+(Corporate Bond)**: Anonim şirketlerin yatırım gibi uzun vadeli finansman ihtiyaçlarını çıkardıkları tahvillerdir.
+	- **Eurobond**: Devletlerin veya şirketlerin uluslararası piyasalardaki **yabancı para birimi cinsinden** (genellikle *Euro* veya *Dolar*) ihraç ettikleri uzun vadeli tahvillerdir (Ayrıntılı bilgi için bkz. [[Eurobond]]).

@@ -36,7 +36,7 @@
 - Örgütsel değişim sürecinin örgütün niteliklerine uygun olmaması da örgütsel direnci artırır. Değişim yönünün strateji ile uyumlu olması gerekmektedir.
 - Maliyetler fazla olabilir. Yatırım maliyetleri yüksektir vb.
 
-### Örgütsel Değişime Direnci Ortadan Kaldırma Yolları
+#### Örgütsel Değişime Direnci Ortadan Kaldırma Yolları
 - Açık iletişim
 - Bilgilendirme
 - Destek

@@ -1,0 +1,1 @@
+Yatırımcıya oy hakkı ve temettü hakkı tanır.

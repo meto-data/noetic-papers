@@ -1,0 +1,1 @@
+-  Büyük anonim şirketlerin (özel sektör şirketleri) kısa vadeli nakit ihtiyaçlarını karşılamak için çıkardıkları [[teminatlı ve teminatsız borçlanma|teminatsız borçlanma]] senetleri.

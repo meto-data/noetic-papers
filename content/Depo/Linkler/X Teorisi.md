@@ -1,0 +1,5 @@
+- Çalışanlar doğası gereği tembeldir ve mümkün olduğunca az çalışır, 
+- Hırs ve azimden yoksundur. Sorumluluk almaktan hoşlanmaz ve yönetilmeyi tercih eder, 
+- Özünde bencil, örgüt ihtiyaçlarına karşı kayıtsızdır, 
+- Değişime karşı direnç gösterir, 
+- Parlak değil saftır, oyun oynamaya ve demagojiye hazırdır.

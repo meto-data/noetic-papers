@@ -1,3 +1,3 @@
  Firmanın ihtiyaç duyduğu fonları temin edip bunları **firma değerini maksimize edecek yatırımlara yönlendirme faaliyetlerinin tümüdür.**
-	- Finansal yönetimin başlıca amacı **ortakların servetini (şirketin değerini)** maksimize etmektir.
-	- Finans ekiplerinin öncelikli hedefleri ise **yeterli nakit akışını sağlamak (ödeme gücünü korumak), iflastan kaçınmak ve işletmenin sürekliliğini temin etmek** ile **kârlılığı artırmak** şeklindedir.
+- Finansal yönetimin başlıca amacı **ortakların servetini (şirketin değerini)** maksimize etmektir.
+- Finans ekiplerinin öncelikli hedefleri ise **yeterli nakit akışını sağlamak (ödeme gücünü korumak), iflastan kaçınmak ve işletmenin sürekliliğini temin etmek** ile **kârlılığı artırmak** şeklindedir.

@@ -1,0 +1,2 @@
+Tezgâh üstü piyasalar (OTC), merkezi takas noktası olmaksızın, iki ticaret ortağının
+doğrudan birbirleriyle pazarlık yaptığı ve alım satım işlemlerini telefon ya da bilgisayar vasıtasıyla gerçekleştirdikleri piyasalardır ([[Clearinghouse - Literatür Taraması.pdf#page=2&selection=101,11,101,22|Clearinghouse - Literatür Taraması, s. 2]])

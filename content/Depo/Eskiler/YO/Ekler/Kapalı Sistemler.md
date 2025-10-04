@@ -5,3 +5,4 @@
 - Kendi içsel işleyişleriyle kararlar alırlar, çevreden bağımsızdırlar.
 - Dışsal faktörlerden bağımsız olarak işlev görürler.
 - Genellike **[[statik]]tirler** ve çevre değişikliklerine uyum sağlamada zorluk çekebilirler.
+**Örnekler:** Fiziksel makineler, kapalı hava odası, kapalı bir robotik sistem.

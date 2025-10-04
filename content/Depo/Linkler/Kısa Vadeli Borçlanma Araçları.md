@@ -1,0 +1,2 @@
+- [[Hazine Bonosu]]: Devletin bir yıldan kısa vadeli borçlanma ihtiyaçları için çıkardığı borçlanma aracı.
+- [[Finansman Bonosu]]: Büyük anonim şirketlerin (özel sektör şirketleri) kısa vadeli nakit ihtiyaçlarını karşılamak için çıkardıkları [[teminatlı ve teminatsız borçlanma|teminatsız borçlanma]] senetleri.

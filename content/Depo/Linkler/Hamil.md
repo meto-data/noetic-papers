@@ -1,0 +1,1 @@
+Çeki elinde bulunduran ve bankara [[ibraz]] eden kişi. Çeki [[lehtar|lehtardan]] da devralmış olabilir.

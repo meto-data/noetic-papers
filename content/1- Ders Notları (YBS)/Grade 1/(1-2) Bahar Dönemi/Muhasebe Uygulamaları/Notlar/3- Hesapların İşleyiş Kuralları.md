@@ -27,24 +27,15 @@ Konu: Hesapların İşleyiş Kuralları
 
 ## Hesapların Sınıflandırılması
 
-````col
-```col-md
-flexGrow=1
-===
 ### Bilanço Hesapları
 
 **Varlık Hesapları** $\to$ Aktif Hesaplar  <br>
 **Borç Hesapları** $\to$ Pasif Hesaplar <br>
 **Öz Kaynak Hesapları** $\to$ Pasif Hesaplar
-```
-```col-md
-flexGrow=1
-===
+
 ### Gelir Tablosu Hesapları
 **Gelir Hesapları** <br>
 **Gider Hesapları**
-```
-````
 
 
 - Muhasebe bir dengedir (bkz. [[Bilanço Eşitliği (Muhasebenin Temel Denkliği)]]) ve her zaman iki tarafı vardır: sol taraf (borç) ve sağ taraf (alacak).

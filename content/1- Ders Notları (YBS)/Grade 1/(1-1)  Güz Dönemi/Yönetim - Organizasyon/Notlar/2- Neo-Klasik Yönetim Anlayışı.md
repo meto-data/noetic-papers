@@ -74,6 +74,8 @@ Likert'in ideal yönetim sistemi olarak kabul ettiği sistemdir. Yöneticiler as
 
 ## [[Maslow'un İhtiyaçlar Hiyerarşisi]]
 
+- Ayrıntılı bilgi için bkz. **[[Maslow'un Motivasyon Teorisi -ya da İhtiyaçlar Hiyerarşisi-]]**
+
 ### [[5 Temel İhtiyaç]]
 #### 1- *Fizyolojik İhtiyaçlar*
 - Yaşamak için olmazsa olmaz ihtiyaçlardır; nefes almak, yemek yemek, su içmek, uyumak, barınmak vb.

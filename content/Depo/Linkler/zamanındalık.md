@@ -1,0 +1,1 @@
+**Zamanındalık**, iş süreçlerinin ve kararların belirlenen süre içinde tamamlanması, işlerin gereksiz gecikmelere uğramadan yapılması anlamına gelir. Merkeziyetçi örgütlerde zamanındalık azalabilir çünkü karar alma yetkisi genellikle üst düzey yöneticilerde toplanır; bu durum, kararların alt kademelere ulaşması ve uygulanması sürecinde gecikmelere yol açar.

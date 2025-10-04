@@ -111,7 +111,7 @@ Klasik yönetim, örgütlerin verimliliğini ve etkililiğini artırmak için ge
 > Derste Bürokrasi Yaklaşımındaki gayri-şahsilik üzerinde çok fazla duruldu. Bir sonraki haftalarda da bu kavram sürekli kullanıldı. Bürokrasi yaklaşımındaki gayri-şahsiliğin ne olduğuna önem verilmeli.
 
 ### Weber'a Göre Güç  
-- Weber, gücü, "**Bir sosyal ilişki içinde, bir aktörün hangi temele dayanırsa dayansın, direnmeyle karşılaşsa bile istediğini yapabilme konumunda olma ihtimali**" olarak tanımlar. #ekstraBilgi
+- Weber, gücü, "**Bir sosyal ilişki içinde, bir aktörün hangi temele dayanırsa dayansın, direnmeyle karşılaşsa bile istediğini yapabilme konumunda olma ihtimali**" olarak tanımlar. 
 #### [[Güç Çeşitleri]]
 ##### Karizmatik Güç
 - Liderin özel nitelikleri ve karizması nedeniyle ona duyulan bağlılığa dayanır. Bu güç, liderin karizmasına inanan kişiler tarafından kabul edilir.
@@ -133,5 +133,4 @@ Klasik yönetim, örgütlerin verimliliğini ve etkililiğini artırmak için ge
 - Bu bağlamda, yöneticilerin çalışanlara eşit davranması, yükseltme ve kıdem artışı gibi konularda ayrım yapmaması gerekir.
 #### Resmî Olarak Yazılmış Raporlar
 - Atılan her adım daha önceden şekli belirlenmiş raporlarla kayıt altına alınır.
----
-#klasikYönetim 
+

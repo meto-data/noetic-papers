@@ -1,9 +1,9 @@
 
-> [!NOTE] #[[firma-sirket-isletme|bilgi]]
+> [!NOTE] **[[firma-sirket-isletme|Firma - Şirket - İşletme]]**
 > Firma, şirket veya işletme: Hepsi aynı anlama gelmektedir. Yalnızca sektöre göre kullanılan tanımlar farklılık gösterir o kadar. İktisatçılar (ekonomistler) firma; hukukçular şirket; işletmeler ise işletme der. 
 
 > [!important] Kendini Gerçekleştiren Kehanet (Pygmalin Etkisi)
-> Bir malın fiyat beklentisi yükselecekse o mal alınır ve talep yüzünden fiyat yükselir. Aynı şekilde, bir malın fiyat beklentisi düşecekse, o mal alınmaz ve böylelikle fiyat düşer. #bilgi2
+> Bir malın fiyat beklentisi yükselecekse o mal alınır ve talep yüzünden fiyat yükselir. Aynı şekilde, bir malın fiyat beklentisi düşecekse, o mal alınmaz ve böylelikle fiyat düşer.
 
 ## [[İktisat]]
 - İktisatta insanların ihtiyaçları sonsuz, kaynaklar ise sınırlıdır.
@@ -41,16 +41,16 @@
 	- Geleceğe yönelik gelirimizin artacağını düşünürsek pahalı olan malı gelecekte alırız.
 ### [[Firmalar Neden Kurulur]]?
 - Firmalar, insanların isteklerini ve ihtiyaçlarını karşılayan ürün ve hizmetler sunarak değer yaratmak ve bu değerden kâr elde etmek amacıyla kurulurlar.
-#### [[Ekonomik Kâr Nedir?]]
+#### [[Ekonomik Kâr Nedir]]?
 Ekonomik kâr, bir işletmenin toplam gelirinden hem açık (muhasebe) maliyetlerini hem de örtük maliyetlerini çıkardıktan sonra kalan kârdır.
 
  ##### $Gelir = P.Q \to P(Price) \space x \space  Q(Quantity)$
 
 - **Maliyet =[[ TC (Total Cost)]]** 
-	- **[[Total Cost (Toplam Maliyet):]]** Bir üretim sürecinin tamamının maliyeti.
+	- **[[Total Cost (Toplam Maliyet)]]:** Bir üretim sürecinin tamamının maliyeti.
 - **Maliyet = [[TVC (Total Variable Cost)]] ∪ [[TFC (Total Fixed Cost)]]** <br>
-- **[[Total Variable Cost (Toplam Değişken Maliyet):]]** Üretim miktarına bağlı olarak değişen maliyetlerdir. Ham madde, nakliyat, üretim vb.
-- **[[Total Fixed Cost (Toplam Sabit Maliyet):]]** Firmanın üretim miktarından bağımsız, değişmeyen maliyettir. Kira, beyaz yaka maaşları vb.
+- **[[TVC (Total Variable Cost)|Total Variable Cost (Toplam Değişken Maliyet):]]** Üretim miktarına bağlı olarak değişen maliyetlerdir. Ham madde, nakliyat, üretim vb.
+- **[[TFC (Total Fixed Cost)|Total Fixed Cost (Toplam Sabit Maliyet):]]** Firmanın üretim miktarından bağımsız, değişmeyen maliyettir. Kira, beyaz yaka maaşları vb.
 $$
 \frac {TC}{Q} = \frac {TVC}{Q}+ \frac {TFC}{Q}
 $$
@@ -117,5 +117,3 @@ $$
 	2. Oyun konsolunun fiyatı artarsa bu oyunların talebi de azalacaktır. 
 	3. Aynı şekilde, oyunların fiyatı artarsa, oyun konsolunun da talebi azalacaktır.
 	4. Çünkü birini kullanabilmek için öbürüne ihtiyaç var.
-
-#mikroiktisat

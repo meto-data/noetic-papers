@@ -1,0 +1,5 @@
+- Bir firmanın başka bir firmanın yönetimine katılmak veya temettü elde etmek amacıyla edindiği hisse senetleri gibi uzun vadeli varlıklardır.
+	- **[[Bağlı Menkul Kıymet]]**: Başka bir şirkette sahip olunan pay oranının %0 ile %10 arasında olmasıdır. Yönetimde fazla söz hakkı yoktur, amaç genellikle gelir elde etmektir.
+	- **[[İştirak]]**: Pay oranının %10 ile %50 arasında olmasıdır. Yönetimde kısmî söz hakkı vardır.
+	- **[[Bağlı Ortaklık]]**: Pay oranının **%50'den fazla (%51 ve üzeri)** olmasıdır. Bu durumda ana şirket, bağlı ortaklığın yönetiminde çoğunluk hissesi sayesinde kontrol ve karar yetkisine sahip olur. 
+- Firma yatırım yaptığı bu iştirak ve bağlı ortaklıkların yıl sonunda dağıttığı kârdan, payı oranında temettü geliri elde eder. Bu gelir firmanın ana faaliyet dışı gelirlerinden biridir.

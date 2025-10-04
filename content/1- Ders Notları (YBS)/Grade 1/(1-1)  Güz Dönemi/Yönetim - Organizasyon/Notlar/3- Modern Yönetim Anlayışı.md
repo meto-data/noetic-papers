@@ -1,6 +1,6 @@
 ## [[Sistem Yaklaşımı]]
 - Bir ana sistem, kendine bağlı alt sistemlerden oluşmaktadır ve her bir alt sistem birbirleriyle ilişkili ve bütüncül bir yaklaşımla ana sistemin amacını gerçekleştirmek amacıyla birlikte hareket etmektedir.
-	- Sistem yaklaşımı, bir sistemin bütünüyle kendisini oluşturan alt sistemleri ve bunlar arasındaki ilişkileri doğru olarak kavrayıp değerlendiren, yöneten ve sistemde meydana gelecek sorunları çözümlemede ve karar vermede sistem analiz yöntemlerini uygulayan bir bakış açısı ve davranış biçimidir. #ekstraBilgi
+	- Sistem yaklaşımı, bir sistemin bütünüyle kendisini oluşturan alt sistemleri ve bunlar arasındaki ilişkileri doğru olarak kavrayıp değerlendiren, yöneten ve sistemde meydana gelecek sorunları çözümlemede ve karar vermede sistem analiz yöntemlerini uygulayan bir bakış açısı ve davranış biçimidir.
 - Biyolog Ludwig von Bertalanffy tarafından ileri sürülmüştür.
 ### [[Sistem Nedir]]?
 Bir sistemin özelliklerini 3 temel öge ile açıklamak mümkündür:
@@ -16,8 +16,8 @@ Bir sistemin özelliklerini 3 temel öge ile açıklamak mümkündür:
 	5. Çevre (Environment): Sistemin içinde bulunduğu dış ortam ve sistemin etkileşimde bulunduğu unsurlar.
 ### [[Alt Sistemler]]
 - Her sistem alt sistemlerden oluşur. Alt sistemler, sistemin birbirine dayalı ve bağımlı olan alt parçalarıdır. Alt sistemler, parçası oldukları sistemden ayrı özellikler taşır.
-	- **Detaylı Not 1:** Alt sistemlerin yönetilebilir ve anlaşılabilir olması gerekir. Örneğin üniversite sistemini alt sistemlerine bölüp sonra da ismi Ahmet olan bir alt sistem çıkarmak hata olacaktır. #ekstraBilgi
-	- **Detaylı Not 2:** Alt sistemler bölünürken, her alt sistem kendi içerisinde özel olarak ele alınmalı ve diğer sistemlerden bağımsız düşünülmelidir. #ekstraBilgi
+	- **Detaylı Not 1:** Alt sistemlerin yönetilebilir ve anlaşılabilir olması gerekir. Örneğin üniversite sistemini alt sistemlerine bölüp sonra da ismi Ahmet olan bir alt sistem çıkarmak hata olacaktır. 
+	- **Detaylı Not 2:** Alt sistemler bölünürken, her alt sistem kendi içerisinde özel olarak ele alınmalı ve diğer sistemlerden bağımsız düşünülmelidir. 
 ### [[Açık ve Kapalı Sistemler]]
 
 #### Açık Sistemler
@@ -65,8 +65,6 @@ Bir sistemin özelliklerini 3 temel öge ile açıklamak mümkündür:
 - [[İşletme Çevresi]]: İşletmenin bir şekilde etkileşimde bulunduğu unsurların tamamı.
 
 
-![[Adsız-2.fw 1.png| 420]]
-
 #### [[İç Çevre]]: 
 - Kontrolü tamamıyla bize ait olan çevredir.
 	- **Örneğin:** Çalışanlar, yönetim yapısı ve finansal kaynaklar.
@@ -97,9 +95,9 @@ Bir sistemin özelliklerini 3 temel öge ile açıklamak mümkündür:
 - Kelimenin sıfat hâli olan holistik (bütünsel veya bütünselliğe ait) ise, **bir şeyin veya bir kimsenin parça olarak değil de bir bütün olarak konu edilmesi**ni ifade etmektedir.
 
 > [!INFO] Ekstra Bilgi
-> Holizm kelimesinin kökeni Aristoteles'e dayanmaktadır, Aristoteles'in ifadesiyle, ***"parçaların birlikteliğinden yahut toplamından daha öte ve farklı bir değer kazanan bütün"*** olarak ifade edilir. Aynı zamanda Aristoteles bütünün parçadan önce geldiğini iddia eder ve bunu devletin/şehrin aileden ve bireyden daha önce geldiği bağlamında söyleyerek rasyonalize eder/ussallaştırır. Ancak bu metafiziksel olarak imkânsızdır. Metafiziksel olarak bütünün parçadan önce gelme imkânı yoktur, çünkü bütünü oluşturan teker teker parçalardır. #ekstraBilgi
+> Holizm kelimesinin kökeni Aristoteles'e dayanmaktadır, Aristoteles'in ifadesiyle, ***"parçaların birlikteliğinden yahut toplamından daha öte ve farklı bir değer kazanan bütün"*** olarak ifade edilir. Aynı zamanda Aristoteles bütünün parçadan önce geldiğini iddia eder ve bunu devletin/şehrin aileden ve bireyden daha önce geldiği bağlamında söyleyerek rasyonalize eder/ussallaştırır. Ancak bu metafiziksel olarak imkânsızdır. Metafiziksel olarak bütünün parçadan önce gelme imkânı yoktur, çünkü bütünü oluşturan teker teker parçalardır.
 > 
-> 
+
 
 ##### [[Sinerji]]
 - Sinerji, **farklı bileşenlerin birlikte çalışarak bireysel etkilerinden daha büyük bir etki yaratmasıdır.** Bu durum sistemin verimliliğini artırarak daha etkin sonuçlar elde edilmesini sağlar. **Sinerji, sadece bileşenlerin toplamı değil, onların birlikte ürettikleri değeri ifade eder.**

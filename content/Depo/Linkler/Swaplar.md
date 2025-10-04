@@ -1,0 +1,1 @@
+İki tarafın nakit akışını veya faizleri değiştirmesine dayalı sözleşmeler.

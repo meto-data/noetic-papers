@@ -1,0 +1,3 @@
+- Her sistem alt sistemlerden oluşur. Alt sistemler, sistemin birbirine dayalı ve bağımlı olan alt parçalarıdır. Alt sistemler, parçası oldukları sistemden ayrı özellikler taşır.
+	- **Detaylı Not 1:** Alt sistemlerin yönetilebilir ve anlaşılabilir olması gerekir. Örneğin üniversite sistemini alt sistemlerine bölüp sonra da ismi Ahmet olan bir alt sistem çıkarmak hata olacaktır. 
+	- **Detaylı Not 2:** Alt sistemler bölünürken, her alt sistem kendi içerisinde özel olarak ele alınmalı ve diğer sistemlerden bağımsız düşünülmelidir. 

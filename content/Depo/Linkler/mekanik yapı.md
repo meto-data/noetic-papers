@@ -1,0 +1,1 @@
+Hiyerarşik, otoriter, net görev tanımları, merkezileşmiş iletişim

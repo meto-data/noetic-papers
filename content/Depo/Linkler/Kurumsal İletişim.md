@@ -1,0 +1,12 @@
+- Örgütsel iletişim, **yalnızca bir kurumun** içerisinde gerçekleşen iletişimdir. Kurumsal iletişim ise, yakın dış çevre ile gerçekleşen iletişimdir. Kurumun iç çevresiyle değil, dış çevresiyle ilintilidir. Buna mukabil örgütsel iletişim ise iç çevreyle ilintilidir.
+- Bir kurumun **imaj** oluşturmak amacıyla **dış çevreye verdiği mesajların tamamıdır**.
+- Kurumsallaşma sürecinin önemli kriterlerinden birisidir.
+- Kurumsal iletişimin başarıya ulaşması için en önemli faktör **tutarlılıktır**.
+- ***Dış çevreye verilen, imaj oluşturmaya yarayan, kurum kimliğini yansıtan tutarlı mesajlar bütünüdür.***
+	- Kurum kimliğini yansıtan **(Örgüt kimliğine uygun)**
+	- **Pozitif örgüt imajı oluşturma**
+	- Misyon: Mevcut durumla, şimdiyle alakalı. "*Biz buyuz, bunu yapıyoruz. Şunlardan farkımız bu*"
+	- Vizyon: Gelecekle ilintilidir. "*Biz bu olacağız, bunu yapacağız."* Nihai amaç diyebiliriz. 
+	- Tutarlı  **(İçerik, şekil vb.)**
+		- Görsel, mesaj, davranış ve hedef-amaç bakımından tutarlı olmak.
+- Kurum **imajı**, dış çevre tarafından algılanması ve başka kişide/kurumda olumlu etkiler bırakılması amaçlanan, gerçek kimliğin **dışavurumudur**. 

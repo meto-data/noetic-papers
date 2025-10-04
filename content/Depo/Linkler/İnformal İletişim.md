@@ -1,0 +1,5 @@
+- Kişisel arasında, formalite dışı iletişimdir. 
+- Örgüt içerisindeki farklı departmanlarda çalışan ve farklı hiyerarşik düzeydeki insanların bir araya getirdiği yönetim tarafından tanımlanmamış kurumlardır.
+- **Söz gelişi**, çalışanlar birbirleriyle iş dışında günlük hayat bağlamında iletişim kurabilirler. 
+- **Yine söz gelişi**, yöneticiler resmî olmamak koşuluyla havadan sudan sohbet edebilirler veya dedikodu yapabilirler.
+- Yöneticiler için informal iletişimin önemi, meselelerin hızlı anlaşılmasına yardımcı olmasıdır. Buna mukabil, yanlış anlaşılmalara sebebiyet verebilmesi de olumsuz bir yanıdır.

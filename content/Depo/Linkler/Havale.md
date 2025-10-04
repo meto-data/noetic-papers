@@ -1,0 +1,1 @@
+Aynı bankanın şubeleri veya hesapları arasında yapılan para transferi.

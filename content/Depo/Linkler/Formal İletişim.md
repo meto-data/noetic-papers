@@ -1,0 +1,4 @@
+- Formalite icabı, belirli kurallara ve kalıplara uygun olarak yapılan, tanımlanmış iletişim sürecidir. Yönetim tarafından belirlenmiştir, kimin dâhil olup kimin dâhil olamayacağı bellidir.
+- Formal iletişim, **kişiler arasında olmaz.**
+- **Söz gelişi**, İK departmanı ile başka bir departman arasındaki iletişim.
+- Veya **title**lar arasındaki iletişim (Yönetici-veri analisti gibi).

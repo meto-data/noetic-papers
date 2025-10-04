@@ -1,0 +1,1 @@
+Tahvilin üzerinde bulunan ve belirli dönemlerde yatırımcıya yapılacak olan **faiz ödeme yükümlülüğünü** gösteren belgelerdir.

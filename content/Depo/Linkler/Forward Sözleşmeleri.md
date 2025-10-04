@@ -1,0 +1,1 @@
+Vadeli sözleşmelere benzer ancak [[tezgâh üstü]] (OTC) yapılır.

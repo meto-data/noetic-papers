@@ -93,9 +93,9 @@
 - Pekiştirmenin yokluğu, bireyin o davranışı sürdürmek için motivasyonunu kaybetmesine sebebiyet verir.
 
 
-# Çalışma Motivasyonunun Önemi Nedir?
-## [[Performans ve Verimlilik]]
-## [[İş Tatmini ve Bağlılık]]
-## [[İnovasyon Kültürü]] (Yaratıcılık ve Yenilikçilik)
-## [[Düşük İş Gücü Devri]]
+## Çalışma Motivasyonunun Önemi Nedir?
+### Performans ve Verimlilik
+### İş Tatmini ve Bağlılık
+### İnovasyon Kültürü (Yaratıcılık ve Yenilikçilik)
+### Düşük İş Gücü Devri
 - Yüksek motivasyon nihayetinde çalışanın iş yerinde kalma eğilimi artacak ve iş gücü devri azalacaktır.

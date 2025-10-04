@@ -4,9 +4,9 @@
 
 > [!important] SMART
 **S (Specific - Özel)**
- >**M (Measurable - Ölçülebilir)**<br>
- >**A (Achievable - Erişilebilir)**<br>
- >**R (Relevant - İlgili/Alakalı)**<br>
+ >**M (Measurable - Ölçülebilir)**
+ >**A (Achievable - Erişilebilir)**
+ >**R (Relevant - İlgili/Alakalı)**
  **T (Time-bound - Zaman)**
 
 ###### Ödüllendirme Mekanizması
